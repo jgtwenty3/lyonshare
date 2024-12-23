@@ -5,7 +5,7 @@ const Button = ({ id, title, rightIcon, leftIcon, containerClass, onClick }) => 
     <button
       id={id}
       className={clsx(
-        "group relative z-10 cursor-pointer overflow-hidden border-2 text-xl border-darkNavy w-40 h-12 md:w-48 md:h-16 flex items-center justify-center text-darkNavy",
+        "group relative z-10 cursor-pointer overflow-hidden text-xl border-darkNavy w-40 h-12 md:w-48 md:h-16 flex items-center justify-center text-darkNavy",
         containerClass
       )}
       onClick={onClick} // Add onClick prop here

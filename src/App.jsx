@@ -18,13 +18,13 @@ function App() {
   return (
     <Router>
       <ScrollToTop/>
-      <main className='relative min-h-screen w-screen overflow-x-hidden '>
+      <main >
         <NavBar />
         <Routes>
           <Route path="/" element={
             <>
               <Hero/>
-              <WordFlash/>
+              {/* <WordFlash/> */}
               <FoodandDrinks/>
               <Intro />
             </>

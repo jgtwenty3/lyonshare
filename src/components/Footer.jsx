@@ -5,7 +5,7 @@ import instagram from "../../public/icons/instagram.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-darkNavy text-manliusLimestone py-8 px-4 mt-1 sticky bottom-0">
+    <footer className="bg-darkNavy text-manliusLimestone py-4 px-4 mt-1 sticky bottom-0">
       <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between md:items-center">
         <div className="mb-4 text-center md:text-left md:mb-0">
           <h4 className="text-xl font-bold font-alpina">LYONSHARE PUBLIC HOUSE</h4>
@@ -20,7 +20,11 @@ const Footer = () => {
           <a href="https://www.instagram.com/lyonsharebeacon" className="text-white hover:text-teal-500">
             <img src={instagram} alt="Instagram" className="w-6 h-6" />
           </a>
+          <a href = "https://resy.com/cities/beacon-ny-ny/venues/lyonshare?seats=2&date=2024-12-11">
+          <h4 className='font-alpina'>RESERVATIONS</h4>
+        </a>
         </div>
+       
       </div>
       {/* <div className="text-center mt-4">
         <p className="text-md font-alpina">© {new Date().getFullYear()} LYONSHARE PUBLIC HOUSE. ALL RIGHTS RESERVED.</p>

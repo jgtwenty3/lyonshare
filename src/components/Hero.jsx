@@ -67,7 +67,7 @@ const Hero = ({ backgroundImage, logoImage, animationDuration = 1 }) => {
           {Array.from("LYONSHARE").map((letter, index) => (
             <h1
               key={index}
-              className="bg-transparent text-7xl text-darkNavy  font-extrabold"
+              className="bg-transparent text-6xl md:text-7xl text-darkNavy  ml-3 font-extrabold"
               
             >
               {letter}

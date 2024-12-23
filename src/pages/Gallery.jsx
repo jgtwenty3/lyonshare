@@ -1,22 +1,15 @@
-import React, { useState } from 'react';
-import FoodGallery from '../components/FoodGallery';
-import DrinkGallery from '../components/DrinkGallery';
-import SpaceGallery from '../components/SpaceGallery';
-import Button from '../components/Button';
+import React from 'react';
+import { imageList } from '../lib/data'; // Make sure the path to your data file is correct
 import { useInView } from 'react-intersection-observer';
 
-
 const Gallery = () => {
-  const [selectedGallery, setSelectedGallery] = useState('Food');
   const { ref, inView } = useInView({
-    threshold: 0.1, // Adjust this value to control when the animation starts
-    triggerOnce: true, // Only trigger the animation once
+    threshold: 0.1,
+    triggerOnce: true,
   });
 
-  
-
   return (
-    <div>
+    <div className="pb-24">
       <div className="relative w-screen h-[600px] md:h-[800px]">
         <img
           src="/images/painting.png"
@@ -29,17 +22,18 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <div className="p-10 md:p-20">
-        <div className="flex justify-center gap-4">
-          <Button title="THE FOOD" onClick={() => setSelectedGallery('Food')} />
-          <Button title="THE DRINKS" onClick={() => setSelectedGallery('Drink')} />
-          <Button title="THE SPACE" onClick={() => setSelectedGallery('Space')} />
-        </div>
-      </div>
-      <div>
-        {selectedGallery === 'Food' && <FoodGallery />}
-        {selectedGallery === 'Drink' && <DrinkGallery />}
-        {selectedGallery === 'Space' && <SpaceGallery />}
+      
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ml-5 mr-5 mt-5">
+        {imageList.slice(0, 9).map((src, index) => (
+          <div key={index} className="aspect-w-1 aspect-h-1">
+            <img
+              src={src}
+              alt={`Gallery item ${index + 1}`}
+              className="w-full h-full object-cover rounded-md"
+              loading="lazy"
+            />
+          </div>
+        ))}
       </div>
     </div>
   );

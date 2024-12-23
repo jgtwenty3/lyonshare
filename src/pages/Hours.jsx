@@ -45,18 +45,16 @@ const Hours = () => {
 
       <div className="mr-5">
         <p className="mt-10 text-darkNavy font-alpina text-xl m-4 w-full text-center">
-          For reservations of 7 or more, parties, or private events please email.
-        </p>
-        <p className="mt-5 text-darkNavy font-alpina text-xl m-4 w-full text-center">
-          <a href="tel:+18452754932" className=" hover:text-darkNavy">
-            (845) 275-4932
-          </a>
-        </p>
-        <p className="mt-5 text-darkNavy font-alpina text-xl m-4 w-full text-center">
-          <a href="mailto:info@lyonsharebeacon.com" className=" hover:text-darkNavy">
+         For inquiries please email <a href="mailto:info@lyonsharebeacon.com" className=" hover:text-darkNavy">
             info@lyonsharebeacon.com
           </a>
         </p>
+        <p className="mt-5 text-darkNavy font-alpina text-xl m-4 w-full text-center">
+          <a href="tel:+18452754932" className=" hover:text-darkNavy">
+            or call (845) 275-4932
+          </a>
+        </p>
+        
       </div>
 
       <div className="mt-4 mb-10 text-center">
@@ -64,7 +62,7 @@ const Hours = () => {
           href="https://www.google.com/maps/place/Lyonshare+Public+House"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-darkNavy text-manliusLimestone font-medium py-2 px-4  border-2 border-darkNavy hover:bg-darkNavy hover:text-manliusLimestone transition"
+          className="inline-block bg-white text-DarkNavy font-medium py-2 px-4 text-xl  border-2 border-darkNavy hover:bg-darkNavy hover:text-manliusLimestone transition"
         >
           GET DIRECTIONS
         </a>

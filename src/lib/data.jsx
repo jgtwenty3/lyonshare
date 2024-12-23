@@ -116,17 +116,23 @@ export const drinksMenu = [
 ];
 
 export const imageList = [
-    '/images/food/cocktial.webp',
-    '/images/food/saladClose.webp',
-    '/images/food/burgerFriesDrink.webp',
-    '/images/food/burgerSoupOverhead.webp',
-    '/images/food/herbMartini.webp',
-    '/images/food/pour.webp',
-    '/images/food/macMartiniSalad.webp',
     '/images/food/martini.webp',
-    '/images/food/drinkNFood.webp',
-    '/images/food/macClose.webp',
-    '/images/food/saladDrink.webp',
+    '/images/food/burgerFriesDrink.webp',
+    
     '/images/food/burgerSoupOverhead.webp',
+    '/images/food/saladDrink.webp',
+    '/images/food/burgerFriesDrink.webp',
+    '/images/food/herbMartini.webp',
+   
+    
+    '/images/inside.jpg',
+    '/images/food/cocktail.webp',
+    '/images/food/diningroom.png',
+    '/images/food/crowd.png',
+    '/images/food/saladDrink.webp',
+    '/images/food/crowd.png',
+    '/images/food/entrance.png',
+   
+   
 ]
 

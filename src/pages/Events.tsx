@@ -10,7 +10,7 @@ const Events = () => {
 
   return (
     <div>
-        <div className="relative w-screen h-[600px] md:h-[800px]">
+      <div className="relative w-screen h-[600px] md:h-[800px]">
         <img
           src="/images/background.jpeg"
           alt="boat"

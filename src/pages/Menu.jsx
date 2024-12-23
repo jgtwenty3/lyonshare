@@ -40,13 +40,13 @@ const Menu = () => {
       </div>
       <div className="p-5 md:p-10">
       <div className="flex flex-wrap justify-center gap-2 mt-4 p-2 mb-20">
-          <Button title="RAW BAR" onClick={() => handleMenuClick(rawBarMenu)} />
-          <Button title="SMALL PLATE" onClick={() => handleMenuClick(smallPlateMenu)} />
-          <Button title="MAINS" onClick={() => handleMenuClick(mainMenu)} />
-          <Button title="STEAKS" onClick={() => handleMenuClick(steakMenu)} />
-          <Button title="SIDE DISHES" onClick={() => handleMenuClick(sideDishes)} />
-          <Button title="SWEETS" onClick={() => handleMenuClick(sweets)} />
-          <Button title="DRINKS" onClick={handleShowAllDrinks} className="col-span-2 sm:col-span-1 flex justify-center sm:justify-start" />
+          <Button title="RAW BAR" onClick={() => handleMenuClick(rawBarMenu)} containerClass={"border-2 border-darkNavy"} />
+          <Button title="SMALL PLATE" onClick={() => handleMenuClick(smallPlateMenu)} containerClass={"border-2 border-darkNavy"} />
+          <Button title="MAINS" onClick={() => handleMenuClick(mainMenu)} containerClass={"border-2 border-darkNavy"}/>
+          <Button title="STEAKS" onClick={() => handleMenuClick(steakMenu)} containerClass={"border-2 border-darkNavy"}/>
+          <Button title="SIDE DISHES" onClick={() => handleMenuClick(sideDishes)} containerClass={"border-2 border-darkNavy"}/>
+          <Button title="SWEETS" onClick={() => handleMenuClick(sweets)} containerClass={"border-2 border-darkNavy"}/>
+          <Button title="DRINKS" onClick={handleShowAllDrinks} className="col-span-2 sm:col-span-1 flex justify-center sm:justify-start"containerClass={"border-2 border-darkNavy"} />
         </div>
       </div>
       <div>

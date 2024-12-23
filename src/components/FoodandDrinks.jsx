@@ -10,7 +10,7 @@ const FoodandDrinks = () => {
 
   return (
     <div className='mt-40 md:mt-5'>
-      <div  className="relative w-full h-[600px] border-darkNavy border-2 ">
+      {/* <div  className="relative w-full h-[600px] border-darkNavy border-2 ">
         <img
           src="/images/food/burgerSoupOverhead.webp" 
           alt="menu"
@@ -23,7 +23,7 @@ const FoodandDrinks = () => {
             </div>
           </a>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex flex-col items-center mt-10 gap-5">
         <div className="flex items-center flex-col text-center px-4">
@@ -39,7 +39,7 @@ const FoodandDrinks = () => {
             rugged charm, and deep connection to the Hudson River.
           </p>
         </div>
-        <div className="flex flex-wrap justify-center gap-2 mt-4 p-2 mb-20">
+        {/* <div className="flex flex-wrap justify-center gap-2 mt-4 p-2 mb-20">
           <a href="/menu/#raw-bar">
             <Button 
               id="product-button" 
@@ -89,7 +89,7 @@ const FoodandDrinks = () => {
               containerClass="flex items-center text-md md:text-xl justify-center gap-1 sm:text-md hover:scale-105"
             />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
