@@ -8,7 +8,7 @@ import clsx from "clsx";
 const navItems = ["HOME", "ABOUT", "MENU", "GALLERY", "HOURS & LOCATION", "EVENTS"];
 
 const menuCategories = [
-  { name: 'Raw Bar', link: '/menu/raw-bar' },
+  { name: 'Raw Bar', link: '/menu/#raw-bar' },
   { name: 'Brunch', link: '/menu/brunch' },
   { name: 'Dinner', link: '/menu' },
   { name: 'Cocktails', link: '/menu/cocktails' },
@@ -59,27 +59,34 @@ const Navbar = () => {
                 let link = `/${item === 'HOME' ? '' : item.toLowerCase()}`;
                 if (item === 'HOURS & LOCATION') link = '/hours';
                 return item === 'MENU' ? (
-                  <div 
-                    key={index} 
-                    className="relative nav-hover-btn text-darkNavy" 
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
+                  // <div 
+                  //   key={index} 
+                  //   className="relative nav-hover-btn text-darkNavy" 
+                  //   onMouseEnter={handleMouseEnter}
+                  //   onMouseLeave={handleMouseLeave}
+                  // >
+                  //   <Link to={link}>{item}</Link>
+                  //   {isDropdownOpen && (
+                  //     <div className="absolute left-0 mt-2 w-48 bg-white border border-darkNavy shadow-lg z-50">
+                  //       {menuCategories.map((category, idx) => (
+                  //         <Link 
+                  //           key={idx} 
+                  //           to={category.link} 
+                  //           className="block px-4 py-2 text-darkNavy hover:bg-white hover:underline"
+                  //         >
+                  //           {category.name}
+                  //         </Link>
+                  //       ))}
+                  //     </div>
+                  //   )}
+                  // </div>
+                  <Link
+                    key={index}
+                    to={link}
+                    className="nav-hover-btn text-darkNavy"
                   >
-                    <Link to={link}>{item}</Link>
-                    {isDropdownOpen && (
-                      <div className="absolute left-0 mt-2 w-48 bg-white border border-darkNavy shadow-lg z-50">
-                        {menuCategories.map((category, idx) => (
-                          <Link 
-                            key={idx} 
-                            to={category.link} 
-                            className="block px-4 py-2 text-darkNavy hover:bg-white hover:underline"
-                          >
-                            {category.name}
-                          </Link>
-                        ))}
-                      </div>
-                    )}
-                  </div>
+                    {item}
+                  </Link>
                 ) : (
                   <Link
                     key={index}

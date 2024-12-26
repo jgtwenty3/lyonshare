@@ -2,9 +2,10 @@ import React from 'react';
 
 const DrinkList = ({ drinkSection }) => {
   return (
-    <div className="p-10 flex flex-col items-center">
+    <div className=" flex flex-col items-center">
       <div className="mb-10 text-darkNavy flex flex-col items-center w-full text-center">
         <h2 className="text-3xl font-bold mb-6 font-alpina">{drinkSection.title}</h2>
+        <h3></h3>
         <ul className="space-y-4">
           {drinkSection.items.map((item, itemIndex) => (
             <li key={itemIndex} className="w-full">
