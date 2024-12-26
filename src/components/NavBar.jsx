@@ -27,6 +27,11 @@ const Navbar = () => {
   };
 
   const toggleAudioIndicator = () => {
+    if (isAudioPlaying) {
+      audioElementRef.current.pause();
+    } else {
+      audioElementRef.current.play();
+    }
     setIsAudioPlaying((prev) => !prev);
     setIsIndicatorActive((prev) => !prev);
   };
@@ -40,7 +45,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed inset-x-0 top-0 z-50 h-16 border-none bg-transparent md:bg-white md:opacity-100 ">
+    <div className="fixed inset-x-0 top-0 z-50 h-16 border-none bg-transparent md:bg-white md:opacity-100">
       <header className="w-full h-full">
         <nav className="flex items-center justify-between h-full p-4">
           <div className="flex items-center gap-7">
