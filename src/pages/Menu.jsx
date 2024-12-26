@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from "../components/Button";
 import MenuList from '../components/MenuList';
 import DrinkList from '../components/DrinkList';
+import WineList from '../components/WineList';
 import BeerList from '../components/BeerList';
 import BottleList from '../components/BottleList';
 import { rawBarMenu, brunchMenu, lunchMenu, dinnerMenu, cocktailMenu, wineList, beerMenu, bottleList } from '../lib/data';
@@ -65,12 +66,6 @@ const Menu = () => {
             selectedMenu.map((menu, index) => (
               <MenuList key={index} menuSection={menu} />
             ))
-          ) : selectedMenu.title === "WINE LIST" ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {selectedMenu.items.map((drinkSection, index) => (
-                <DrinkList key={index} drinkSection={drinkSection} />
-              ))}
-            </div>
           ) : (
             <MenuList menuSection={selectedMenu} />
           )
@@ -84,15 +79,14 @@ const Menu = () => {
           </div>
         )}
         {showWineList && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-10">
-            {wineList.items.map((drinkSection, index) => (
-              <DrinkList key={index} drinkSection={drinkSection} />
-            ))}
+          <div className="flex flex-col items-center px-4 md:px-10">
+            <WineList wineSection={wineList} />
             <BottleList bottleSection={bottleList[0]} />
           </div>
         )}
       </div>
-      <div className="flex justify-center p-10">
+      <div className="flex flex-col items-center p-10">
+      <img src="/images/logo.svg" alt="knot" className="mb-5 w-20 md:w-24" />
         <a
           href="/LyonShareMenuOct31.pdf"
           target="_blank"
