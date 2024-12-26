@@ -11,7 +11,7 @@ const BottleList = ({ bottleSection }) => {
         <h2 className="text-3xl font-bold mb-6 font-alpina">{bottleSection.title}</h2>
         {bottleSection.items.map((section, sectionIndex) => (
           <div key={sectionIndex} className="w-full mb-8">
-            <h3 className="text-xl font-bold mb-4 font-alpina">{section.subtitle}</h3>
+            <h3 className="text-2xl font-bold mb-4 font-alpina">{section.subtitle}</h3>
             <ul className="space-y-4">
               {section.items.map((item, itemIndex) => (
                 <li key={itemIndex} className="w-full">
