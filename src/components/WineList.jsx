@@ -14,7 +14,7 @@ const WineList = ({ wineSection }) => {
             <ul className="flex flex-col items-center gap-4">
               {section.items.map((item, itemIndex) => (
                 <li key={itemIndex} className="w-full">
-                  <p className="text-xl font-alpina font-semibold">{item.name}</p>
+                  <p className="text-xl font-alpina">{item.name}</p>
                 </li>
               ))}
             </ul>

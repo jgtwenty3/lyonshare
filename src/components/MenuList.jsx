@@ -8,13 +8,13 @@ const MenuList = ({ menuSection }) => {
   });
 
   return (
-    <div className=" flex flex-col items-center">
+    <div className="px-4 flex flex-col items-center">
       <div className="mb-10 text-darkNavy flex flex-col items-center w-full text-center">
         <h2 className="text-3xl font-bold mb-6 font-alpina">{menuSection.title}</h2>
         <ul className="space-y-4">
           {menuSection.items.map((item, itemIndex) => (
-            <li key={itemIndex} className="text-lg font-alpina font-semibold  ">
-              <span className="font-bold text-xl ">{item.name}</span>
+            <li key={itemIndex} className="text-lg font-alpina  ">
+              <span className="font-bold text-2xl ">{item.name}</span>
               {item.ingredients && (
                 <>
                   <br />
