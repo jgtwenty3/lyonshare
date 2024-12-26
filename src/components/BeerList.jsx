@@ -11,12 +11,11 @@ const BeerList = ({ beerSection }) => {
         <h2 className="text-3xl font-bold mb-6 font-alpina">{beerSection.title}</h2>
         {beerSection.items.map((section, sectionIndex) => (
           <div key={sectionIndex} className="w-full mb-8">
-            <h3 className="text-2xl font-bold mb-4 font-alpina">{section.subtitle}</h3>
-            <ul className="space-y-4">
+            <h3 className="text-xl font-bold mb-4 font-alpina">{section.subtitle}</h3>
+            <ul className="space-y-2">
               {section.items.map((item, itemIndex) => (
                 <li key={itemIndex} className="w-full">
-                  <p className="text-xl font-alpina font-semibold">{item.name}</p>
-                  {item.ingredients && <p className="text-md text-darkNavy ml-2 font-alpina">{item.ingredients}</p>}
+                  <p className="text-lg font-alpina ">{item.name}</p>
                 </li>
               ))}
             </ul>

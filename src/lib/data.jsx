@@ -86,21 +86,24 @@ export const beerMenu = [
         title: "BEER",
         items: [
             { subtitle: "DRAFT", items: [
-                { name: "LAGER", ingredients: "NARRAGANSETT" },
-                { name: "IPA", ingredients: "TWENTY-SIX-ACRES - REPTAR JUICE" },
-                { name: "BELGIAN WHEAT", ingredients: "ALAGASH WHITE" },
-                { name: "IPA", ingredients: "BIRD SONG - HIGHER GROUND" },
-                { name: "SOUR", ingredients: "TRIPLE-C - RAINBOW SHERBERT" }
+                { name: "Guiness" },
+                { name: "Sierra Nevada Pale" },
+                { name: "Oxbow Farmhouse" },
+                { name: "Industrial Arts Metric Pilsner" },
+                { name: "Sloop Juice Bomb IPA" }
             ] },
             { subtitle: "BOTTLES & CANS", items: [
-                { name: "IPA", ingredients: "BELL'S TWO HEARTED" },
-                { name: "STOUT", ingredients: "GUINNESS" },
-                { name: "LAGER", ingredients: "YUENGLING" },
-                { name: "PALE ALE", ingredients: "SIERRA NEVADA" }
+                { name: "Athletic Hazy IPA NA" },
+                { name: "Hudson North Standard Cider" },
+                { name: "Narragansett Lager" },
+                { name: "Six Point The Crisp Pilsner" },
+                { name: "Oska Blue Pale Ale" },
+                { name: "Tecate" }
             ] }
         ]
     }
-]
+];
+
 
 export const wineList = {
     title: "WINE LIST",
@@ -108,29 +111,32 @@ export const wineList = {
         {
             title: "SPARKLING",
             items: [
-                { name: "CAVA", ingredients: "CAN XA - SPAIN" },
-                { name: "CAVA ROSE", ingredients: "ARAGOSTA - ITALY" }
-            ]
-        },
-        {
-            title: "RED",
-            items: [
-                { name: "MALBEC", ingredients: "DECERO - ARGENTINA" },
-                { name: "PINOT NOIR", ingredients: "MAISON NOIR 'O.P.P' - OREGON" },
-                { name: "CABERNET", ingredients: "DELTA - CALIFORNIA" }
+                { name: "Batiso Prosecco Brut Contempora" },
+                { name: "Poema Penedez Cava Brut NV" }
             ]
         },
         {
             title: "WHITE",
             items: [
-                { name: "SAUV BLANC", ingredients: "FRENZY - NEW ZEALAND" },
-                { name: "CHARDONNAY", ingredients: "DUTTON - CALIFORNIA" },
-                { name: "RIESLING", ingredients: "DR. LOOSEN - GERMANY" }
+                { name: "Boony Doon Le Cigare Orange 2023" },
+                { name: "Conti Formentini Collio Sauvignon 2022" },
+                { name: "Milenrama Blanco 2023" },
+                { name: "Contesse Marion Viognier 2023" },
+                { name: "Westmount Chardonnay 2022" },
             ]
         },
-
+        {
+            title: "RED",
+            items: [
+                { name: "Melini Chianti Reserva Doeg 2021" },
+                { name: "Coteaux Du Giennois, Florian Berthier 2021" },
+                { name: "Cune Rioja Crianza 2020" },
+                { name: "Poco A Poco Ca 2021" },
+            ]
+        }
     ]
 };
+
 
 export const bottleList = [
     {
@@ -139,33 +145,48 @@ export const bottleList = [
             {
                 subtitle: "SPARKLING",
                 items: [
-                    { name: "PROSECCO", ingredients: "LA MARCA - ITALY" },
-                    { name: "CHAMPAGNE", ingredients: "MOET & CHANDON - FRANCE" }
+                    { name: "Bisol Desiderio Jeio Prosecco Brut NV" },
+                   
                 ]
             },
             {
                 subtitle: "ROSE",
                 items: [
-                    { name: "ROSÉ", ingredients: "WHISPERING ANGEL - FRANCE" }
-                ]
-            },
-            {
-                subtitle: "RED",
-                items: [
-                    { name: "MERLOT", ingredients: "DUCKHORN - CALIFORNIA" },
-                    { name: "SYRAH", ingredients: "STOLPMAN - CALIFORNIA" }
+                    { name: "Stolpman Love You Bunches Rose 2023" }
                 ]
             },
             {
                 subtitle: "WHITE",
                 items: [
-                    { name: "PINOT GRIGIO", ingredients: "SANTA MARGHERITA - ITALY" },
-                    { name: "SAUV BLANC", ingredients: "CLOUDY BAY - NEW ZEALAND" }
+                    { name: "Cadre Sea Queen Albariño 2023" },
+                    { name: "Pazo Das Bruxas Albariño 2023" },
+                    { name: "Quinta Do Passadouro Branco 2019" },
+                    { name: "Pascal Jolivet Sancerre 2023" },
+                    { name: "Domaine Laroche Chablis Saint Martin 2023" },
+                    { name: "Hearst 3 Sisters Cuvee Paso Robles 2021" },
+                    { name: "Famille Vincent Pouilly-Fuissé 2022" },
+                    { name: "Royal Tokaji Dry Furmint 2019" },
+                ]
+            },
+            {
+                subtitle: "RED",
+                items: [
+                    { name: "Ezy Tiger Pinot Noir Willamette Valley 2022" },
+                    { name: "Liiahe Pinot Noir 2022" },
+                    { name: "Divum Pinot Noir 2022" },
+                    { name: "Clos Du Mont - Olivet CDP 2021" },
+                    { name: "Milenrama Rioja Riserva 2019" },
+                    { name: "Vigneti Del Sole Montepuleiano 2022" },
+                    { name: "Val Di Suga Brunello Di Montaleino 2016" },
+                    { name: "Can Sumoi Penedes Sumoll Garnatxa 2022" },
+                    { name: "Hearst Bunchouse Cabernet 2021" },
+                    { name: "Grgich Hills Estate Cabernet Sauvignon 2019" },
                 ]
             }
         ]
     }
-]
+];
+
 
 
 export const imageList = [
