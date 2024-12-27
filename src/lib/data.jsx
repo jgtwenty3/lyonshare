@@ -50,8 +50,8 @@ export const dinnerMenu = [
     {
         title: 'SIDE DISHES',
         items: [
-            { name: 'CURRY CAULIFLOWER W/WALNUT HERB DRESSING, BISCUITS, BUTTER & HONEY' },
-            { name: 'FRENCH FRIES, SAUTEED SPINICH AND GARLIC, LYONSHARE MASHED POTATOES' }
+            { name: "", ingredients: 'CURRY CAULIFLOWER W/WALNUT HERB DRESSING, BISCUITS, BUTTER & HONEY,' },
+            { name: "",ingredients:'FRENCH FRIES, SAUTEED SPINICH AND GARLIC, LYONSHARE MASHED POTATOES' }
         ]
     },
     {

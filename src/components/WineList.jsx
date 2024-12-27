@@ -1,4 +1,5 @@
 import React from 'react';
+import { useInView } from 'react-intersection-observer';
 
 const WineList = ({ wineSection }) => {
   if (!wineSection || !wineSection.items) {
@@ -12,11 +13,18 @@ const WineList = ({ wineSection }) => {
           <div key={sectionIndex} className="w-full mb-8">
             <h3 className="text-2xl font-bold mb-4 font-alpina">{section.title}</h3>
             <ul className="flex flex-col items-center gap-4">
-              {section.items.map((item, itemIndex) => (
-                <li key={itemIndex} className="w-full">
-                  <p className="text-xl font-alpina">{item.name}</p>
-                </li>
-              ))}
+              {section.items.map((item, itemIndex) => {
+                const { ref, inView } = useInView({
+                  threshold: 0.1, // Adjust this value to control when the animation starts
+                  triggerOnce: true, // Only trigger the animation once
+                });
+
+                return (
+                  <li ref={ref} key={itemIndex} className={`w-full text-xl font-alpina ${inView ? 'scale-in-top' : ''}`}>
+                    <p>{item.name}</p>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         ))}
