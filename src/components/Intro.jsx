@@ -27,7 +27,7 @@ const Intro = () => {
                 containerClass="flex items-center border-2 border-darkNavy justify-center gap-2 px-4 py-2 text-lg md:text-xl hover:scale-105"
               />
             </a>
-            <a href="/hours">
+            <a href="/gallery">
               <Button
                 id="product-button"
                 title="FIND US"
