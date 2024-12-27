@@ -21,7 +21,7 @@ const BottleList = ({ bottleSection }) => {
                 });
 
                 return (
-                  <li ref={ref} key={itemIndex} className={`w-full text-xl font-alpina font-semibold ${inView ? 'scale-in-top' : ''}`}>
+                  <li ref={ref} key={itemIndex} className={`w-full text-xl font-alpina ${inView ? 'scale-in-top' : ''}`}>
                     <p>{item.name}</p>
                   </li>
                 );
