@@ -8,7 +8,8 @@ const Footer = () => {
     <footer className="bg-darkNavy text-manliusLimestone py-4 px-4 mt-1 sticky bottom-0">
       <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between md:items-center">
         <div className="mb-4 text-center md:text-left md:mb-0">
-          <h4 className="text-xl font-bold font-alpina">LYONSHARE PUBLIC HOUSE</h4>
+          <a href = "/"><h4 className="text-xl font-bold font-alpina">LYONSHARE PUBLIC HOUSE</h4></a>
+          
           <p className="text-lg font-alpina">246 MAIN STREET, BEACON, NY 12508</p>
           {/* <p>PHONE: 845-476-8413 (messaging service)</p> */}
         </div>

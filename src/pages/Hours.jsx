@@ -18,7 +18,7 @@ const Hours = () => {
           className="w-full h-full object-cover border-2 border-darkNavy"
         />
         <div className="absolute inset-0 flex items-center justify-center">
-          <div ref={ref}  className={`bg-white text-darkNavy border-2 border-darkNavy text-4xl md:text-6xl font-bebas font-bold px-6 py-2 shadow-lg shadow-black ${inView ? 'scale-in-hor-left' : ''}`}>
+          <div ref={ref}  className={`bg-white text-darkNavy border-2  border-darkNavy text-4xl md:text-6xl font-bebas font-bold px-6 py-2 shadow-lg shadow-black ${inView ? 'scale-in-hor-left' : ''}`}>
             HOURS
           </div>
         </div>
