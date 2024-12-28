@@ -52,10 +52,11 @@ const Menu = () => {
       </div>
       <div className="p-5 md:p-10">
         <div className="flex flex-wrap justify-center gap-2 mt-4 p-2 mb-20">
-          <Button title="RAW BAR" onClick={() => handleMenuClick(rawBarMenu)} containerClass={"border-2 border-darkNavy"} />
+        
           <Button title="LUNCH" onClick={() => handleMenuClick(lunchMenu)} containerClass={"border-2 border-darkNavy"} />
           <Button title="BRUNCH" onClick={() => handleMenuClick(brunchMenu)} containerClass={"border-2 border-darkNavy"} />
           <Button title="DINNER" onClick={() => handleMenuClick(dinnerMenu)} containerClass={"border-2 border-darkNavy"} />
+          <Button title="RAW BAR" onClick={() => handleMenuClick(rawBarMenu)} containerClass={"border-2 border-darkNavy"} />
           <Button title="COCKTAILS & BEER" onClick={handleShowAllDrinks} className="col-span-2 sm:col-span-1 flex justify-center sm:justify-start" containerClass={"border-2 border-darkNavy"} />
           <Button title="WINE LIST" onClick={handleShowWineList} containerClass={"border-2 border-darkNavy"} />
         </div>

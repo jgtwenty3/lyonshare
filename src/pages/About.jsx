@@ -102,7 +102,7 @@ const AboutPage = () => {
               ref={imageRef}
               src={imageSrc}
               alt="John Lyon"
-              className="w-full h-auto object-cover border-2 border-barnishedBrass bg-darkNavy p-5"
+              className="w-full h-auto object-cover border-2 border-darkNavy"
             />
           </div>
           <div className="md:w-[60%]">
