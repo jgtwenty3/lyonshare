@@ -5,12 +5,36 @@ export const rawBarMenu = {
     ]
 };
 
-export const brunchMenu = {
-    title:"BRUNCH",
-    items:[
-        {name:'COMING SOON'}
-    ]
-}
+export const brunchMenu = [
+    {
+      title: 'BRUNCH',
+      items: [
+        { name: 'YOGURT & FRUIT', ingredients: 'GREEK YOGURT, LYONSHARE GRANOLA, ALMONDS, SEASONAL JAM, FRESH BERRIES' },
+        { name: 'LOCAL LETTUCES', ingredients: 'CIDER SHALLOT VINAIGRETTE, LOCAL APPLES, TOASTED PUMPKIN SEEDS' },
+        { name: 'PENICILIN', ingredients: 'CHICKEN BROTH, VEGETABLES, & MATZO BALLS' },
+        { name: 'SWEET STACK', ingredients: 'SEASON FRUIT, SWEET CREAM BUTTER, NYS MAPLE SYRUP' },
+        { name: 'FULL BEACON', ingredients: '2 POACHED EGGS, PORK & BEANS, GRITS, TOMATO JAM, TOAST, HONEY BUTTER' },
+        { name: 'BEACON BENEDICT', ingredients: 'ENGLISH MUFFIC, GUANCIALE, BRUSSEL SPROUTS, ONION JAM, HOLLANDAISE' },
+        { name: 'FRENCH OMELET', ingredients: 'BABY GREENS, CIDER SHALLOT VINAIGRETTE' },
+        { name: 'THE BURGER', ingredients: 'DRY AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES (ADD EGG +$3)' },
+      ]
+    },
+    {
+      title: 'SIDES',
+      items: [
+        { name: 'SILVER DOLLAR JOHNNYCAKES' },
+        { name: 'PORK & BEANS' },
+        { name: 'THICK CUT BACON' },
+        { name: 'MAC & CHEESE' },
+        { name: 'SIDE SALAD' },
+        { name: 'FRENCH FRIES' },
+        { name: 'TOAST' },
+        { name: 'BISCUITS & GRAVY' },
+        { name: '(ADD 2 EGGS +$5)' },
+      ]
+    }
+  ];
+  
 export const lunchMenu = {
     title:"LUNCH",
     items:[
@@ -186,6 +210,7 @@ export const bottleList = [
         ]
     }
 ];
+
 
 
 
