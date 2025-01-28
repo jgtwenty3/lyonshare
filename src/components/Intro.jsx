@@ -2,6 +2,14 @@ import React from 'react';
 import Button from './Button';
 import { useInView } from 'react-intersection-observer';
 
+const hours = [
+  "Mon 5pm-12am",
+  "Tues 5pm-12am(bar only)",
+  "Wed 4pm-12am(happy hour 4-6pm)",
+  "Thurs 4pm-12am(happy hour 4-6 pm)",
+  "Fri 4pm-12am(happy hour 4-6pm)",
+  "Sat & Sun 11am-3pm(brunch)"
+];
 
 const Intro = () => {
   const { ref, inView } = useInView({
@@ -12,40 +20,26 @@ const Intro = () => {
     <div>
       <div className="flex flex-col md:flex-row h-auto p-5 mr-0 md:mr-3 mb-5">
         {/* Left Section */}
-        <div className="flex-1 flex flex-col justify-center items-center p-5 md:p-8 w-full ">
-          <h1  className={`text-5xl md:text-7xl mb-4 text-darkNavy text-center ${inView ? 'tracking-in-expand':""}`}>VISIT US</h1>
-          <img src="/images/logo.svg" alt="knot" className="mb-5 w-20 md:w-24" />
-          <h2 ref={ref} className="text-2xl md:text-4xl mb-2 text-darkNavy text-center">KITCHEN 5-10PM</h2>
-          <h2 className="text-2xl md:text-4xl mb-2 text-darkNavy text-center">BAR UNTIL MIDNIGHT</h2>
-          <h2 className="text-2xl md:text-4xl pb-6 md:pb-8 text-darkNavy text-center">CLOSED TUESDAYS</h2>
-          <h2 className="text-2xl md:text-4xl mb-8 text-darkNavy text-center">246 MAIN STREET, BEACON, NY</h2>
-          <div className="flex flex-row gap-4 w-full justify-center">
-            <a href="https://resy.com/cities/beacon-ny-ny/venues/lyonshare?seats=2&date=2024-12-11">
-              <Button
-                id="product-button"
-                title="RESERVATIONS"
-                containerClass="flex items-center border-2 border-darkNavy justify-center gap-2 px-4 py-2 text-lg md:text-xl hover:scale-105"
-              />
-            </a>
-            <a href="/hours">
-              <Button
-                id="product-button"
-                title="FIND US"
-                containerClass="flex items-center justify-center gap-2 px-4 py-2 text-lg md:text-xl hover:scale-105 border-2 border-darkNavy"
-              />
-            </a>
+        <div className="flex-1 flex flex-col justify-center items-center p-5 md:p-8 w-full">
+          {/* <h1 className={`text-5xl md:text-7xl mb-4 text-darkNavy text-center ${inView ? 'tracking-in-expand' : ''}`}>
+            VISIT US
+          </h1> */}
+          <h1 className="text-3xl md:text-4xl mb-6 text-darkNavy text-center">
+            246 MAIN STREET, BEACON, NY, 12508
+          </h1>
+          <ul className='text-center'>
+            {hours.map((hour, index) => (
+              <li key={index} className="mb-2 text-md md:text-xl text-darkNavy font-alpina hover:scale-125">
+                {hour}
+              </li>
+            ))}
+          </ul>
+          <div className="ml-24 md:ml-32 flex flex-row gap-4 w-full justify-center text-md md:text-xl text-darkNavy font-alpina">
+            5pm-12am(dinner)
           </div>
         </div>
-
-        
-        
-      
-      
+      </div>
     </div>
-    
-
-    </div>
-    
   );
 };
 

@@ -11,21 +11,25 @@ const FoodandDrinks = () => {
   console.log('inView:', inView); // Add console log to check inView value
 
   return (
-    <div className='mt-40 md:mt-5'>
+    <div className='mt-24 md:mt-5'>
       <div className="flex flex-col items-center mt-10 gap-5">
         <div className="flex items-center flex-col text-center px-4">
           <img src="/icons/lighthouse.png" alt="boat" className="w-20 md:w-24" />
           <h1 className="text-3xl md:text-5xl text-darkNavy mb-3 mt-3 md:mb-5">
-            A CLASSIC AMERICAN BISTRO IN THE HEART OF THE HUDSON VALLEY
+            AN ELEVATED AMERICAN BISTRO NESTLED IN THE HEART OF THE HUDSON VALLEY
           </h1>
-          <p ref={ref} className={`text-xl text-darkNavy font-alpina m-5 ${inView ? 'scale-in-top' : ''}`}>
-            Nestled in the heart of Beacon, NY, Lyonshare is more than just a restaurant — 
-            it's a tribute to the enduring spirit of the Hudson Valley. Our name pays homage 
-            to the legendary John Lyon, known to locals as "John Lyon, the Boatman." A 
-            colorful figure in Hudson Valley history, Lyon was renowned for his resilience, 
-            rugged charm, and deep connection to the Hudson River.
+          <p ref={ref} className={`md:text-2xl text-lg text-darkNavy font-alpina m-5 ${inView ? 'scale-in-top' : ' '} md:w-2/3` }>
+          Celebrating the ethos of
+          classic public houses where meals and community merge to create memories.
           </p>
         </div>
+        <a href="https://resy.com/cities/beacon-ny-ny/venues/lyonshare?seats=2&date=2024-12-11">
+              <Button
+                id="product-button"
+                title="RESERVATIONS"
+                containerClass="flex items-center border-2 border-darkNavy justify-center gap-2 px-4 py-2 text-lg md:text-xl hover:scale-105"
+              />
+            </a>
       </div>
     </div>
   );

@@ -78,6 +78,7 @@ const Hero = ({ backgroundImage, logoImage, animationDuration = 1 }) => {
         <div className="absolute top-20 left-0 w-full flex md:flex-row md:items-start md:justify-center items-end md:bottom-64 md:ml-2 md:mt-96 md:space-x-2 space-x-2 pb-4 ml-5 mt-5">
           <h1 className="font-alpina text-2xl text-darkNavy">PUBLIC HOUSE</h1>
         </div>
+        
       </div>
     </div>
   );
