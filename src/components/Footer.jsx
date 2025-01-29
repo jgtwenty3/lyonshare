@@ -25,10 +25,10 @@ const Footer = () => {
             <img src={spotify} alt="spotify" className="w-6 h-6" />
           </a>
           <a href = "https://resy.com/cities/beacon-ny-ny/venues/lyonshare?seats=2&date=2024-12-11">
-            <h4 className='font-alpina border-2 border-manliusLimestone py-1 px-1 mb-3'>RESERVATIONS</h4>
+            <h4 className='font-alpina border-2 border-manliusLimestone md:p-1 mb-3 p-4'>RESERVATIONS</h4>
           </a>
           <a href = "https://resy.com/cities/beacon-ny-ny/venues/lyonshare?seats=2&date=2024-12-11">
-            <h4 className='font-alpina border-2 border-manliusLimestone py-1 px-1'>KEEP IN TOUCH</h4>
+            <h4 className='font-alpina border-2 border-manliusLimestone md:p-1 p-4'>KEEP IN TOUCH</h4>
           </a>
         </div>
       </div>

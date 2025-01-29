@@ -2,7 +2,7 @@ import React from 'react'
 
 const Shop = () => {
   return (
-    <div>Shop</div>
+    <div className="relative w-screen h-[600px] md:h-[800px]">Shop</div>
   )
 }
 

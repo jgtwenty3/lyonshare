@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Button from './Button';
 import clsx from "clsx";
 
-const navItems = ["HOME", "ABOUT","OUR TEAM", "MENU", "GALLERY", "HOURS & LOCATION", "EVENTS", "SHOP"];
+const navItems = ["HOME", "ABOUT","OURTEAM", "MENU", "GALLERY", "HOURS & LOCATION", "EVENTS", "SHOP"];
 
 const menuCategories = [
   { name: 'Raw Bar', link: '/menu/#raw-bar' },
