@@ -51,39 +51,27 @@ const AboutPage = () => {
           alt="boat"
           className="w-full h-full object-cover border-2 border-darkNavy"
         />
-        <div className="absolute inset-0 flex items-center justify-center">
+        {/* <div className="absolute inset-0 flex items-center justify-center">
           <div ref={titleRef} className={`bg-white text-darkNavy border-2 border-darkNavy text-4xl md:text-6xl font-bebas font-bold px-6 py-2 shadow-lg shadow-black ${titleInView ? 'scale-in-hor-left' : ''}`}>
             ABOUT
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="py-10 px-5 md:px-10">
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start md:justify-between">
           <div className="md:w-[60%]">
-            <h1 className="font-montefiore text-5xl mb-6 text-darkNavy underline">
+            <h1 className="font-montefiore text-5xl md:mt-6 text-darkNavy underline">
               OUR STORY
             </h1>
-            <p ref={ref1} className={`text-lg text-darkNavy font-alpina leading-relaxed mb-6 ${inView1 ? 'text-focus-in' : ''}`}>
-              LyonShare Beacon represents the culminating vision of
-              owner Bud Schmeling's decades-long journey helming
-              some of the most iconic establishments in NYC. Black
-              Betty, Peter Luger, and Gage & Tollner to name a few; this
-              new venture will showcase his passion for hospitality and
-              promises to be a feast for the senses.
+            <p ref={ref1} className={`text-lg text-darkNavy font-alpina md: mt-20 leading-relaxed mb-6 ${inView1 ? 'text-focus-in' : ''}`}>
+            Lyonshare Public House is the culminating vision of owner Bud Schmeling’s decades-long
+            journey helming some of the most iconic establishments in NYC: Black Betty (Williamsburg),
+            Peter Luger, and Gage & Tollner to name a few. Lyonshare showcases his passion for
+            hospitality, dedication to quality food and his keen eye for curating iconic neighborhood
+            gathering places.
             </p>
-            <p ref={ref2} className={`text-lg text-darkNavy font-alpina leading-relaxed mb-6 ${inView2 ? 'text-focus-in' : ''}`}>
-              We've assembled a talented and dedicated team, focused
-              on quality, execution, and elevated service that caters to
-              the desires of our community and provides an exhilarating
-              experience for all.
-            </p>
-            <p ref={ref3} className={`text-lg text-darkNavy font-alpina leading-relaxed mb-6 ${inView3 ? 'text-focus-in' : ''}`}>
-              Lyonshare Public House is a classic American bistro in an
-              historic building, right in the heart of Main Street. We're
-              excited to welcome you in to gather with friends, make new
-              acquaintances and pass some time in this labor of love.
-            </p>
+            
           </div>
           <div className="md:w-[35%]">
             <img
@@ -110,8 +98,11 @@ const AboutPage = () => {
               OUR INSPIRATION
             </h1>
             <p ref={ref4} className={`text-lg text-darkNavy font-alpina leading-relaxed mb-6 md:w-[100%] ${inView4 ? 'text-focus-in' : ''}`}>
-              Lyonshare Public House, in the heart of Beacon, NY, pays tribute to Hudson Valley's spirit and the legendary John Lyon,
-              known for his resilience and connection to the Hudson River. With a modern take on classic American bistro fare and crafted drinks, we celebrate the region's authenticity and charm.
+              Lyonshare Public House pays tribute to the indomitable spirit of the Hudson Valley and the
+              industrious legacy of its communities. We tip our hat to Captain John Lyon, lauded river boat
+              captain and manager of the Smithsonian Hotel in the 19th century, He provided safe passage
+              across the Hudson for all his passengers including the likes of Babe Ruth and Teddy
+              Roosevelt—we honor his enduring legacy.
             </p>
           </div>
         </div>

@@ -16,11 +16,11 @@ const Gallery = () => {
           alt="boat"
           className="w-full h-full object-cover border-2 border-darkNavy"
         />
-        <div className="absolute inset-0 flex items-center justify-center">
+        {/* <div className="absolute inset-0 flex items-center justify-center">
           <div ref={ref} className={`bg-white text-darkNavy border-2 border-darkNavy text-4xl md:text-6xl font-bebas font-bold px-6 py-2 shadow-lg shadow-black ${inView ? 'scale-in-hor-left' : ''}`}>
             GALLERY
           </div>
-        </div>
+        </div> */}
       </div>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ml-5 mr-5 md:mr-9 mt-5">
