@@ -5,7 +5,7 @@ const teamMembers = [
     name: "Bud Schemling",
     title: "Owner Operator",
     bio: "A short bio about team member 1.",
-    imageUrl: "/path/to/image1.jpg",
+    imageUrl: "/images/bud.webp",
   },
   {
     name: "Chef Adam",
@@ -49,13 +49,13 @@ const OurTeam = () => {
       </header>
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {teamMembers.map((member, index) => (
-            <div key={index} className="team-member bg-limestone p-6 shadow-lg">
+            <div key={index} className="team-member bg-limestone p-6 shadow-lg shadow-darkNavy hover:scale-110">
               <img
                 src={member.imageUrl}
                 alt={member.name}
-                className="w-full h-48 object-cover rounded-t-lg mb-4"
+                className="w-full h-96 object-cover rounded-t-lg mb-4 "
               />
-              <h2 className="text-3xl font-bold mb-2">{member.name}</h2>
+              <h2 className="text-4xl font-bold mb-2 text-darkNavy">{member.name}</h2>
               <h3 className="text-2xl text-darkNavy mb-2">{member.title}</h3>
               <p className="text-darkNavy font-alpina">{member.bio}</p>
             </div>

@@ -26,7 +26,7 @@ const AboutPage = () => {
             duration: 2,
             onComplete: () => {
               setImageSrc('/images/johnPainting.png');
-              gsap.to(imageRef.current, { opacity: 1, duration: 1 });
+              gsap.to(imageRef.current, { opacity: 1, duration: 1.5 });
             },
           });
         });
@@ -64,7 +64,7 @@ const AboutPage = () => {
             <h1 className="font-montefiore text-5xl md:mt-6 text-darkNavy underline">
               OUR STORY
             </h1>
-            <p ref={ref1} className={`text-lg text-darkNavy font-alpina md: mt-20 leading-relaxed mb-6 ${inView1 ? 'text-focus-in' : ''}`}>
+            <p ref={ref1} className={`text-lg text-darkNavy font-alpina md:mt-20 leading-relaxed md:mb-6 ${inView1 ? 'text-focus-in' : ''}`}>
             Lyonshare Public House is the culminating vision of owner Bud Schmeling’s decades-long
             journey helming some of the most iconic establishments in NYC: Black Betty (Williamsburg),
             Peter Luger, and Gage & Tollner to name a few. Lyonshare showcases his passion for
@@ -77,7 +77,7 @@ const AboutPage = () => {
             <img
               src="/images/bud.webp"
               alt="Our Story"
-              className={`w-full h-auto object-cover border-2 border-darkNavy ${titleInView ? 'slit-in-vertical' : ''}`}
+              className={`w-full h-full object-cover border-2 border-darkNavy ${titleInView ? 'slit-in-vertical' : ''}`}
             />
           </div>
         </div>

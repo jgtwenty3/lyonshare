@@ -24,12 +24,12 @@ const Hours = () => {
         <h2 className="text-md md:text-3xl mb-4 text-darkNavy text-center font-alpina">246 MAIN STREET, BEACON, NY, 12508</h2>
         <ul className='text-center'>
             {hours.map((hour, index) => (
-                <li key={index} className="mb-8 text-md md:text-xl text-darkNavy font-alpina hover:scale-125">
+                <li key={index} className="mb-8 text-md md:text-xl text-darkNavy font-alpina">
                     {hour}
                 </li>
             ))}
         </ul>
-        <div className="ml-24 md:ml-32 flex flex-row gap-4 w-full justify-center text-md md:text-xl text-darkNavy font-alpina hover:scale-125">5pm-12am(dinner)</div>
+        <div className="ml-24 md:ml-32 flex flex-row gap-4 w-full justify-center text-md md:text-xl text-darkNavy font-alpina md:mb-5">5pm-12am(dinner)</div>
       </div>
       <div className="relative w-full text-center">
         <img src="/images/map.png" className="w-full" alt="Map" style={{ marginTop: '-20px' }} />

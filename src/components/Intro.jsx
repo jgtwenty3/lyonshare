@@ -29,7 +29,7 @@ const Intro = () => {
           </h1>
           <ul className='text-center'>
             {hours.map((hour, index) => (
-              <li key={index} className="mb-2 text-md md:text-xl text-darkNavy font-alpina hover:scale-125">
+              <li key={index} className="mb-2 md:mb-5 text-md md:text-xl text-darkNavy font-alpina">
                 {hour}
               </li>
             ))}

@@ -1,7 +1,7 @@
 export const rawBarMenu = {
     title: 'RAW BAR',
     items: [
-        { name: 'SELECTION OF EAST COAST OYSTERS TRADITIONAL GARNISHES' }
+        { name: 'SELECTION OF EAST COAST OYSTERS', ingredients:"COCKTAIL SAUCE, LYONSHARE MIGNONETTE" }
     ]
 };
 
@@ -44,47 +44,49 @@ export const lunchMenu = {
 
 export const dinnerMenu = [
     {
-        title: 'SMALL PLATE',
+        title: 'SMALL PLATES',
         items: [
-            { name: 'BUTTER & BLUE LETTUCES', ingredients: 'MARINATED TOMATOES, BACON, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
-            { name: 'LOCAL LETTUCES', ingredients: 'CIDER SHALLOT VINGAIGRETTE, LOCAL APPLES, TOASTED PUMPKIN SEEDS' },
-            { name: 'WHITE BEAN & ESCAROLE SOUP' },
-            { name: 'PENICILLIN CHICKEN', ingredients: 'BROTH, VEGETABLES & MATZO BALLS' },
-            { name: 'VEGETABLE FRITTERS', ingredients: 'CRISPY HEN OF THE WOODS MUSHROOMS, BRUSSEL SPROUTS, CHILI SAUCE' },
-            { name: 'MAC & CHEESE', ingredients: 'THE BEACON BLEND, TUBE-TYPE NOODLES, TOASTED CRACKER CRUNCH' }
+            { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
+            { name: 'LOCAL LETTUCES', ingredients: 'CIDER SHALLOT VINAIGRETTE, LOCAL APPLES, TOASTED PUMPKIN SEEDS' },
+            { name: 'PENICILLIN', ingredients: 'CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
+            { name: 'VEGETABLE FRITTERS', ingredients: 'CRISPY HEN OF THE WOOD MUSHROOMS, BRUSSELS SPROUTS, CHILI SAUCEE' },
+            { name: 'MAC & CHEESE', ingredients: 'THE BEACON BLEND, TOASTED THYME BREAD CRUMBS' }
         ]
     },
     {
         title: 'MAINS',
         items: [
-            { name: 'THE BURGER', ingredients: 'DRY AGED & CUSTOM BLENDED, AMERICAN CHEESE, RAW ONION, TOASTED POTATO BUN WITH FRENCH FRIES, VINEGAR PICKLES' },
-            { name: 'HALF FRIED CHICKEN', ingredients: 'SHARP & CREAMY SLAW, BISCUITS, BUTTER & HONEY' },
+            { name: 'THE BURGER', ingredients: 'DRY AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES' },
+            { name: 'HALF FRIED CHICKEN', ingredients: 'SHARP AND CREAMY SLAW, BISCUITS, BUTTER, AND HONEY' },
+            { name: 'MOULE FRITES', ingredients: 'PEI MUSSELS, WHITE WINE, ANDOUILLE SAUSAGE, CILANTRO, FRENCH FRIES' },
             { name: 'MIXED GRAIN RISOTO', ingredients: 'BUTTERNUT SQUASH, OLIVE OIL, LEMON, AND HERBS' },
-            { name: 'GOLDEN TILEFISH LENTILS', ingredients: 'FRENCH LENTILS, BRUSSEL SPROUT SALAD, FRESH HERBS' }
+            { name: 'WILD STRIPED BASS ', ingredients: 'FRENCH LENTILS, BRUSSELS SPROUT SALAD, FRESH HERBS' }
         ]
     },
     {
         title: 'STEAKS',
         items: [
+            
             { name: 'BUTCHER CUT 32 OZ PORTERHOUSE', ingredients: 'FOR TWO' },
-            { name: 'NY STRIP STEAK', ingredients: '*ALL STEAKS ARE CHAR-GRILLED & SERVED WITH GARLIC CONFIT, STEAK BUTTER, BROWN SAUCE' },
-            { name: '' }
+            { name: 'NEW YORK STRIP' },
+            { name: '',ingredients:'CHARGRILLED WITH ROASTED GARLIC PURÉE, COMPOUND BUTTER AND BROWN SAUCE'  }
         ]
     },
     {
         title: 'SIDE DISHES',
         items: [
-            { name: "", ingredients: 'CURRY CAULIFLOWER W/WALNUT HERB DRESSING, BISCUITS, BUTTER & HONEY,' },
-            { name: "",ingredients:'FRENCH FRIES, SAUTEED SPINICH AND GARLIC, LYONSHARE MASHED POTATOES' }
+            { name: "", ingredients: 'BABY CARROTS WITH YOGURT AND BREAD CRUMBS, GOAT CHEESE SCALLOPED POTATOES'},
+            { name: "",ingredients:'BISCUITS, BUTTER, AND HONEY,  SAUTEED SPINACH AND GARLIC,  FRENCH FRIES' }
         ]
     },
     {
         title: 'SWEETS',
         items: [
             { name: 'WARM CHOCOLATE CHUNK COOKIE', ingredients: 'BAKED TO ORDER' },
-            { name: 'APPLE TART', ingredients: 'SALTED CARAMEL, ICE CREAM' },
-            { name: 'ROOT BEER FLOAT', ingredients: 'PROPRIETARY ROOT SYRUP & SODA, WHIPPED CREAM IN A FROSTED MUG' },
-            { name: 'ICE CREAM', ingredients: 'ANY 2 SCOOPS FROM THE DAILY LIST' }
+            { name: 'CHEESECAKE', ingredients: 'STRAWBERRY JAM, GRAHAM CRACKER CRUNCH' },
+            { name: 'ROOT BEER FLOAT', ingredients: 'PROPRIETARY ROOT BEER SYRUP & SODA, WHIPPED CREAM IN A FROSTED MUG' },
+            { name: 'BROWNIE SUNDAE', ingredients: 'VANILLA GELATO, CHOCOLATE SAUCE, WHIPPED CREAM ' },
+            { name: 'ICE CREAM', ingredients: '2 SCOOPS OF YOUR CHOICE ' }
         ]
     }
 ];
@@ -93,12 +95,12 @@ export const cocktailMenu = [
     {
         title: "COCKTAILS",
         items: [
-            { name: "THE ALGONQUIN", ingredients: "GIN, METHOD SWEET VERMOUTH, LUXARDO BITTER, ORANGE" },
-            { name: "BEN THE HORSE", ingredients: "RUM, LEMON, APPLE CIDER, ANISE" },
-            { name: "LYONSHARE MANHATTAN", ingredients: "RYE, HOUSE VERMOUTH BLEND, CHERRY" },
+            { name: "LYONSHARE MANHATTAN ", ingredients: "RYE, HOUSE VERMOUTH BLEND, CHERRY" },
             { name: "CAPTAIN LYON", ingredients: "VODKA, JUNIPER, INDIGO, BERGAMOT, OLIVE" },
-            { name: "MADAME BRETT", ingredients: "GIN, THYME, HONEY, JUNIPER" },
-            { name: "MELIO BETTINA", ingredients: "BOURBON, BITTER ORANGE, COLD BREW" },
+            { name: " ALGONQUIN NEGRONI ", ingredients: " GIN, METHOD SWEET VERMOUTH, LUXARDO BITTER, ORANGE" },
+            { name: "BEN THE HORSE", ingredients: "RUM, LEMON, APPLE CIDER, ANISE" },
+            { name: "MADAME BRETT", ingredients: "GIN, THYME, HONEY, JUNIPER, CAVA" },
+            { name: "MELIO BETTINA", ingredients: "BOURBON, ORANGE, ESPRESSO" },
             
         ]
     },
@@ -120,7 +122,7 @@ export const beerMenu = [
                 { name: "Athletic Hazy IPA NA" },
                 { name: "Hudson North Standard Cider" },
                 { name: "Narragansett Lager" },
-                { name: "Six Point The Crisp Pilsner" },
+                { name: "Allagash White" },
                 { name: "Oska Blue Pale Ale" },
                 { name: "Tecate" }
             ] }
@@ -135,27 +137,60 @@ export const wineList = {
         {
             title: "SPARKLING",
             items: [
-                { name: "Batiso Prosecco Brut Contempora" },
-                { name: "Poema Penedez Cava Brut NV" }
+                { name: "BATISO PROSECCO BRUT CONTEMPORANEO NV" },
+                { name: "BISOL DESIDERIO JEIO PROSECCO BRUT NV" },
+                { name: "POEMA PENEDES CAVA BRUT NV" },
+                { name: "CHAMPAGNE PAUL LAURENT NV" },
+                { name: "CHAMPAGNE GASTON CHIQUET NV" },
+                { name: "OGER BLANC DE BLANCS GRAND CRU, P. GIMONNET ET FILS NV" },
             ]
         },
         {
             title: "WHITE",
             items: [
-                { name: "Boony Doon Le Cigare Orange 2023" },
-                { name: "Conti Formentini Collio Sauvignon 2022" },
-                { name: "Milenrama Blanco 2023" },
-                { name: "Contesse Marion Viognier 2023" },
-                { name: "Westmount Chardonnay 2022" },
+                { name: "MARTIN CODAX ALBARIÑO 2023" },
+                { name: "PAZO DAS BRUXAS ALBARIÑO 2023 " },
+                { name: "CADRE SEA QUEEN ALBARIÑO 2023" },
+                { name: "MILENRAMA WHITE RIOJA 2023" },
+                { name: "QUINTA DO PASSADOURO BRANCO 2019" },
+                { name: "BUGLIONI TREBBIANO 2023" },
+                { name: "FORMENTINI SAUVIGNON 2022" },
+                { name: "GROTH SAUVIGNON BLANC" },
+                { name: "PASCAL JOLIVET SANCERRE 2023" },
+                { name: "CONTESSE MARION VIOGNIER 2023" },
+                { name: "HEARST 3 SISTERS CUVEE 2021" },
+                { name: "REMI JOBARD BOURGOGNE ALIGOTE 2022" },
+                { name: "COMTE LAFON MACON-VILLAGE 2023 " },
+                { name: "WESTMOUNT CHARDONNAY 2022" },
+                { name: "DOMAINE LAROCHE CHABLIS 2023" },
+                { name: "FAMILLE VINCENT POUILLY-FUISSÉ 2022" },
+                { name: "JORDAN CHARDONNAY 2022" },
+
             ]
         },
         {
             title: "RED",
             items: [
-                { name: "Melini Chianti Reserva Doeg 2021" },
-                { name: "Coteaux Du Giennois, Florian Berthier 2021" },
-                { name: "Cune Rioja Crianza 2020" },
-                { name: "Poco A Poco Ca 2021" },
+                { name: "MELINI CHIANTI RISERVA 2021" },
+                { name: "ROLET ARBOIS ROUGE" },
+                { name: "EZY TIGER PINOT NOIR 2022" },
+                { name: "DIVUM PINOT NOIR 2022" },
+                { name: "COTEAUX DU GIENNOIS 2021" },
+                { name: "ILLAHE PINOT NOIR 2022 " },
+                { name: "CUNE RIOJA CRIANZA 2020" },
+                { name: "MILENRAMA RIOJA RESERVA 2019" },
+                { name: "VIGNETI  DEL SOLE MONTEPULCIANO 2022" },
+                { name: "MONT OLIVET CHATEAUNEUF-DU-PAPE 2021" },
+                { name: "CAN SUMOI PENEDES SUMOLL GARNATXA 2022" },
+                { name: "TURLEY ZINFANDEL EVANGELHO 2021" },
+                { name: "VAL DI SUGA BRUNELLO DI MONTALCINO 2016" },
+                { name: "CHÂTEAU LA GRANGÈRE SAINT-EMILION 2019" },
+                { name: "POCO A POCO CABERNET SAUVIGNON 2021" },
+                { name: "HEARST CABERNET SAUVIGNON 2021" },
+                { name: "STAGS' LEAP CABERNET SAUVIGNON 2021" },
+                { name: "GRGICH HILLS CABERNET SAUVIGNON 2019" },
+                { name: "CAYMUS CABERNET SAUVIGNON 2022" },
+
             ]
         }
     ]
