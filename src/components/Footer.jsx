@@ -5,7 +5,7 @@ import spotify from "../../public/icons/spotify.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-darkNavy text-manliusLimestone py-4 px-4 mt-1 sticky bottom-0">
+    <footer className="bg-darkNavy text-manliusLimestone md:py-4 md:px-4 mt-1 sticky bottom-0">
       <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between md:items-center">
         <div className="mb-4 text-center md:text-left md:mb-0">
           <a href="/">
@@ -25,7 +25,7 @@ const Footer = () => {
             <img src={spotify} alt="spotify" className="w-6 h-6" />
           </a>
           <a href="https://resy.com/cities/beacon-ny-ny/venues/lyonshare?seats=2&date=2024-12-11">
-            <h4 className="font-alpina border-2 border-manliusLimestone md:p-1 mb-3 p-4 hover:heartbeat">RESERVATIONS</h4>
+            <h4 className="font-alpina border-2 border-manliusLimestone md:p-1 mb-1 p-4 hover:heartbeat">RESERVATIONS</h4>
           </a>
           <a href="https://resy.com/cities/beacon-ny-ny/venues/lyonshare?seats=2&date=2024-12-11">
             <h4 className="font-alpina border-2 border-manliusLimestone md:p-1 p-4 hover:heartbeat">KEEP IN TOUCH</h4>
