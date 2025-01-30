@@ -5,38 +5,36 @@ const teamMembers = [
   {
     name: "Bud Schemling",
     title: "Owner Operator",
-    bio: "A short bio about team member 1.",
     imageUrl: "/images/bud.webp",
     link: "/about#story",  // Link to the "OUR STORY" section on the About page
   },
   {
     name: "Chef Adam",
     title: "Executive Chef",
-    bio: "A short bio about team member 2.",
     imageUrl: "/path/to/image2.jpg",
   },
   {
     name: "Nick Merrifield",
     title: "AGM/Beverage Director",
-    bio: "A short bio about team member 3.",
+ 
     imageUrl: "/path/to/image3.jpg",
   },
   {
     name: "Jose Bazan",
     title: "Sous Chef",
-    bio: "A short bio about team member 4.",
+
     imageUrl: "/path/to/image4.jpg",
   },
   {
     name: "Claudia Clemente",
     title: "Service Manager",
-    bio: "A short bio about team member 5.",
+
     imageUrl: "/path/to/image5.jpg",
   },
   {
     name: "Lindsey Guerrero",
     title: "Concierge",
-    bio: "A short bio about team member 6.",
+
     imageUrl: "/path/to/image6.jpg",
   },
 ];
@@ -58,9 +56,9 @@ const OurTeam = () => {
                     alt={member.name}
                     className="w-full h-96 object-cover rounded-t-lg mb-4"
                   />
-                  <h2 className="text-4xl font-bold mb-2 text-darkNavy underline">{member.name}</h2>
-                  <h3 className="text-2xl text-darkNavy mb-2">{member.title}</h3>
-                  <p className="text-darkNavy font-alpina">{member.bio}</p>
+                  <h2 className="text-3xl font-bold mb-2 text-darkNavy underline font-alpina">{member.name}</h2>
+                  <h3 className="text-2xl text-darkNavy mb-2 font-alpina">{member.title}</h3>
+                  
                 </div>
               </HashLink>
             ) : (
@@ -70,9 +68,9 @@ const OurTeam = () => {
                   alt={member.name}
                   className="w-full h-96 object-cover rounded-t-lg mb-4"
                 />
-                <h2 className="text-4xl font-bold mb-2 text-darkNavy underline">{member.name}</h2>
-                <h3 className="text-2xl text-darkNavy mb-2">{member.title}</h3>
-                <p className="text-darkNavy font-alpina">{member.bio}</p>
+                <h2 className="text-3xl font-bold mb-2 text-darkNavy underline font-alpina">{member.name}</h2>
+                <h3 className="text-2xl text-darkNavy mb-2 font-alpina">{member.title}</h3>
+              
               </div>
             )
           ))}

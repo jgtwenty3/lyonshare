@@ -9,13 +9,14 @@ const DrinkList = ({ drinkSection }) => {
         <ul className="space-y-4">
           {drinkSection.items.map((item, itemIndex) => {
             const { ref, inView } = useInView({
-              threshold: .1, // Adjust this value to control when the animation starts
+              threshold: 0.1, // Adjust this value to control when the animation starts
               triggerOnce: true, // Only trigger the animation once
             });
 
             return (
-              <li ref={ref} key={itemIndex} className="w-full flex justify-center text-xl font-alpina font-semibold">
-                <p className='text-2xl mb-4'>{item.name} <span className='text-xl'>{item.ingredients}</span></p>
+              <li ref={ref} key={itemIndex} className="w-full flex flex-col items-center text-xl font-alpina font-semibold md:flex-row md:justify-center">
+                <p className='text-2xl mb-1 md:mb-0 md:mr-4'>{item.name}</p>
+                <span className='text-xl'>{item.ingredients}</span>
               </li>
             );
           })}
