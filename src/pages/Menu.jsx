@@ -4,7 +4,7 @@ import MenuList from '../components/MenuList';
 import DrinkList from '../components/DrinkList';
 import WineList from '../components/WineList';
 import BeerList from '../components/BeerList';
-import BottleList from '../components/BottleList';
+import GlassWine from '../components/glassWine';
 import { rawBarMenu, brunchMenu, lunchMenu, dinnerMenu, cocktailMenu, wineList, beerMenu, bottleList } from '../lib/data';
 import { useInView } from 'react-intersection-observer';
 
@@ -15,19 +15,19 @@ const Menu = () => {
 
   const handleMenuClick = (menu) => {
     setSelectedMenu(menu);
-    setShowAllDrinks(false); // Reset drink selection when menu is selected
-    setShowWineList(false); // Reset wine list selection when menu is selected
+    setShowAllDrinks(false);
+    setShowWineList(false); 
   };
 
   const handleShowAllDrinks = () => {
-    setSelectedMenu(null); // Reset menu selection when drink is selected
+    setSelectedMenu(null); 
     setShowAllDrinks(true);
-    setShowWineList(false); // Reset wine list selection when drink is selected
+    setShowWineList(false); 
   };
 
   const handleShowWineList = () => {
-    setSelectedMenu(null); // Reset menu selection when wine list is selected
-    setShowAllDrinks(false); // Reset drink selection when wine list is selected
+    setSelectedMenu(null);
+    setShowAllDrinks(false); 
     setShowWineList(true);
   };
 
@@ -40,7 +40,7 @@ const Menu = () => {
     <div>
       <div className="relative w-screen h-[600px] md:h-[800px]">
         <img
-          src="/images/food/drinkNFood.jpg"
+          src="/images/food/drinkNFood.webp"
           alt="boat"
           className="w-full h-full object-cover border-2 border-darkNavy"
         />
@@ -71,22 +71,27 @@ const Menu = () => {
           )
         )}
         {showAllDrinks && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-10">
-            {cocktailMenu.map((drinkSection, index) => (
-              <DrinkList key={index} drinkSection={drinkSection} />
-            ))}
-            <BeerList beerSection={beerMenu[0]} />
-          </div>
+          <>
+            <div className="w-full px-4 md:px-10">
+              {cocktailMenu.map((drinkSection, index) => (
+                <DrinkList key={index} drinkSection={drinkSection} />
+              ))}
+            </div>
+            <div className="w-full px-4 md:px-10 mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+              <GlassWine />
+              <BeerList beerSection={beerMenu[0]} />
+              
+            </div>
+          </>
         )}
         {showWineList && (
           <div className="flex flex-col items-center px-4 md:px-10">
             <WineList wineSection={wineList} />
-            <BottleList bottleSection={bottleList[0]} />
           </div>
         )}
       </div>
       <div className="flex flex-col items-center p-10">
-      <img src="/images/logo.svg" alt="knot" className="mb-5 w-20 md:w-24" />
+        <img src="/images/logo.svg" alt="knot" className="mb-5 w-20 md:w-24" />
         <a
           href="/LyonShareMenuOct31.pdf"
           target="_blank"

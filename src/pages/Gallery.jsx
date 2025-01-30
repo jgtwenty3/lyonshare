@@ -12,7 +12,7 @@ const Gallery = () => {
     <div className="pb-24">
       <div className="relative w-screen h-[600px] md:h-[800px]">
         <img
-          src="/images/painting.png"
+          src="/images/painting.webp"
           alt="boat"
           className="w-full h-full object-cover border-2 border-darkNavy"
         />

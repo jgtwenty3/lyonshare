@@ -66,10 +66,10 @@ export const dinnerMenu = [
     {
         title: 'STEAKS',
         items: [
-            
+            { name: '',ingredients:'CHARGRILLED WITH ROASTED GARLIC PURÉE, COMPOUND BUTTER AND BROWN SAUCE'  },
             { name: 'BUTCHER CUT 32 OZ PORTERHOUSE', ingredients: 'FOR TWO' },
             { name: 'NEW YORK STRIP' },
-            { name: '',ingredients:'CHARGRILLED WITH ROASTED GARLIC PURÉE, COMPOUND BUTTER AND BROWN SAUCE'  }
+            
         ]
     },
     {
@@ -112,13 +112,13 @@ export const beerMenu = [
         title: "BEER",
         items: [
             { subtitle: "DRAFT", items: [
-                { name: "Guiness" },
+                { name: "Guinness" },
                 { name: "Sierra Nevada Pale" },
                 { name: "Oxbow Farmhouse" },
                 { name: "Industrial Arts Metric Pilsner" },
                 { name: "Sloop Juice Bomb IPA" }
             ] },
-            { subtitle: "BOTTLES & CANS", items: [
+            { subtitle: "CANS", items: [
                 { name: "Athletic Hazy IPA NA" },
                 { name: "Hudson North Standard Cider" },
                 { name: "Narragansett Lager" },
@@ -199,47 +199,35 @@ export const wineList = {
 
 export const bottleList = [
     {
-        title: "BY THE BOTTLE",
         items: [
             {
                 subtitle: "SPARKLING",
                 items: [
-                    { name: "Bisol Desiderio Jeio Prosecco Brut NV" },
+                    { name: "BATISO PROSECCO BRUT NV" },
+                    { name: "POEMA CAVA BRUT NV " },
                    
                 ]
             },
-            {
-                subtitle: "ROSE",
-                items: [
-                    { name: "Stolpman Love You Bunches Rose 2023" }
-                ]
-            },
+    
             {
                 subtitle: "WHITE",
                 items: [
-                    { name: "Cadre Sea Queen Albariño 2023" },
-                    { name: "Pazo Das Bruxas Albariño 2023" },
+                    { name: "FORMENTINI SAUVIGNON 2022" },
+                    { name: "MILENRAMA WHITE RIOJA 2023" },
                     { name: "Quinta Do Passadouro Branco 2019" },
-                    { name: "Pascal Jolivet Sancerre 2023" },
-                    { name: "Domaine Laroche Chablis Saint Martin 2023" },
-                    { name: "Hearst 3 Sisters Cuvee Paso Robles 2021" },
-                    { name: "Famille Vincent Pouilly-Fuissé 2022" },
-                    { name: "Royal Tokaji Dry Furmint 2019" },
+                    { name: "CONTESSE VIOGNIER 2023" },
+                    { name: "WESTMOUNT CHARDONNAY 2022" },
+                    
                 ]
             },
             {
                 subtitle: "RED",
                 items: [
-                    { name: "Ezy Tiger Pinot Noir Willamette Valley 2022" },
-                    { name: "Liiahe Pinot Noir 2022" },
-                    { name: "Divum Pinot Noir 2022" },
-                    { name: "Clos Du Mont - Olivet CDP 2021" },
-                    { name: "Milenrama Rioja Riserva 2019" },
-                    { name: "Vigneti Del Sole Montepuleiano 2022" },
-                    { name: "Val Di Suga Brunello Di Montaleino 2016" },
-                    { name: "Can Sumoi Penedes Sumoll Garnatxa 2022" },
-                    { name: "Hearst Bunchouse Cabernet 2021" },
-                    { name: "Grgich Hills Estate Cabernet Sauvignon 2019" },
+                    { name: "MELINI CHIANTI RISERVA 2021" },
+                    { name: "GIENNOIS PINOT NOIR 2021" },
+                    { name: "CUNE RIOJA CRIANZA 2020 " },
+                    { name: "POCO A POCO CABERNET 2021" },
+                    
                 ]
             }
         ]

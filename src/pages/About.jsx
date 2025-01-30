@@ -47,7 +47,7 @@ const AboutPage = () => {
     <div>
       <div className="relative w-screen h-[600px] md:h-[800px]">
         <img
-          src="/images/inside.jpg"
+          src="/images/inside.webp"
           alt="boat"
           className="w-full h-full object-cover border-2 border-darkNavy"
         />

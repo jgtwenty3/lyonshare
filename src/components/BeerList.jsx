@@ -12,7 +12,7 @@ const BeerList = ({ beerSection }) => {
         <h2 className="text-3xl font-bold mb-6 font-alpina">{beerSection.title}</h2>
         {beerSection.items.map((section, sectionIndex) => (
           <div key={sectionIndex} className="w-full mb-8">
-            <h3 className="text-xl font-bold mb-4 font-alpina">{section.subtitle}</h3>
+            <h3 className="text-2xl font-bold mb-4 font-alpina">{section.subtitle}</h3>
             <ul className="space-y-2">
               {section.items.map((item, itemIndex) => {
                 const { ref, inView } = useInView({
@@ -21,8 +21,8 @@ const BeerList = ({ beerSection }) => {
                 });
 
                 return (
-                  <li ref={ref} key={itemIndex} className={`w-full text-lg font-alpina ${inView ? 'scale-in-top' : ''}`}>
-                    <p>{item.name}</p>
+                  <li ref={ref} key={itemIndex} className={`w-full text-lg font-alpina`}>
+                    <p className='uppercase'>{item.name}</p>
                   </li>
                 );
               })}
