@@ -146,6 +146,19 @@ export const wineList = {
             ]
         },
         {
+            title:"ROSE",
+            items:[
+                {name:"STOLPMAN LOVE YOU BUNCHES 2023"}
+            ]
+        },
+        {
+            title:"SKIN CONTACT",
+            items:[
+                {name:"BONNY DOON LE CIGARE ORANGE 2023 "},
+                {name:"ROYAL TOKAJI DRY FURMINT 2019"},
+            ]
+        },
+        {
             title: "WHITE",
             items: [
                 { name: "MARTIN CODAX ALBARIÑO 2023" },

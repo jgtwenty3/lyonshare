@@ -9,9 +9,9 @@ const WineList = ({ wineSection }) => {
   return (
     <div className="flex flex-col items-center px-4 md:px-10">
       <div className="mb-10 text-darkNavy flex flex-col items-center w-full text-center">
-        {wineSection.items.map((section, sectionIndex) => (
+        {wineSection.items.slice(0, 3).map((section, sectionIndex) => (
           <div key={sectionIndex} className="w-full mb-8">
-            <h3 className="text-2xl font-bold mb-4 font-alpina">{section.title}</h3>
+            <h3 className="text-2xl md:text-4xl font-bold mb-4 font-alpina">{section.title}</h3>
             <ul className="flex flex-col items-center gap-4">
               {section.items.map((item, itemIndex) => {
                 const { ref, inView } = useInView({
@@ -20,7 +20,7 @@ const WineList = ({ wineSection }) => {
                 });
 
                 return (
-                  <li ref={ref} key={itemIndex} className={`w-full text-xl font-alpina ${inView ? 'scale-in-top' : ''}`}>
+                  <li ref={ref} key={itemIndex} className={`w-full text-md md:text-xl font-alpina ${inView ? 'scale-in-top' : ''}`}>
                     <p>{item.name}</p>
                   </li>
                 );
@@ -28,6 +28,27 @@ const WineList = ({ wineSection }) => {
             </ul>
           </div>
         ))}
+        <div className="flex flex-row w-full justify-between gap-10">
+          {wineSection.items.slice(3).map((section, sectionIndex) => (
+            <div key={sectionIndex} className="w-1/2 mb-8">
+              <h3 className="text-2xl md:text-4xl font-bold mb-4 font-alpina">{section.title}</h3>
+              <ul className="flex flex-col items-center gap-4">
+                {section.items.map((item, itemIndex) => {
+                  const { ref, inView } = useInView({
+                    threshold: 0.1, // Adjust this value to control when the animation starts
+                    triggerOnce: true, // Only trigger the animation once
+                  });
+
+                  return (
+                    <li ref={ref} key={itemIndex} className={`w-full  text-md md:text-xl font-alpina ${inView ? 'scale-in-top' : ''}`}>
+                      <p>{item.name}</p>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
