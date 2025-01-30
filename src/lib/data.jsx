@@ -32,7 +32,20 @@ export const brunchMenu = [
         { name: 'BISCUITS & GRAVY' },
         { name: '(ADD 2 EGGS +$5)' },
       ]
-    }
+    },
+    {
+        title: 'COCKTAILS',
+        items: [
+            { name: 'HUDSON MIMOSA', ingredients: 'PROSECCO, ORANGE PEEL, SIDECAR OF OJ OR GRAPEFRUIT' },
+            { name: 'BEACON BLOODY MARY', ingredients: ' CULCH VODKA, HOUSE BLOODY MIX, LUGER SAUCE' },
+            { name: 'VICTORY SPRITZ ', ingredients: 'RASPBERRY, APERITIVO, ELDERBERRY, GRAPEFRUIT, PROSECCO' },
+            { name: 'TACONIC TONIC', ingredients: 'LILLET, GENTIAN, ORANGE, QUININE' },
+            { name: 'LYONSHARE MICHELADA', ingredients: 'CAN OF BEER, HOUSE BLOODY MIX, SALT RIM' },
+            { name: 'MADAME BRETT', ingredients: 'GIN, THYME, HONEY, JUNIPER, CAVA ' },
+            { name: 'MELIO BETTINA', ingredients: 'BOURBON, ORANGE, ESPRESSO' },
+            
+        ]
+      }
   ];
   
 export const lunchMenu = {
