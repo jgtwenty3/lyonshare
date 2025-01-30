@@ -4,7 +4,7 @@ import MenuList from '../components/MenuList';
 import DrinkList from '../components/DrinkList';
 import WineList from '../components/WineList';
 import BeerList from '../components/BeerList';
-import GlassWine from '../components/glassWine';
+import GlassWine from '../components/GlassWine';
 import { rawBarMenu, brunchMenu, lunchMenu, dinnerMenu, cocktailMenu, wineList, beerMenu, bottleList } from '../lib/data';
 import { useInView } from 'react-intersection-observer';
 
