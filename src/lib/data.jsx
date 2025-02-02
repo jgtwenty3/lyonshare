@@ -278,3 +278,81 @@ export const imageList = [
     '/images/food/crowd.png',
     '/images/food/entrance.png'
 ];
+
+export const eventsData = [
+    { artist: 'Leah Valentine', 
+      date: '2025-02-04', 
+      img: '/images/musicians/Leah2.jpg', 
+      bio: 'Leah Valentine bio...' 
+    },
+    { artist: 'Jeremy Schonfeld', 
+      date: '2025-02-06', 
+      img: 'images/musicians/JeremySchonfeld.png', 
+      bio: 'Jeremy Schonfeld bio...' 
+    },
+    { artist: 'Jeremy Willm', 
+      date: '2025-02-07', 
+      img: 'path_to_jeremy_willm_image.jpg', 
+      bio: 'Jeremy Willm bio...' 
+    },
+    { artist: 'Neil Alexander', 
+      date: '2025-02-08', 
+      img: '/images/musicians/NeilAlexander.webp', 
+      bio: 'Neil Alexander bio...' 
+    },
+    { artist: 'Jazz Trio JAM', 
+      date: '2025-02-11', 
+      img: 'path_to_jazz_trio_jam_image.jpg', 
+      bio: 'Jazz Trio JAM bio...' 
+    },
+    { artist: 'Jeremy Schonfeld', 
+      date: '2025-02-13', 
+      img: 'images/musicians/JeremySchonfeld.png', 
+      bio: 'Jeremy Schonfeld bio...' 
+    },
+    { artist: 'Tara O’Grady', 
+      date: '2025-02-14', 
+      img: '/images/musicians/taraOgrady.webp', 
+      bio: 'Tara O’Grady bio...' 
+    },
+    { artist: 'Neil Alexander', 
+      date: '2025-02-15', 
+      img: '/images/musicians/NeilAlexander.webp', 
+      bio: 'Neil Alexander bio...' 
+    },
+    { artist: 'Paper Machete Global Psychedelia', 
+      date: '2025-02-18', 
+      img: 'path_to_paper_machete_image.jpg', 
+      bio: 'Paper Machete Global Psychedelia bio...' 
+    },
+    { artist: 'Jeremy Schonfeld', 
+      date: '2025-02-20', 
+      img: 'path_to_jeremy_schonfeld_image.jpg', 
+      bio: 'Jeremy Schonfeld bio...' 
+    },
+    { artist: 'Jeremy Willm', 
+      date: '2025-02-21', 
+      img: 'images/musicians/JeremySchonfeld.png', 
+      bio: 'Jeremy Willm bio...' 
+    },
+    { artist: 'Neil Alexander', 
+      date: '2025-02-22', 
+      img: '/images/musicians/NeilAlexander.webp',  
+      bio: 'Neil Alexander bio...' 
+    },
+    { artist: 'Broadway in Beacon', 
+      date: '2025-02-25', 
+      img: 'path_to_broadway_in_beacon_image.jpg', 
+      bio: 'Broadway in Beacon bio...' 
+    },
+    { artist: 'Jeremy Schonfeld', 
+      date: '2025-02-27', 
+      img: 'images/musicians/JeremySchonfeld.png',
+      bio: 'Jeremy Schonfeld bio...' 
+    },
+    { artist: 'Jeremy Willm', 
+      date: '2025-02-28', 
+      img: 'path_to_jeremy_willm_image.jpg', 
+      bio: 'Jeremy Willm bio...' 
+    },
+];
