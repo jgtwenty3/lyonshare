@@ -19,11 +19,11 @@ const Events = () => {
     <div className="bg-white min-h-screen">
       <header className="text-center py-8">
         <img src="path_to_banner_image.jpg" alt="Event Banner" className="w-full h-auto" />
-        <h1 className="text-4xl md:text-5xl font-bold mt-4 uppercase">Upcoming Events</h1>
+        <h1 className="text-5xl md:text-5xl font-bold mt-4 md:mt-10 uppercase">Upcoming Events</h1>
       </header>
 
       <section className="py-8">
-        <h2 className="text-3xl font-bold text-center mb-4 uppercase">Up Next</h2>
+        <h2 className="text-4xl font-bold text-center mb-4 uppercase">Up Next</h2>
         {upNextEvent && (
           <div className="w-full">
             <div className="ml-10 mr-10 mb-5">
