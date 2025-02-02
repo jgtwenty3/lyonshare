@@ -21,7 +21,7 @@ const Events = () => {
         <h2 className="text-5xl font-bold text-center mb-4 uppercase text-darkNavy">Up Next</h2>
         {upNextEvent && (
           <div className="w-full">
-            <div className="ml-10 mr-10 mb-5 ">
+            <div className="ml-10 mr-10 mb-5 rounded-t-lg ">
               <ArtistCard
                 artist={upNextEvent.artist}
                 date={upNextEvent.date}
@@ -39,7 +39,7 @@ const Events = () => {
         <h2 className="text-4xl font-bold text-center mb-4 uppercase text-darkNavy">Upcoming Events</h2>
         <div className="flex flex-col">
           {upcomingEvents.slice(1).map((event, index) => (
-            <div key={index} className="ml-10 mr-10 mb-5">
+            <div key={index} className="ml-10 mr-10 mb-5 rounded-t-lg">
               <ArtistCard
                 artist={event.artist}
                 date={event.date}

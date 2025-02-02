@@ -50,7 +50,7 @@ const OurTeam = () => {
           {teamMembers.map((member, index) => (
             member.link ? (
               <HashLink to={member.link} key={index} className="team-member">
-                <div className="bg-limestone p-6 shadow-xl hover:scale-110">
+                <div className="bg-limestone p-6 shadow-lg shadow-darkNavy hover:scale-110 border-2 border-darkNavy ">
                   <img
                     src={member.imageUrl}
                     alt={member.name}
@@ -62,7 +62,7 @@ const OurTeam = () => {
                 </div>
               </HashLink>
             ) : (
-              <div key={index} className="team-member bg-limestone p-6 shadow-xl hover:scale-110">
+              <div key={index} className="team-member bg-limestone p-6 shadow-lg shadow-darkNavy hover:scale-110 border-2 border-darkNavy ">
                 <img
                   src={member.imageUrl}
                   alt={member.name}
