@@ -18,7 +18,6 @@ const Events = () => {
   return (
     <div className="bg-white min-h-screen">
       <header className="text-center py-8">
-        <img src="path_to_banner_image.jpg" alt="Event Banner" className="w-full h-auto" />
         <h1 className="text-5xl md:text-5xl font-bold mt-4 md:mt-10 uppercase">Upcoming Events</h1>
       </header>
 
