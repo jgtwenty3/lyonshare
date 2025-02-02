@@ -53,10 +53,10 @@ const ArtistCard = ({ artist, date, img, bio, reverse, fullWidth }) => {
                 { opacity: 0 },
                 {
                   opacity: 1,
-                  duration: 0.05,
+                  duration: 0.01,
                   ease: 'power2.out',
                   stagger: {
-                    each: 0.05,
+                    each: 0.02,
                     onStart: function () {
                       const letter = this.target;
                       if (cursor && letter) {
