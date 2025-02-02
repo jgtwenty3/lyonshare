@@ -283,7 +283,7 @@ export const eventsData = [
     { artist: 'Leah Valentine', 
       date: '2025-02-04', 
       img: '/images/musicians/Leah2.jpg', 
-      bio: 'Leah Valentine bio...' 
+      bio: 'Leah Valentine is a Beacon raised singer/songwriter and producer. The songs that she is sharing are an introspective reflection of her explorations and experiences with self love, loss, connection and growth.' 
     },
     { artist: 'Jeremy Schonfeld', 
       date: '2025-02-06', 
@@ -292,7 +292,7 @@ export const eventsData = [
     },
     { artist: 'Jeremy Willm', 
       date: '2025-02-07', 
-      img: 'path_to_jeremy_willm_image.jpg', 
+      img: '', 
       bio: 'Jeremy Willm bio...' 
     },
     { artist: 'Neil Alexander', 
@@ -302,7 +302,7 @@ export const eventsData = [
     },
     { artist: 'Jazz Trio JAM', 
       date: '2025-02-11', 
-      img: 'path_to_jazz_trio_jam_image.jpg', 
+      img: '', 
       bio: 'Jazz Trio JAM bio...' 
     },
     { artist: 'Jeremy Schonfeld', 
@@ -322,17 +322,17 @@ export const eventsData = [
     },
     { artist: 'Paper Machete Global Psychedelia', 
       date: '2025-02-18', 
-      img: 'path_to_paper_machete_image.jpg', 
+      img: '', 
       bio: 'Paper Machete Global Psychedelia bio...' 
     },
     { artist: 'Jeremy Schonfeld', 
       date: '2025-02-20', 
-      img: 'path_to_jeremy_schonfeld_image.jpg', 
+      img: 'images/musicians/JeremySchonfeld.png',
       bio: 'Jeremy Schonfeld bio...' 
     },
     { artist: 'Jeremy Willm', 
       date: '2025-02-21', 
-      img: 'images/musicians/JeremySchonfeld.png', 
+      img: '', 
       bio: 'Jeremy Willm bio...' 
     },
     { artist: 'Neil Alexander', 
@@ -342,7 +342,7 @@ export const eventsData = [
     },
     { artist: 'Broadway in Beacon', 
       date: '2025-02-25', 
-      img: 'path_to_broadway_in_beacon_image.jpg', 
+      img: '', 
       bio: 'Broadway in Beacon bio...' 
     },
     { artist: 'Jeremy Schonfeld', 
@@ -352,7 +352,7 @@ export const eventsData = [
     },
     { artist: 'Jeremy Willm', 
       date: '2025-02-28', 
-      img: 'path_to_jeremy_willm_image.jpg', 
+      img: '', 
       bio: 'Jeremy Willm bio...' 
     },
 ];
