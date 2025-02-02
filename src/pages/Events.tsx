@@ -9,16 +9,21 @@ const Events = () => {
     triggerOnce: true,
   });
 
-  // Convert date strings to Date objects and then get time values for comparison
-  const sortedEvents = eventsData.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+  const today = new Date();
+  const upcomingEvents = eventsData
+    .filter(event => new Date(event.date) >= today)
+    .sort((a,b)=> new Date(a.date).getTime() - new Date(b.date).getTime());
+  
+  const upNextEvent = upcomingEvents[0];
 
+
+  // Convert date strings to Date objects and then get time values for comparison
   // Get the next upcoming event
-  const upNextEvent = sortedEvents[0];
 
   return (
     <div className="bg-white min-h-screen">
       <header className="text-center py-8">
-        <h1 className="text-5xl md:text-5xl font-bold mt-4 md:mt-10 uppercase">Upcoming Events</h1>
+        <h1 className="text-5xl md:text-6xl font-bold mt-8 md:mt-20 uppercase">Upcoming Events</h1>
       </header>
 
       <section className="py-8">
@@ -40,9 +45,9 @@ const Events = () => {
       </section>
 
       <section className="py-8">
-        <h2 className="text-3xl font-bold text-center mb-4">All Events</h2>
+        <h2 className="text-4xl font-bold text-center mb-4 uppercase">Upcoming Events</h2>
         <div className="flex flex-col">
-          {sortedEvents.slice(1).map((event, index) => (
+          {upcomingEvents.slice(1).map((event, index) => (
             <div key={index} className="ml-10 mr-10 mb-5">
               <ArtistCard
                 artist={event.artist}
