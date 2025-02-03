@@ -83,8 +83,8 @@ const ArtistCard = ({ artist, date, img, bio, reverse, fullWidth }) => {
 
         // Animate the artist name and event date earlier
         tl.fromTo([artistName, eventDate], 
-          { opacity: 0, y: -50 }, 
-          { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out', stagger: 0.2 }, '-=0.8'
+          { opacity: -1, y: -50 }, 
+          { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out', stagger: 0.2 }, '-=0.8'
         );
       }
     },
@@ -97,6 +97,7 @@ const ArtistCard = ({ artist, date, img, bio, reverse, fullWidth }) => {
       <div className="p-4 w-full md:w-1/2 artist-bio">
         <h3 ref={artistRef} className="text-4xl font-bold font-alpina uppercase text-darkNavy mb-2 underline">{artist}</h3>
         <p ref={dateRef} className="text-darkNavy text-3xl font-alpina uppercase">{formattedDate}</p>
+        <p ref={dateRef} className="text-darkNavy text-3xl font-alpina uppercase">8 PM</p>
         <p ref={bioRef} className="mt-5 text-2xl text-darkNavy font-alpina uppercase">
           {bioLetters}
           {/* <span ref={cursorRef} className="blinking-cursor">|</span> */}

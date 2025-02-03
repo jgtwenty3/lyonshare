@@ -21,7 +21,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/lyonsharebeacon" className="text-white hidden md:block hover:text-teal-500">
             <img src={instagram} alt="Instagram" className="w-6 h-6" />
           </a>
-          <a href="https://www.instagram.com/lyonsharebeacon" className="text-white hidden md:block hover:text-teal-500">
+          <a href="https://open.spotify.com/user/31anlz2pzlcf6zgwduni7irr3t3m?si=51f245100bc84f0b" className="text-white hidden md:block hover:text-teal-500">
             <img src={spotify} alt="spotify" className="w-6 h-6" />
           </a>
           <a href="https://resy.com/cities/beacon-ny-ny/venues/lyonshare?seats=2&date=2024-12-11">

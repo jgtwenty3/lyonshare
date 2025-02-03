@@ -11,31 +11,31 @@ const teamMembers = [
   {
     name: "Chef Adam",
     title: "Executive Chef",
-    imageUrl: "/path/to/image2.jpg",
+    imageUrl: "/images/logo.svg",
   },
   {
     name: "Nick Merrifield",
     title: "AGM/Beverage Director",
  
-    imageUrl: "/path/to/image3.jpg",
+    imageUrl: "/images/logo.svg",
   },
   {
     name: "Jose Bazan",
     title: "Sous Chef",
 
-    imageUrl: "/path/to/image4.jpg",
+    imageUrl: "/images/logo.svg",
   },
   {
     name: "Claudia Clemente",
     title: "Service Manager",
 
-    imageUrl: "/path/to/image5.jpg",
+    imageUrl: "/images/logo.svg",
   },
   {
     name: "Lindsey Guerrero",
     title: "Concierge",
 
-    imageUrl: "/path/to/image6.jpg",
+    imageUrl: "/images/logo.svg",
   },
 ];
 

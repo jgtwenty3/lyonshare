@@ -310,7 +310,7 @@ export const eventsData = [
       img: 'images/musicians/JeremySchonfeld.png', 
       bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
     },
-    { artist: 'Tara O’Grady', 
+    { artist: "Tara O'Grady", 
       date: '2025-02-14', 
       img: '/images/musicians/taraOgrady.webp', 
       bio: "Tara O'Grady is a singer-songwriter, author, and educator known for her jazz, blues, and folk music. She has released five albums, written two memoirs, and performed internationally at festivals like Cork Jazz and SXSW. A featured artist in the BBC documentary Danny Boy, she has been recognized as one of Irish Voice’s Most Influential Women."

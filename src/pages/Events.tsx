@@ -36,7 +36,7 @@ const Events = () => {
       </section>
 
       <section className="py-8">
-        <h2 className="text-4xl font-bold text-center mb-4 uppercase text-darkNavy">Upcoming Events</h2>
+        <h2 className="text-4xl font-bold text-center mb-4 uppercase text-darkNavy">THIS MONTH</h2>
         <div className="flex flex-col">
           {upcomingEvents.slice(1).map((event, index) => (
             <div key={index} className="ml-10 mr-10 mb-5 rounded-t-lg">
