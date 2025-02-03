@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: "Bud Schemling",
     title: "Owner Operator",
-    imageUrl: "/images/bud.webp",
+    imageUrl: "/images/logo.svg",
     link: "/about#story",  // Link to the "OUR STORY" section on the About page
   },
   {
