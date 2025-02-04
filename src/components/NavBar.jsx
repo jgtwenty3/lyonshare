@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { TiLocationArrow } from "react-icons/ti";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -8,24 +8,18 @@ import clsx from "clsx";
 const navItems = ["HOME", "ABOUT", "OUR TEAM", "MENU", "GALLERY", "HOURS & LOCATION", "EVENTS", "SHOP"];
 
 const Navbar = () => {
-  const audioElementRef = useRef(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [isIndicatorActive, setIsIndicatorActive] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isSpotifyVisible, setIsSpotifyVisible] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   const toggleAudioIndicator = () => {
-    if (isAudioPlaying) {
-      audioElementRef.current.pause();
-    } else {
-      audioElementRef.current.play();
-    }
-    setIsAudioPlaying((prev) => !prev);
     setIsIndicatorActive((prev) => !prev);
+    setIsSpotifyVisible((prev) => !prev);
   };
 
   const handleMouseEnter = () => {
@@ -71,12 +65,6 @@ const Navbar = () => {
               className="hidden md:flex items-center space-x-0.5 ml-3"
             >
               <h2 className="nav-hover-btn text-darkNavy">tunes</h2>
-              <audio
-                ref={audioElementRef}
-                className="hidden"
-                src="/audio/bestJazzClub.mp3"
-                loop
-              />
               {[1, 2, 3, 4].map((bar) => (
                 <div
                   key={bar}
@@ -118,6 +106,19 @@ const Navbar = () => {
                 );
               })}
             </ul>
+          </div>
+        )}
+        {isSpotifyVisible && (
+          <div className="fixed top-20 right-0 w-full flex justify-end bg-transparent z-40 pr-4">
+            <iframe
+              style={{ borderRadius: '12px' }}
+              src="https://open.spotify.com/embed/track/5L0DkiFmBV0pV7jDmqfj6I?utm_source=generator&theme=0"
+              width="20%"
+              height="20%"
+              allowFullScreen={true}
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
           </div>
         )}
       </header>
