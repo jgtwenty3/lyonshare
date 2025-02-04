@@ -56,8 +56,8 @@ const OurTeam = () => {
                     alt={member.name}
                     className="w-full h-96 object-fit rounded-t-lg mb-4 shadow-lg"
                   />
-                  <h2 className="text-3xl font-bold mb-2 text-darkNavy underline font-alpina">{member.name}</h2>
-                  <h3 className="text-2xl text-darkNavy mb-2 font-alpina">{member.title}</h3>
+                  <h2 className="text-3xl font-bold mb-2 text-darkNavy underline font-alpina uppercase">{member.name}</h2>
+                  <h3 className="text-2xl text-darkNavy mb-2 font-alpina uppercase">{member.title}</h3>
                   
                 </div>
               </HashLink>
@@ -68,8 +68,8 @@ const OurTeam = () => {
                   alt={member.name}
                   className="w-full h-96 object-fit rounded-t-lg mb-4 shadow-lg"
                 />
-                <h2 className="text-3xl font-bold mb-2 text-darkNavy underline font-alpina">{member.name}</h2>
-                <h3 className="text-2xl text-darkNavy mb-2 font-alpina">{member.title}</h3>
+                <h2 className="text-3xl font-bold mb-2 text-darkNavy underline font-alpina uppercase">{member.name}</h2>
+                <h3 className="text-2xl text-darkNavy mb-2 font-alpina uppercase">{member.title}</h3>
               
               </div>
             )
