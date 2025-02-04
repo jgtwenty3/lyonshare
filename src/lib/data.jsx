@@ -59,7 +59,7 @@ export const dinnerMenu = [
     {
         title: 'SMALL PLATES',
         items: [
-            {name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARAMELIZED ONION CREMA, PICKLED RED ONION"}
+            { name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARAMELIZED ONION CREMA, PICKLED RED ONION"},
             { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
             { name: 'LOCAL LETTUCES', ingredients: 'CIDER SHALLOT VINAIGRETTE, LOCAL APPLES, TOASTED PUMPKIN SEEDS' },
             { name: 'PENICILLIN', ingredients: 'CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
