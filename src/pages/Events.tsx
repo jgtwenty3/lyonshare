@@ -5,26 +5,32 @@ import ArtistCard from "../components/ArtistCard";
 
 const Events = () => {
   const today = new Date();
+  console.log('Today:', today);
+
   const upcomingEvents = eventsData
-    .filter(event => new Date(event.date) >= today)
-    .sort((a,b)=> new Date(a.date).getTime() - new Date(b.date).getTime());
-  
+    .filter(event => {
+      const eventDate = new Date(event.date);
+      return eventDate >= today;
+    })
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
   const upNextEvent = upcomingEvents[0];
+  console.log('Up Next Event:', upNextEvent);
 
   return (
     <div className="bg-white min-h-screen">
       <header className="text-center py-8">
-        <h1 className="text-5xl md:text-7xl font-bold mt-8 md:mt-20 uppercase text-darkNavy">Upcoming Events</h1>
+        <h1 className="text-5xl md:text-7xl font-bold mt-10 md:mt-20 uppercase text-darkNavy underline">Upcoming Events</h1>
       </header>
 
       <section className="py-8">
-        <h2 className="text-5xl font-bold text-center mb-4 uppercase text-darkNavy">Up Next</h2>
+        <h2 className="text-5xl font-bold text-center mb-4 uppercase text-darkNavy">Next Up</h2>
         {upNextEvent && (
           <div className="w-full">
             <div className="ml-10 mr-10 mb-5 rounded-t-lg ">
               <ArtistCard
                 artist={upNextEvent.artist}
-                date={upNextEvent.date}
+                date={new Date(upNextEvent.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
                 img={upNextEvent.img}
                 bio={upNextEvent.bio}
                 reverse={false}
@@ -42,7 +48,7 @@ const Events = () => {
             <div key={index} className="ml-10 mr-10 mb-5 rounded-t-lg">
               <ArtistCard
                 artist={event.artist}
-                date={event.date}
+                date={new Date(event.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
                 img={event.img}
                 bio={event.bio}
                 reverse={index % 2 !== 0}

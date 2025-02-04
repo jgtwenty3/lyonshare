@@ -33,7 +33,7 @@ const Hours = () => {
       </div>
       <div className="relative w-full text-center">
         <img src="/images/map.png" className="w-full" alt="Map" style={{ marginTop: '-20px' }} />
-        <a href="https://www.google.com/maps/place/Lyonshare+Public+House" target="_blank" rel="noopener noreferrer" className="absolute bg-white text-darkNavy font-medium py-2 px-4 text-xl border-2 border-darkNavy hover:bg-darkNavy hover:text-manliusLimestone transition" style={{ top: '60%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+        <a href="https://maps.app.goo.gl/choSBBZY3AyZqeZXA" target="_blank" rel="noopener noreferrer" className="absolute bg-white text-darkNavy font-medium py-2 px-4 text-xl border-2 border-darkNavy hover:bg-darkNavy hover:text-manliusLimestone transition" style={{ top: '60%', left: '50%', transform: 'translate(-50%, -50%)' }}>
           GET DIRECTIONS
         </a>
       </div>

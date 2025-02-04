@@ -12,13 +12,7 @@ const ArtistCard = ({ artist, date, img, bio, reverse, fullWidth }) => {
   const artistRef = useRef(null);
   const dateRef = useRef(null);
   const bioRef = useRef(null);
-  const cursorRef = useRef(null);
   const imageSrc = img || fallbackImg;
-
-  // Split bio into letters
-  const bioLetters = bio.split("").map((letter, index) => (
-    <span key={index}>{letter}</span>
-  ));
 
   // Convert the date string to a Date object and format it to local time
   const formattedDate = new Date(date).toLocaleDateString('en-US', {
@@ -35,7 +29,6 @@ const ArtistCard = ({ artist, date, img, bio, reverse, fullWidth }) => {
       const artistName = artistRef.current;
       const eventDate = dateRef.current;
       const artistBio = bioRef.current;
-      const cursor = cursorRef.current;
 
       if (card) {
         // Create a GSAP timeline for sequential animations
@@ -46,32 +39,6 @@ const ArtistCard = ({ artist, date, img, bio, reverse, fullWidth }) => {
             end: "bottom top+=50%",
             scrub: true,
             once: true,
-            onEnter: () => {
-              const letters = artistBio.querySelectorAll('span');
-              gsap.fromTo(
-                letters,
-                { opacity: 0 },
-                {
-                  opacity: 1,
-                  duration: 0.01,
-                  ease: 'power2.out',
-                  stagger: {
-                    each: 0.02,
-                    onStart: function () {
-                      const letter = this.target;
-                      if (cursor && letter) {
-                        gsap.to(cursor, { x: letter.offsetLeft + letter.offsetWidth });
-                      }
-                    },
-                  },
-                  onComplete: () => {
-                    if (cursor) {
-                      cursor.classList.add('blinking-cursor');
-                    }
-                  },
-                }
-              );
-            }
           }
         });
 
@@ -81,10 +48,16 @@ const ArtistCard = ({ artist, date, img, bio, reverse, fullWidth }) => {
           { opacity: 1, x: 0, duration: 1, ease: 'power2.out' }
         );
 
-        // Animate the artist name and event date earlier
+        // Animate the artist name and event date
         tl.fromTo([artistName, eventDate], 
-          { opacity: -1, y: -50 }, 
+          { opacity: 0, y: -50 }, 
           { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out', stagger: 0.2 }, '-=0.8'
+        );
+
+        // Animate the bio sliding in from the opposite side of the photo
+        tl.fromTo(artistBio,
+          { opacity: 0, x: reverse ? 25 : -25 },
+          { opacity: 1, x: 0, duration: 2, ease: 'power2.out' }, '-=0.6'
         );
       }
     },
@@ -98,9 +71,8 @@ const ArtistCard = ({ artist, date, img, bio, reverse, fullWidth }) => {
         <h3 ref={artistRef} className="text-4xl font-bold font-alpina uppercase text-darkNavy mb-2 underline">{artist}</h3>
         <p ref={dateRef} className="text-darkNavy text-3xl font-alpina uppercase">{formattedDate}</p>
         <p ref={dateRef} className="text-darkNavy text-3xl font-alpina uppercase">8 PM</p>
-        <p ref={bioRef} className="mt-5 text-2xl text-darkNavy font-alpina uppercase">
-          {bioLetters}
-          {/* <span ref={cursorRef} className="blinking-cursor">|</span> */}
+        <p ref={bioRef} className="mt-5 text-md md:text-2xl text-darkNavy font-alpina uppercase">
+          {bio}
         </p>
       </div>
     </div>

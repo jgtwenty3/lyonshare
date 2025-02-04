@@ -282,77 +282,77 @@ export const imageList = [
 
 export const eventsData = [
     { artist: 'Leah Valentine', 
-      date: '2025-02-04', 
+      date: '2025-02-04T20:00:00-05:00', // 8 PM EST
       img: '/images/musicians/Leah2.jpg', 
       bio: 'Leah Valentine is a Beacon raised singer/songwriter and producer. The songs that she is sharing are an introspective reflection of her explorations and experiences with self love, loss, connection and growth.' 
     },
     { artist: 'Jeremy Schonfeld', 
-      date: '2025-02-06', 
+      date: '2025-02-06T20:00:00-05:00', // 8 PM EST
       img: 'images/musicians/JeremySchonfeld.png', 
       bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
     },
     { artist: 'Jeremy Willm', 
-      date: '2025-02-07', 
+      date: '2025-02-07T20:00:00-05:00', // 8 PM EST
       img: '', 
       bio: 'Jeremy Willm bio...' 
     },
     { artist: 'Neil Alexander', 
-      date: '2025-02-08', 
+      date: '2025-02-08T20:00:00-05:00', // 8 PM EST
       img: '/images/musicians/NeilAlexander.webp', 
       bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
     },
     { artist: 'Jazz Trio JAM', 
-      date: '2025-02-11', 
+      date: '2025-02-11T20:00:00-05:00', // 8 PM EST
       img: '', 
       bio: 'Jazz Trio JAM bio...' 
     },
     { artist: 'Jeremy Schonfeld', 
-      date: '2025-02-13', 
+      date: '2025-02-13T20:00:00-05:00', // 8 PM EST
       img: 'images/musicians/JeremySchonfeld.png', 
       bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
     },
     { artist: "Tara O'Grady", 
-      date: '2025-02-14', 
+      date: '2025-02-14T20:00:00-05:00', // 8 PM EST
       img: '/images/musicians/taraOgrady.webp', 
       bio: "Tara O'Grady is a singer-songwriter, author, and educator known for her jazz, blues, and folk music. She has released five albums, written two memoirs, and performed internationally at festivals like Cork Jazz and SXSW. A featured artist in the BBC documentary Danny Boy, she has been recognized as one of Irish Voice’s Most Influential Women."
     },
     { artist: 'Neil Alexander', 
-      date: '2025-02-15', 
+      date: '2025-02-15T20:00:00-05:00', // 8 PM EST
       img: '/images/musicians/NeilAlexander.webp', 
       bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
     },
     { artist: 'Paper Machete Global Psychedelia', 
-      date: '2025-02-18', 
+      date: '2025-02-18T20:00:00-05:00', // 8 PM EST
       img: '', 
       bio: 'Paper Machete Global Psychedelia bio...' 
     },
     { artist: 'Jeremy Schonfeld', 
-      date: '2025-02-20', 
+      date: '2025-02-20T20:00:00-05:00', // 8 PM EST
       img: 'images/musicians/JeremySchonfeld.png',
       bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
     },
     { artist: 'Jeremy Willm', 
-      date: '2025-02-21', 
+      date: '2025-02-21T20:00:00-05:00', // 8 PM EST
       img: '', 
       bio: 'Jeremy Willm bio...' 
     },
     { artist: 'Neil Alexander', 
-      date: '2025-02-22', 
+      date: '2025-02-22T20:00:00-05:00', // 8 PM EST
       img: '/images/musicians/NeilAlexander.webp',  
       bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
     },
     { artist: 'Broadway in Beacon', 
-      date: '2025-02-25', 
+      date: '2025-02-25T20:00:00-05:00', // 8 PM EST
       img: '', 
       bio: 'Broadway in Beacon is a community-driven platform celebrating musical theatre through performances, collaborations, and artistic expression. It provides a space for both seasoned professionals and emerging talent to connect, share their passion, and bring Broadway-style entertainment to the local scene.' 
     },
     { artist: 'Jeremy Schonfeld', 
-      date: '2025-02-27', 
+      date: '2025-02-27T20:00:00-05:00', // 8 PM EST
       img: 'images/musicians/JeremySchonfeld.png',
       bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
     },
     { artist: 'Jeremy Willm', 
-      date: '2025-02-28', 
+      date: '2025-02-28T20:00:00-05:00', // 8 PM EST
       img: '', 
       bio: 'Jeremy Willm bio...' 
     },
