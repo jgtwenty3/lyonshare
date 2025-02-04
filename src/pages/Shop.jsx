@@ -26,7 +26,7 @@ const Shop = () => {
             <p className="text-4xl">Beacon, NY 12508</p>
           </div>
           {/* <img src="/images/giftcard.svg" alt="Gift Card" className="w-full h-64 object-contain rounded-md" /> */}
-          <h3 className="text-3xl font-semibold font-alpina mt-5">GIFT CARD</h3>
+          <h3 className="text-3xl font-semibold font-alpina mt-5 text-darkNavy">GIFT CARD</h3>
         </a>
       </section>
     </div>
