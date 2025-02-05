@@ -71,7 +71,7 @@ const ArtistCard = ({ artist, date, img, bio, reverse, fullWidth }) => {
         <h3 ref={artistRef} className="text-4xl font-bold font-alpina uppercase text-darkNavy mb-2 underline">{artist}</h3>
         <p ref={dateRef} className="text-darkNavy text-3xl font-alpina uppercase">{formattedDate}</p>
         <p ref={dateRef} className="text-darkNavy text-3xl font-alpina uppercase">8 PM</p>
-        <p ref={bioRef} className="mt-5 text-md md:text-2xl text-darkNavy font-alpina uppercase">
+        <p ref={bioRef} className="mt-5 text-md md:text-2xl text-darkNavy font-alpina">
           {bio}
         </p>
       </div>

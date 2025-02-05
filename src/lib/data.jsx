@@ -14,8 +14,8 @@ export const brunchMenu = [
         { name: 'PENICILIN', ingredients: 'CHICKEN BROTH, VEGETABLES, & MATZO BALLS' },
         { name: 'SWEET STACK', ingredients: 'SEASON FRUIT, SWEET CREAM BUTTER, NYS MAPLE SYRUP' },
         { name: 'FULL BEACON', ingredients: '2 POACHED EGGS, PORK & BEANS, GRITS, TOMATO JAM, TOAST, HONEY BUTTER' },
-        { name: 'BEACON BENEDICT', ingredients: 'ENGLISH MUFFIC, GUANCIALE, BRUSSEL SPROUTS, ONION JAM, HOLLANDAISE' },
-        { name: 'FRENCH OMELET', ingredients: 'BABY GREENS, CIDER SHALLOT VINAIGRETTE' },
+        { name: 'FRENCH OMELETTE', ingredients: 'BABY GREENS, CIDER SHALLOT VINAIGRETTE' },
+        { name: 'BEACON BENEDICT', ingredients: 'ENGLISH MUFFIN, GUANCIALE, BRUSSEL SPROUTS, ONION JAM, HOLLANDAISE' },
         { name: 'THE BURGER', ingredients: 'DRY AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES (ADD EGG +$3)' },
       ]
     },
@@ -63,7 +63,7 @@ export const dinnerMenu = [
             { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
             { name: 'LOCAL LETTUCES', ingredients: 'CIDER SHALLOT VINAIGRETTE, LOCAL APPLES, TOASTED PUMPKIN SEEDS' },
             { name: 'PENICILLIN', ingredients: 'CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
-            { name: 'VEGETABLE FRITTERS', ingredients: 'CRISPY HEN OF THE WOOD MUSHROOMS, BRUSSELS SPROUTS, CHILI SAUCEE' },
+            { name: 'VEGETABLE FRITTERS', ingredients: 'CRISPY HEN OF THE WOOD MUSHROOMS, BRUSSELS SPROUTS, CHILI SAUCE' },
             { name: 'MAC & CHEESE', ingredients: 'THE BEACON BLEND, TOASTED THYME BREAD CRUMBS' }
         ]
     },

@@ -5,10 +5,13 @@ import { useInView } from 'react-intersection-observer';
 const hours = [
   "Mon 5pm-12am",
   "Tues 5pm-12am(bar only)",
-  "Wed 4pm-12am(happy hour 4-6pm)",
-  "Thurs 4pm-12am(happy hour 4-6 pm)",
-  "Fri 4pm-12am(happy hour 4-6pm)",
-  "Sat & Sun 11am-3pm(brunch)"
+  "Wed 5pm-12am",
+  "Thurs 5pm-12am",
+  "Fri 5pm-12am",
+  "Sat 5pm-12pm",
+  "Sun 5pm-12pm",
+  "Brunch",
+  "Sat & Sun 11am-3pm"
 ];
 
 const Intro = () => {
@@ -25,7 +28,7 @@ const Intro = () => {
             VISIT US
           </h1> */}
           <h1 className="text-3xl md:text-4xl mb-6 text-darkNavy text-center">
-            246 MAIN STREET, BEACON, NY, 12508
+            246 MAIN STREET BEACON, NY, 12508
           </h1>
           <ul className='text-center'>
             {hours.map((hour, index) => (
@@ -34,9 +37,7 @@ const Intro = () => {
               </li>
             ))}
           </ul>
-          <div className="ml-24 md:ml-32 flex flex-row gap-4 w-full justify-center text-md md:text-xl text-darkNavy font-alpina">
-            5pm-12am(dinner)
-          </div>
+        
         </div>
       </div>
     </div>

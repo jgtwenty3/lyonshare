@@ -19,8 +19,8 @@ const FoodandDrinks = () => {
             AN ELEVATED AMERICAN BISTRO NESTLED IN THE HEART OF THE HUDSON VALLEY
           </h1>
           <p ref={ref} className={`md:text-2xl text-lg text-darkNavy font-alpina m-5 ${inView ? 'scale-in-top' : ' '} md:w-2/3` }>
-          Celebrating the ethos of
-          classic public houses where meals and community merge to create memories.
+          Celebrating the ethos of classic public houses where honest food and communal spirit
+          unite.
           </p>
         </div>
         <a href="https://resy.com/cities/beacon-ny-ny/venues/lyonshare?seats=2&date=2024-12-11">

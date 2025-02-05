@@ -64,7 +64,7 @@ const AboutPage = () => {
             <h1 className="font-montefiore text-5xl md:mt-6 mb-6 text-darkNavy underline" id ="story">
               OUR STORY
             </h1>
-            <p ref={ref1} className={`text-lg md:text-2xl uppercase text-darkNavy font-alpina mt-2  mb-6 md:mt-20 leading-relaxed md:mb-6 ${inView1 ? 'text-focus-in' : ''}`}>
+            <p ref={ref1} className={`text-lg md:text-2xl  text-darkNavy font-alpina mt-2  mb-6 md:mt-20 leading-relaxed md:mb-6 ${inView1 ? 'text-focus-in' : ''}`}>
             Lyonshare Public House is the culminating vision of owner Bud Schmeling’s decades-long
             journey helming some of the most iconic establishments in NYC: Black Betty (Williamsburg),
             Peter Luger, and Gage & Tollner to name a few. Lyonshare showcases his passion for
@@ -97,7 +97,7 @@ const AboutPage = () => {
             <h1 className="font-montefiore text-5xl mb-6 text-darkNavy underline">
               OUR INSPIRATION
             </h1>
-            <p ref={ref4} className={`text-lg md:text-2xl uppercase text-darkNavy font-alpina leading-relaxed mb-6 md:w-[100%] ${inView4 ? 'text-focus-in' : ''}`}>
+            <p ref={ref4} className={`text-lg md:text-2xl  text-darkNavy font-alpina leading-relaxed mb-6 md:w-[100%] ${inView4 ? 'text-focus-in' : ''}`}>
               Lyonshare Public House pays tribute to the indomitable spirit of the Hudson Valley and the
               industrious legacy of its communities. We tip our hat to Captain John Lyon, lauded river boat
               captain and manager of the Smithsonian Hotel in the 19th century, He provided safe passage
