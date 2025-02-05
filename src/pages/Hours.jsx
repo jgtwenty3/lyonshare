@@ -24,7 +24,7 @@ const Hours = () => {
     <div className="w-full flex flex-col justify-between items-center min-h-screen">
       <div className="flex flex-col justify-center items-center text-center w-full lg:mr-4 p-10">
         <h1 className="mt-8 md:mt-20 text-7xl text-darkNavy md:mb-4=5 mb-10 underline">HOURS AND LOCATION</h1>
-        <h2 className="text-md md:text-3xl mb-4 text-darkNavy text-center font-alpina">246 MAIN STREET, BEACON, NY, 12508</h2>
+        <h2 className="text-3xl md:text-3xl mb-4 text-darkNavy text-center ">246 MAIN STREET, BEACON, NY, 12508</h2>
         <ul className='text-center'>
             {hours.map((hour, index) => (
                 <li key={index} className="mb-8 text-md md:text-xl text-darkNavy font-alpina">
