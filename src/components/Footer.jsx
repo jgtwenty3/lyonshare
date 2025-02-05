@@ -11,7 +11,7 @@ const Footer = () => {
           <a href="/">
             <h4 className="hidden md:block text-xl font-bold font-alpina">LYONSHARE PUBLIC HOUSE</h4>
           </a>
-          <p className="text-lg font-alpina hidden md:block">246 MAIN STREET, BEACON, NY 12508</p>
+          <p className="text-lg font-alpina hidden md:block">246 MAIN STREET BEACON, NY 12508</p>
         </div>
         
         <div className="social-links flex space-x-4">
