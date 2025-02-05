@@ -294,7 +294,7 @@ export const eventsData = [
     { artist: 'Jeremy Willm', 
       date: '2025-02-07T20:00:00-05:00', // 8 PM EST
       img: '', 
-      bio: 'Jeremy Willm bio...' 
+      bio: '' 
     },
     { artist: 'Neil Alexander', 
       date: '2025-02-08T20:00:00-05:00', // 8 PM EST
@@ -304,7 +304,7 @@ export const eventsData = [
     { artist: 'Jazz Trio JAM', 
       date: '2025-02-11T20:00:00-05:00', // 8 PM EST
       img: '', 
-      bio: 'Jazz Trio JAM bio...' 
+      bio: '' 
     },
     { artist: 'Jeremy Schonfeld', 
       date: '2025-02-13T20:00:00-05:00', // 8 PM EST
@@ -324,7 +324,7 @@ export const eventsData = [
     { artist: 'Paper Machete Global Psychedelia', 
       date: '2025-02-18T20:00:00-05:00', // 8 PM EST
       img: '', 
-      bio: 'Paper Machete Global Psychedelia bio...' 
+      bio: '' 
     },
     { artist: 'Jeremy Schonfeld', 
       date: '2025-02-20T20:00:00-05:00', // 8 PM EST
@@ -334,7 +334,7 @@ export const eventsData = [
     { artist: 'Jeremy Willm', 
       date: '2025-02-21T20:00:00-05:00', // 8 PM EST
       img: '', 
-      bio: 'Jeremy Willm bio...' 
+      bio: '' 
     },
     { artist: 'Neil Alexander', 
       date: '2025-02-22T20:00:00-05:00', // 8 PM EST
@@ -354,6 +354,6 @@ export const eventsData = [
     { artist: 'Jeremy Willm', 
       date: '2025-02-28T20:00:00-05:00', // 8 PM EST
       img: '', 
-      bio: 'Jeremy Willm bio...' 
+      bio: '' 
     },
 ];
