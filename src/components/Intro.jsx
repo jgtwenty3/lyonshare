@@ -8,8 +8,8 @@ const hours = [
   "Wed 5pm-12am",
   "Thurs 5pm-12am",
   "Fri 5pm-12am",
-  "Sat 5pm-12pm",
-  "Sun 5pm-12pm",
+  "Sat 5pm-12am",
+  "Sun 5pm-12am",
   "BRUNCH",
   "Sat & Sun 11am-3pm"
 ];
