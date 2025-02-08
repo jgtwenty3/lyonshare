@@ -301,10 +301,15 @@ export const eventsData = [
       img: '/images/musicians/NeilAlexander.webp', 
       bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
     },
-    { artist: 'Jazz Trio JAM', 
+    // { artist: 'Jazz Trio JAM', 
+    //   date: '2025-02-11T20:00:00-05:00', // 8 PM EST
+    //   img: '', 
+    //   bio: '' 
+    // },
+    { artist: 'Zohar & Adam - Every Second Tuesday', 
       date: '2025-02-11T20:00:00-05:00', // 8 PM EST
       img: '', 
-      bio: '' 
+      bio: "Zohar & Adam are a Beacon based duo of brothers steadily gaining notoriety in the new jazz scene. At just 18 and 20 years old, they have already performed in a number of prestigious venues across the country and have collaborated with musicians such as Christian McBride, J3PO, Hadrien Feraud, Steve Wilson, and many more. “The Everything Jam”, hosted by Z&A, is a monthly jam at LyonShare comprising of completely improvised music welcoming artists of all kinds."
     },
     { artist: 'Jeremy Schonfeld', 
       date: '2025-02-13T20:00:00-05:00', // 8 PM EST
