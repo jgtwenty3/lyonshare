@@ -41,7 +41,7 @@ const AboutPage = () => {
   const [ref1, inView1] = useInView({ threshold: 0.1, triggerOnce: true });
   const [ref2, inView2] = useInView({ threshold: 0.1, triggerOnce: true });
   const [ref3, inView3] = useInView({ threshold: 0.1, triggerOnce: true });
-  const [ref4, inView4] = useInView({ threshold: 0.1, triggerOnce: true });
+  const [ref4, inView4] = useInView({ threshold: 0.50, triggerOnce: true });
 
   return (
     <div>
