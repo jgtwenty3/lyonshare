@@ -24,7 +24,7 @@ const Gallery = () => {
       </div>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ml-5 mr-5 md:mr-9 mt-5">
-        {imageList.slice(0, 9).map((src, index) => (
+        {imageList.slice(0, 12).map((src, index) => (
           <div key={index} className="aspect-w-1 aspect-h-1">
             <img
               src={src}

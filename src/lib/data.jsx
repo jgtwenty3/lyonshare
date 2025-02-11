@@ -265,19 +265,21 @@ export const bottleList = [
 
 
 export const imageList = [
+    '/images/food/burgerFriesDrink.webp',
+    '/images/food/Steak.webp',
     '/images/food/martini.webp',
-    '/images/food/burgerFriesDrink.webp',
-    '/images/food/burgerSoupOverhead.webp',
-    '/images/food/saladDrink.webp',
-    '/images/food/burgerFriesDrink.webp',
-    '/images/food/herbMartini.webp',
-    '/images/inside.jpg',
+
+    '/images/food/steak_2.webp',
+    '/images/food/Carrots.webp',
+    '/images/food/cheesecake.webp',
+
+    '/images/food/overhead_1.webp',
     '/images/food/cocktail.webp',
-    '/images/food/diningroom.png',
-    '/images/food/crowd.png',
-    '/images/food/saladDrink.webp',
-    '/images/food/crowd.png',
-    '/images/food/entrance.png'
+    '/images/food/perogies.webp',
+    
+    '/images/food/overhead_2.webp',
+    '/images/food/root_beer_float_2.webp',
+    '/images/food/perogiescarrots.webp'
 ];
 
 export const eventsData = [
