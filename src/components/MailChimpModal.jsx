@@ -19,7 +19,7 @@ const MailchimpModal = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-      <div ref={modalRef} className="bg-white p-6 shadow-lg max-w-lg w-full relative border-8 border-darkNavy">
+      <div ref={modalRef} className="bg-white p-6 shadow-lg max-w-lg w-full relative border-8 border-darkNavy m-5">
         <button className="absolute top-2 right-2 text-xl text-darkNavy" onClick={onClose}>
           ✖
         </button>
