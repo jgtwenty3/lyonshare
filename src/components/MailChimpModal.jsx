@@ -51,7 +51,7 @@ const MailchimpModal = ({ isOpen, onClose }) => {
                   <input
                     type="text"
                     name="FNAME"
-                    className="text border-2 p-2 w-full focus:outline-none focus:ring-2 focus:ring-darkNavy font-alpina text-darkNavy"
+                    className="text border-2 p-2 w-full focus:outline-none focus:ring-2 focus:ring-darkNavy font-alpina text-darkNavy rounded-none"
                     id="mce-FNAME"
                   />
                 </div>
@@ -60,7 +60,7 @@ const MailchimpModal = ({ isOpen, onClose }) => {
                   <input
                     type="text"
                     name="LNAME"
-                    className="text border p-2 w-full focus:outline-none focus:ring-2 focus:ring-darkNavy font-alpina text-darkNavy"
+                    className="text border p-2 w-full focus:outline-none focus:ring-2 focus:ring-darkNavy font-alpina text-darkNavy rounded-none "
                     id="mce-LNAME"
                   />
                 </div>
@@ -69,7 +69,7 @@ const MailchimpModal = ({ isOpen, onClose }) => {
                   <div className="datefield">
                     <span className="subfield monthfield">
                       <input
-                        className="birthday border p-2 w-full focus:outline-none focus:ring-2 focus:ring-darkNavy font-alpina text-darkNavy"
+                        className="birthday border p-2 w-full focus:outline-none focus:ring-2 focus:ring-darkNavy font-alpina text-darkNavy rounded-none"
                         type="text"
                         pattern="[0-9]*"
                         placeholder="MM"
@@ -81,7 +81,7 @@ const MailchimpModal = ({ isOpen, onClose }) => {
                     </span> /
                     <span className="subfield dayfield">
                       <input
-                        className="birthday border p-2 w-full focus:outline-none focus:ring-2 focus:ring-darkNavy font-alpina"
+                        className="birthday border p-2 w-full focus:outline-none focus:ring-2 focus:ring-darkNavy font-alpina rounded-none"
                         type="text"
                         pattern="[0-9]*"
                         placeholder="DD"
