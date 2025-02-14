@@ -16,7 +16,7 @@ export const brunchMenu = [
         { name: 'FULL BEACON', ingredients: '2 POACHED EGGS, PORK & BEANS, GRITS, TOMATO JAM, TOAST, HONEY BUTTER' },
         { name: 'FRENCH OMELETTE', ingredients: 'BABY GREENS, CIDER SHALLOT VINAIGRETTE' },
         { name: 'BEACON BENEDICT', ingredients: 'ENGLISH MUFFIN, GUANCIALE, BRUSSEL SPROUTS, ONION JAM, HOLLANDAISE' },
-        { name: 'THE BURGER', ingredients: 'DRY AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES (ADD EGG +$3)' },
+        { name: 'THE BURGER', ingredients: 'DRY AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES' },
       ]
     },
     {
@@ -30,7 +30,7 @@ export const brunchMenu = [
         { name: 'FRENCH FRIES' },
         { name: 'TOAST' },
         { name: 'BISCUITS & GRAVY' },
-        { name: '(ADD 2 EGGS +$5)' },
+        
       ]
     },
     {

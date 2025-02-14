@@ -9,7 +9,7 @@ const teamMembers = [
     link: "/about#story",  // Link to the "OUR STORY" section on the About page
   },
   {
-    name: "Chef Adam Slamon",
+    name: "Adam Slamon",
     title: "Executive Chef",
     imageUrl: "/images/logo.svg",
   },
