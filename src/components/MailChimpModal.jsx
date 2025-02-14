@@ -98,7 +98,7 @@ const MailchimpModal = ({ isOpen, onClose }) => {
                   <input
                     type="submit"
                     name="subscribe"
-                    className="bg-white text-darkNavy border-2 border-darkNavy py-2 px-4 hover:bg-darkNavy hover:text-white cursor-pointer text-xl"
+                    className="bg-white text-darkNavy border-2 border-darkNavy py-2 px-4 hover:bg-darkNavy hover:text-white cursor-pointer text-xl rounded-none"
                     value="SUBSCRIBE"
                   />
                 </div>
