@@ -10,33 +10,35 @@ import Menu from './pages/Menu';
 import Hours from './pages/Hours';
 import Gallery from './pages/Gallery';
 import ScrollToTop from './components/ScrollToTop';
-import './index.css'
+import './index.css';
 import Events from './pages/Events';
 import OurTeam from './pages/OurTeam';
 import Shop from './pages/Shop';
+import NotFound from './pages/NotFound';
+
 
 function App() {
   return (
     <Router>
       <ScrollToTop/>
-      <main >
+      <main>
         <NavBar />
         <Routes>
           <Route path="/" element={
             <>
               <Hero/>
-              {/* <WordFlash/> */}
               <FoodandDrinks/>
               <Intro />
             </>
           } />
           <Route path="/about" element={<About />} />
-          <Route path ="/our-team" element = {<OurTeam/>}/>
+          <Route path="/our-team" element={<OurTeam />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/hours" element={<Hours />} />
-          <Route path = "/gallery" element = {<Gallery/>}/>
-          <Route path ="/events" element = {<Events/>}/>
-          <Route path ="/shop" element = {<Shop/>}/>
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="*" element={<NotFound />} /> {/* Catch-all route for 404 */}
         </Routes>
         <Footer />
       </main>
