@@ -33,7 +33,7 @@ const teamMembers = [
   },
   {
     name: "Lindsey Guerrero",
-    title: "Concierge",
+    title: "Reservationist",
 
     imageUrl: "/images/logo.svg",
   },
