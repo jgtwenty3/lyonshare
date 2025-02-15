@@ -10,6 +10,7 @@ const NotFound = () => {
   const armRef1 = useRef(null);
   const johnnyRef2 = useRef(null);
   const armRef2 = useRef(null);
+  const buttonRef = useRef(null);
 
   useGSAP(() => {
     // First set of animations
@@ -53,6 +54,13 @@ const NotFound = () => {
       ease: 'power3.out', // Smooth easing effect
     });
 
+    gsap.to(buttonRef.current, {
+      zIndex: 1000,
+      duration: 0,
+      delay: 6, // Ensure this happens after all other animations
+    });
+    
+
   
   }, []);
 
@@ -62,15 +70,15 @@ const NotFound = () => {
         <h1 className="text-9xl font-bold mb-4 text-darkNavy mt-20">WRONG WAY</h1>
         <p className="text-4xl mb-8 uppercase text-darkNavy">Oops! The page you're looking for doesn't exist.</p>
         <Link to="/">
-          <button className="bg-white text-darkNavy border-2 border-darkNavy hover:bg-darkNavy hover:text-white py-2 px-4 rounded-none transition duration-200 text-xl">
+          <button ref ={buttonRef} className="bg-white text-darkNavy border-2 border-darkNavy hover:bg-darkNavy hover:text-white py-2 px-4 rounded-none transition duration-200 text-xl">
             GO BACK HOME
           </button>
         </Link>
       </div>
       <div className="relative flex items-center justify-center w-full h-full"> {/* Ensure full height container */}
-        <img src={johnny} alt="Johnny" ref={johnnyRef1} className="absolute bottom-10 -right-24 w-[35%] max-w-none md:w-[30%]" />
+        <img src={johnny} alt="Johnny" ref={johnnyRef1} className="absolute bottom-10 -right-24 w-[75%] max-w-none md:w-[30%]" />
         <img src={arm} alt="Arm pointing" ref={armRef1} className="hidden md:block absolute bottom-16 w-[28%] right-64 opacity-90" />
-        <img src={johnny} alt="Johnny" ref={johnnyRef2} className="absolute bottom-10 -left-24 w-[35%] max-w-none md:w-[30%] transform scale-x-[-1]" />
+        <img src={johnny} alt="Johnny" ref={johnnyRef2} className="absolute bottom-10 -left-24 w-[75%] max-w-none md:w-[30%] transform scale-x-[-1]" />
         <img src={arm} alt="Arm pointing" ref={armRef2} className="hidden md:block absolute bottom-16 w-[28%] left-64 opacity-90 transform scale-x-[-1] -rotate-45" />
       </div>
     </div>
