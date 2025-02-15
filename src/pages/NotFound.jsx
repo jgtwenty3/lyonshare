@@ -68,9 +68,9 @@ const NotFound = () => {
         </Link>
       </div>
       <div className="relative flex items-center justify-center w-full h-full"> {/* Ensure full height container */}
-        <img src={johnny} alt="Johnny" ref={johnnyRef1} className="absolute bottom-10 -right-24 w-[75%] max-w-none md:w-[30%]" />
+        <img src={johnny} alt="Johnny" ref={johnnyRef1} className="absolute bottom-10 -right-24 w-[35%] max-w-none md:w-[30%]" />
         <img src={arm} alt="Arm pointing" ref={armRef1} className="hidden md:block absolute bottom-16 w-[28%] right-64 opacity-90" />
-        <img src={johnny} alt="Johnny" ref={johnnyRef2} className="absolute bottom-10 -left-24 w-[75%] max-w-none md:w-[30%] transform scale-x-[-1]" />
+        <img src={johnny} alt="Johnny" ref={johnnyRef2} className="absolute bottom-10 -left-24 w-[35%] max-w-none md:w-[30%] transform scale-x-[-1]" />
         <img src={arm} alt="Arm pointing" ref={armRef2} className="hidden md:block absolute bottom-16 w-[28%] left-64 opacity-90 transform scale-x-[-1] -rotate-45" />
       </div>
     </div>
