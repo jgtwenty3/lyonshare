@@ -41,7 +41,7 @@ const MailchimpModal = ({ isOpen, onClose }) => {
                   <input
                     type="email"
                     name="EMAIL"
-                    className="required email border p-2 w-full focus:outline-none focus:ring-2 focus:ring-darkNavy font-alpina"
+                    className="required email border p-2 w-full focus:outline-none focus:ring-2 focus:ring-darkNavy font-alpina rounded-none"
                     id="mce-EMAIL"
                     required
                   />
