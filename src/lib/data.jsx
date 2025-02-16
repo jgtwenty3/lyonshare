@@ -340,18 +340,13 @@ export const eventsData = [
     },
     { artist: 'Jeremy Willm', 
       date: '2025-02-21T20:00:00-05:00', // 8 PM EST
-      img: '', 
+      img: '/images/musicians/jeremy_wilm.webp', 
       bio: '' 
     },
     { artist: 'Neil Alexander', 
       date: '2025-02-22T20:00:00-05:00', // 8 PM EST
       img: '/images/musicians/NeilAlexander.webp',  
       bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
-    },
-    { artist: 'Broadway in Beacon', 
-      date: '2025-02-25T20:00:00-05:00', // 8 PM EST
-      img: '', 
-      bio: 'Broadway in Beacon is a community-driven platform celebrating musical theatre through performances, collaborations, and artistic expression. It provides a space for both seasoned professionals and emerging talent to connect, share their passion, and bring Broadway-style entertainment to the local scene.' 
     },
     { artist: 'Jeremy Schonfeld', 
       date: '2025-02-27T20:00:00-05:00', // 8 PM EST
@@ -360,7 +355,7 @@ export const eventsData = [
     },
     { artist: 'Jeremy Willm', 
       date: '2025-02-28T20:00:00-05:00', // 8 PM EST
-      img: '', 
+      img: '/images/musicians/jeremy_wilm.webp', 
       bio: '' 
     },
 ];

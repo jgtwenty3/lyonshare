@@ -40,7 +40,7 @@ const NotFound = () => {
     }, {
       x: 0, // End position (current position)
       duration: 1,
-      delay: 8, // Delay after the first set of animations
+      delay: 6, // Delay after the first set of animations
       ease: 'power3.out', // Smooth easing effect
     });
     gsap.fromTo(armRef2.current, {
@@ -50,7 +50,7 @@ const NotFound = () => {
       y: 0, // End position (current position)
       rotation: 130, // Increased end rotation counterclockwise
       duration: 1,
-      delay: 9, // Delay after the first set of animations
+      delay: 7, // Delay after the first set of animations
       ease: 'power3.out', // Smooth easing effect
     });
     
