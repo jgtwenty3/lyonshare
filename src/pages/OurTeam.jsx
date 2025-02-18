@@ -5,37 +5,37 @@ const teamMembers = [
   {
     name: "Bud Schmeling",
     title: "Owner Operator",
-    imageUrl: "/images/logo.svg",
+    imageUrl: "/staff/bud.webp",
     link: "/about#story",  // Link to the "OUR STORY" section on the About page
   },
   {
     name: "Adam Slamon",
     title: "Executive Chef",
-    imageUrl: "/images/logo.svg",
+    imageUrl: "/staff/adam.webp",
   },
   {
     name: "Nick Merrifield",
     title: "AGM/Beverage Director",
  
-    imageUrl: "/images/logo.svg",
+    imageUrl: "/staff/nick.webp",
   },
   {
     name: "Jose Bazan",
     title: "Sous Chef",
 
-    imageUrl: "/images/logo.svg",
+    imageUrl: "/staff/jose.webp",
   },
   {
     name: "Claudia Clemente",
     title: "Service Manager",
 
-    imageUrl: "/images/logo.svg",
+    imageUrl: "/staff/claudia.webp",
   },
   {
     name: "Lindsey Guerrero",
     title: "Reservationist",
 
-    imageUrl: "/images/logo.svg",
+    imageUrl: "/staff/lindsey.webp",
   },
 ];
 
@@ -54,7 +54,7 @@ const OurTeam = () => {
                   <img
                     src={member.imageUrl}
                     alt={member.name}
-                    className="w-full h-96 object-fit rounded-t-lg mb-4 shadow-lg"
+                    className="w-full h-96 object-cover rounded-t-lg mb-4 shadow-lg"
                   />
                   <h2 className="text-3xl font-bold mb-2 text-darkNavy underline font-alpina uppercase">{member.name}</h2>
                   <h3 className="text-2xl text-darkNavy mb-2 font-alpina">{member.title}</h3>
@@ -66,7 +66,7 @@ const OurTeam = () => {
                 <img
                   src={member.imageUrl}
                   alt={member.name}
-                  className="w-full h-96 object-fit rounded-t-lg mb-4 shadow-lg"
+                  className="w-full h-96 object-cover rounded-t-lg mb-4 shadow-lg"
                 />
                 <h2 className="text-3xl font-bold mb-2 text-darkNavy font-alpina uppercase">{member.name}</h2>
                 <h3 className="text-2xl text-darkNavy mb-2 font-alpina">{member.title}</h3>
