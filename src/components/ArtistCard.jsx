@@ -66,7 +66,9 @@ const ArtistCard = ({ artist, date, img, bio, reverse, fullWidth }) => {
 
   return (
     <div ref={cardRef} className={`w-full p-4 flex flex-col shadow-lg shadow-darkNavy ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} items-center ${fullWidth ? 'border-2 border-darkNavy ' : 'border border-darkNavy rounded-lg'}`}>
-      <img ref={imageRef} src={imageSrc} alt={artist} className="w-full md:w-1/2 h-64 md:h-96 object-cover" />
+      <div className="relative w-full md:w-1/2 h-64 md:h-96 bg-darkNavy">
+        <img ref={imageRef} src={imageSrc} alt={artist} className="absolute inset-0 w-full h-full object-fill" />
+      </div>
       <div className="p-4 w-full md:w-1/2 artist-bio">
         <h3 ref={artistRef} className="text-4xl font-bold font-alpina uppercase text-darkNavy mb-2 underline">{artist}</h3>
         <p ref={dateRef} className="text-darkNavy text-3xl font-alpina uppercase">{formattedDate}</p>
