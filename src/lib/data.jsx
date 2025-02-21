@@ -81,7 +81,7 @@ export const dinnerMenu = [
         title: 'STEAKS',
         items: [
             { name: '',ingredients:'CHARGRILLED WITH ROASTED GARLIC PURÉE, COMPOUND BUTTER AND BROWN SAUCE'  },
-            { name: 'BUTCHER CUT 32 OZ PORTERHOUSE', ingredients: 'FOR TWO' },
+            { name: 'BUTCHER CUT 32 OZ DRY-AGED PORTERHOUSE', ingredients: 'FOR TWO' },
             { name: 'NEW YORK STRIP' },
             
         ]
@@ -111,7 +111,7 @@ export const cocktailMenu = [
         items: [
             { name: "LYONSHARE MANHATTAN ", ingredients: "RYE, HOUSE VERMOUTH BLEND, CHERRY" },
             { name: "CAPTAIN LYON", ingredients: "VODKA, JUNIPER, INDIGO, BERGAMOT, OLIVE" },
-            { name: " ALGONQUIN NEGRONI ", ingredients: " GIN, METHOD SWEET VERMOUTH, LUXARDO BITTER, ORANGE" },
+            { name: "ALGONQUIN NEGRONI ", ingredients: "GIN, METHOD SWEET VERMOUTH, LUXARDO BITTER, ORANGE" },
             { name: "BEN THE HORSE", ingredients: "RUM, LEMON, APPLE CIDER, ANISE" },
             { name: "MADAME BRETT", ingredients: "GIN, THYME, HONEY, JUNIPER, CAVA" },
             { name: "MELIO BETTINA", ingredients: "BOURBON, ORANGE, ESPRESSO" },
