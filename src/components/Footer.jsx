@@ -20,6 +20,9 @@ const Footer = () => {
             <p className="text-lg font-alpina hidden md:block">
               246 MAIN STREET BEACON, NY 12508
             </p>
+            <p className="text-lg font-alpina hidden md:block">
+              <a href="tel:+18452754932">845.275.4932</a>
+            </p>
           </div>
 
           <div className="social-links flex space-x-4">

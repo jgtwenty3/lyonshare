@@ -32,6 +32,7 @@ const Hours = () => {
                 </li>
             ))}
         </ul>
+        <a href="tel:+18452754932" className="font-alpina text-xl">845.275.4932</a>
        
       </div>
       <div className="relative w-full text-center">
