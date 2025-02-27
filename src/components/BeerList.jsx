@@ -21,7 +21,7 @@ const BeerList = ({ beerSection }) => {
                 });
 
                 return (
-                  <li ref={ref} key={itemIndex} className={`w-full text-lg font-alpina`}>
+                  <li ref={ref} key={itemIndex} className={`w-full text-xl font-alpina`}>
                     <p className='uppercase'>{item.name}</p>
                   </li>
                 );

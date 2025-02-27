@@ -62,7 +62,7 @@ export const dinnerMenu = [
             { name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARAMELIZED ONION CREMA, PICKLED RED ONION"},
             { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
             { name: 'LOCAL LETTUCES', ingredients: 'CIDER SHALLOT VINAIGRETTE, LOCAL APPLES, TOASTED PUMPKIN SEEDS' },
-            { name: 'PENICILLIN', ingredients: 'CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
+            { name: 'PENICILLIN', ingredients: 'ORGANIC CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
             { name: 'VEGETABLE FRITTERS', ingredients: 'CRISPY HEN OF THE WOOD MUSHROOMS, BRUSSELS SPROUTS, CHILI SAUCE' },
             { name: 'MAC & CHEESE', ingredients: 'THE BEACON BLEND, TOASTED THYME BREAD CRUMBS' }
         ]
@@ -70,10 +70,10 @@ export const dinnerMenu = [
     {
         title: 'MAINS',
         items: [
-            { name: 'THE BURGER', ingredients: 'DRY AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES' },
-            { name: 'HALF FRIED CHICKEN', ingredients: 'SHARP AND CREAMY SLAW, BISCUITS, BUTTER, AND HONEY' },
+            { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES' },
+            { name: 'ORGANIC HALF FRIED CHICKEN', ingredients: 'SHARP AND CREAMY SLAW, BISCUITS, BUTTER AND HONEY' },
             { name: 'MOULE FRITES', ingredients: 'PEI MUSSELS, WHITE WINE, ANDOUILLE SAUSAGE, CILANTRO, FRENCH FRIES' },
-            { name: 'MIXED GRAIN RISOTO', ingredients: 'BUTTERNUT SQUASH, OLIVE OIL, LEMON, AND HERBS' },
+            { name: 'MIXED GRAIN RISOTTO', ingredients: 'BUTTERNUT SQUASH, OLIVE OIL, LEMON AND HERBS' },
             { name: 'WILD STRIPED BASS ', ingredients: 'FRENCH LENTILS, BRUSSELS SPROUT SALAD, FRESH HERBS' }
         ]
     },
@@ -241,7 +241,7 @@ export const bottleList = [
                 items: [
                     { name: "FORMENTINI SAUVIGNON 2022" },
                     { name: "MILENRAMA WHITE RIOJA 2023" },
-                    { name: "Quinta Do Passadouro Branco 2019" },
+                    { name: "QUINTA DO PASSADOURO BRANCO 2019" },
                     { name: "CONTESSE VIOGNIER 2023" },
                     { name: "WESTMOUNT CHARDONNAY 2022" },
                     
