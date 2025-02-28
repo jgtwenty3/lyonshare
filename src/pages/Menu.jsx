@@ -40,7 +40,7 @@ const Menu = () => {
     <div>
       <div className="relative w-screen h-[600px] md:h-[800px]">
         <img
-          src="/images/food/drinkNFood.webp"
+          src="/images/food/drinkNFood2.webp"
           alt="boat"
           className="w-full h-full object-cover border-2 border-darkNavy"
         />

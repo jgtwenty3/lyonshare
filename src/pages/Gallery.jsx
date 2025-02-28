@@ -30,7 +30,7 @@ const Gallery = () => {
               src={src}
               alt={`Gallery item ${index + 1}`}
               className="w-full h-full object-cover rounded-md"
-              loading="lazy"
+              
             />
           </div>
         ))}

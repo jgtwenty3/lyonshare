@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 gsap.registerPlugin(ScrollTrigger);
 
 const AboutPage = () => {
-  const [imageSrc, setImageSrc] = useState('/images/johnphoto.jpeg');
+  const [imageSrc, setImageSrc] = useState('/images/johnphoto.webp');
   const imageRef = useRef(null);
   const textRef = useRef(null);
 
@@ -25,7 +25,7 @@ const AboutPage = () => {
             opacity: 0,
             duration: 2,
             onComplete: () => {
-              setImageSrc('/images/johnPainting.png');
+              setImageSrc('/images/portrait.webp');
               gsap.to(imageRef.current, { opacity: 1, duration: 1.5 });
             },
           });

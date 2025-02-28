@@ -265,9 +265,9 @@ export const bottleList = [
 
 
 export const imageList = [
-    '/images/food/burgerFriesDrink.webp',
+    '/images/food/burgerFriesDrink1.webp',
     '/images/food/Steak.webp',
-    '/images/food/martini.webp',
+    '/images/food/martini1.webp',
 
     '/images/food/steak_2.webp',
     '/images/food/Carrots.webp',

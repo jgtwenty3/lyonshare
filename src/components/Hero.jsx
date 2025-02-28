@@ -65,7 +65,7 @@ const Hero = ({ backgroundImage, logoImage, animationDuration = 1 }) => {
       <div className="relative">
         {/* Large Screen Image */}
         <img
-          src="/images/lighthouse2.png"
+          src="/images/lighthouse2.webp"
           alt="background"
           className="w-full h-auto hidden md:block object-cover"
         />
