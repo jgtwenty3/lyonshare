@@ -71,9 +71,10 @@ export const dinnerMenu = [
         title: 'MAINS',
         items: [
             { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES' },
+            { name: 'RISOTTO', ingredients: 'CARNAROLI RICE, ENGLISH PEAS, MINT, MICRO PEA SHOOTS, PARMESAN CHEESE, LEMON OIL' },
+            { name: 'GNOCCHI', ingredients: 'PORTOBELLO BOLOGNESE, PARMESAN, WHIPPED LEMON RICOTTA' },
             { name: 'ORGANIC HALF FRIED CHICKEN', ingredients: 'SHARP AND CREAMY SLAW, BISCUITS, BUTTER AND HONEY' },
             { name: 'MOULE FRITES', ingredients: 'PEI MUSSELS, WHITE WINE, ANDOUILLE SAUSAGE, CILANTRO, FRENCH FRIES' },
-            { name: 'MIXED GRAIN RISOTTO', ingredients: 'BUTTERNUT SQUASH, OLIVE OIL, LEMON AND HERBS' },
             { name: 'WILD STRIPED BASS ', ingredients: 'FRENCH LENTILS, BRUSSELS SPROUT SALAD, FRESH HERBS' }
         ]
     },
@@ -109,12 +110,18 @@ export const cocktailMenu = [
     {
         title: "COCKTAILS",
         items: [
-            { name: "LYONSHARE MANHATTAN ", ingredients: "RYE, HOUSE VERMOUTH BLEND, CHERRY" },
-            { name: "CAPTAIN LYON", ingredients: "VODKA, JUNIPER, INDIGO, BERGAMOT, OLIVE" },
-            { name: "ALGONQUIN NEGRONI ", ingredients: "GIN, METHOD SWEET VERMOUTH, LUXARDO BITTER, ORANGE" },
-            { name: "BEN THE HORSE", ingredients: "RUM, LEMON, APPLE CIDER, ANISE" },
+            { name: "ANCIENT MARINER", ingredients: "VODKA, PINEAPPLE, SPICED PEAR, ALMOND, GINGER" },
+            { name: "ROCCO THE DUCK", ingredients: "MEZCAL, APEROL, CITRUS, CHERRY COLA, SMOKE" },
             { name: "MADAME BRETT", ingredients: "GIN, THYME, HONEY, JUNIPER, CAVA" },
+            { name: "CAPTAIN LYON", ingredients: "VODKA, JUNIPER, INDIGO, BERGAMOT, OLIVE" },
             { name: "MELIO BETTINA", ingredients: "BOURBON, ORANGE, ESPRESSO" },
+            { name: "ST. GREGORIO", ingredients: "TEQUILLA, SUGAR CANE, GRAPEFRUIT, MARASCHINO, ABSINTHE" },
+            { name: "LYONSHARE MANHATTAN", ingredients: "RYE, HOUSE VERMOUTH BLEND, CHERRY" },
+            { name: "ALGONQUIN", ingredients: "GIN, METHOD SWEET VERMOUTH, LUXARDO BITTER, ORANGE" },
+            { name: "BEN THE HORSE", ingredients: "RUM, LEMON, APPLE CIDER, ANISE" },
+            { name: "ARTURO BANDINI", ingredients: "VODKA, ESPRESSO, VANILLA, NUTMEG" },
+            
+          
             
         ]
     },
@@ -132,8 +139,9 @@ export const beerMenu = [
                 { name: "Industrial Arts Metric Pilsner" },
                 { name: "Sloop Juice Bomb IPA" }
             ] },
-            { subtitle: "CANS", items: [
+            { subtitle: "", items: [
                 { name: "Athletic Hazy IPA NA" },
+                { name: "DUVEL BELGIAN GOLDEN ALE" },
                 { name: "Hudson North Standard Cider" },
                 { name: "Narragansett Lager" },
                 { name: "Allagash White" },
