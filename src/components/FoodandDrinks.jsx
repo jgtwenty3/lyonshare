@@ -15,9 +15,9 @@ const FoodandDrinks = () => {
       <div className="flex flex-col items-center mt-10 gap-5">
         <div className="flex items-center flex-col text-center px-4">
           <img src="/icons/lighthouse.png" alt="boat" className="w-20 md:w-24" />
-          <h1 className="text-3xl md:text-5xl text-darkNavy mb-3 mt-3 md:mb-5">
+          <h2 className="text-3xl md:text-5xl text-darkNavy mb-3 mt-3 md:mb-5">
             AN ELEVATED AMERICAN BISTRO NESTLED IN THE HEART OF THE HUDSON VALLEY
-          </h1>
+          </h2>
           <p ref={ref} className={`md:text-2xl text-lg text-darkNavy font-alpina m-5 ${inView ? 'scale-in-top' : ' '} md:w-2/3` }>
           Celebrating the ethos of classic public houses where honest food and communal spirit
           unite.

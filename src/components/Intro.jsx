@@ -21,15 +21,15 @@ const Intro = () => {
   });
   return (
     <div>
-      <div className="flex flex-col md:flex-row h-auto p-5 mr-0 md:mr-3 mb-5">
+      <div className="flex flex-col md:flex-row h-auto p-5 mr-0 md:mr-3 ">
         {/* Left Section */}
         <div className="flex-1 flex flex-col justify-center items-center p-5 md:p-8 w-full">
           {/* <h1 className={`text-5xl md:text-7xl mb-4 text-darkNavy text-center ${inView ? 'tracking-in-expand' : ''}`}>
             VISIT US
           </h1> */}
-          <h1 className="text-3xl md:text-4xl mb-6 text-darkNavy text-center">
+          <h3 className="text-3xl md:text-4xl mb-6 text-darkNavy text-center">
             246 MAIN STREET BEACON, NY, 12508
-          </h1>
+          </h3>
           <ul className='text-center'>
             {hours.map((hour, index) => (
               <li key={index} className="mb-2 md:mb-5 text-md md:text-xl text-darkNavy font-alpina">
@@ -39,6 +39,16 @@ const Intro = () => {
           </ul>
         
         </div>
+      </div>
+      <div className='mb-10'>
+        <h4 className='text-3xl md:text-4xl mb-6 text-darkNavy text-center'>HAPPY HOUR</h4>
+        <div className='font-alpina text-center text-md md:text-xl'>Mon-Fri 4pm-6pm</div>
+        <div className='font-alpina text-center text-md md:text-xl'>$2 Oysters</div>
+        <div className='font-alpina text-center text-md md:text-xl'>(No Oysters on Tuesdays)</div>
+        <div className='font-alpina text-center text-md md:text-xl'>$10 Wine</div>
+        <div className='font-alpina text-center text-md md:text-xl'>$10 Negronis</div>
+        <div className='font-alpina text-center text-md md:text-xl'>Draft Beer Specials</div>
+        
       </div>
     </div>
   );
