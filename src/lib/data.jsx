@@ -9,13 +9,16 @@ export const brunchMenu = [
     {
       title: 'BRUNCH',
       items: [
+        { name: 'AVOCADO TOAST', ingredients: 'SOURDOUGH BREAD, CARROT "CHORIZO", AVACODO MASH, OLIVE OIL, MALDON SALT' },
+        { name: 'RICOTTA TOAST', ingredients: 'SOURDOUGH BREAD, LEMON RICOTTA, MANDARIN ORANGE MARMALADE, CANDIED MANDARIN ZEST' },
         { name: 'YOGURT & FRUIT', ingredients: 'GREEK YOGURT, LYONSHARE GRANOLA, ALMONDS, SEASONAL JAM, FRESH BERRIES' },
         { name: 'LOCAL LETTUCES', ingredients: 'CIDER SHALLOT VINAIGRETTE, LOCAL APPLES, TOASTED PUMPKIN SEEDS' },
         { name: 'PENICILIN', ingredients: 'CHICKEN BROTH, VEGETABLES, & MATZO BALLS' },
         { name: 'SWEET STACK', ingredients: 'SEASON FRUIT, SWEET CREAM BUTTER, NYS MAPLE SYRUP' },
-        { name: 'FULL BEACON', ingredients: '2 POACHED EGGS, PORK & BEANS, GRITS, TOMATO JAM, TOAST, HONEY BUTTER' },
-        { name: 'FRENCH OMELETTE', ingredients: 'BABY GREENS, CIDER SHALLOT VINAIGRETTE' },
         { name: 'BEACON BENEDICT', ingredients: 'ENGLISH MUFFIN, GUANCIALE, BRUSSEL SPROUTS, ONION JAM, HOLLANDAISE' },
+        { name: 'BISCUITS AND GRAVY', ingredients: '2 SUNNY SIDE EGGS, FENNEL SAUSAGE GRAVY ' },
+        { name: 'TURKISH EGGS', ingredients: 'SUMAC YOGURT, 2 SUNNY SIDE EGGS, WALNUT GREMOLATA, SPICE BUTTER, AND TOAST' },
+        { name: 'FRENCH OMELETTE', ingredients: 'BABY GREENS, CIDER SHALLOT VINAIGRETTE' },
         { name: 'THE BURGER', ingredients: 'DRY AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES' },
       ]
     },
@@ -23,7 +26,6 @@ export const brunchMenu = [
       title: 'SIDES',
       items: [
         { name: 'SILVER DOLLAR JOHNNYCAKES' },
-        { name: 'PORK & BEANS' },
         { name: 'THICK CUT BACON' },
         { name: 'MAC & CHEESE' },
         { name: 'SIDE SALAD' },
@@ -59,6 +61,7 @@ export const dinnerMenu = [
     {
         title: 'SMALL PLATES',
         items: [
+            { name: "ARANCINI", ingredients:"ROASTED GARLIC TOMATO SAUCE, PARMESAN, FONTINA CHEESE, PARSELY TOMATO OIL"},
             { name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARAMELIZED ONION CREMA, PICKLED RED ONION"},
             { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
             { name: 'LOCAL LETTUCES', ingredients: 'CIDER SHALLOT VINAIGRETTE, LOCAL APPLES, TOASTED PUMPKIN SEEDS' },
