@@ -74,11 +74,10 @@ export const dinnerMenu = [
         title: 'MAINS',
         items: [
             { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES' },
-            { name: 'RISOTTO', ingredients: 'CARNAROLI RICE, ENGLISH PEAS, MINT, MICRO PEA SHOOTS, PARMESAN CHEESE, LEMON OIL' },
+            { name: 'SEA BASS', ingredients: 'RICE CRUSTED, CHERRY TOMATOES, CASTELVETRANO OLIVES, FENNEL, DILL, SCHUG' },
             { name: 'GNOCCHI', ingredients: 'PORTOBELLO BOLOGNESE, PARMESAN, WHIPPED LEMON RICOTTA' },
             { name: 'ORGANIC HALF FRIED CHICKEN', ingredients: 'SHARP AND CREAMY SLAW, BISCUITS, BUTTER AND HONEY' },
             { name: 'MOULE FRITES', ingredients: 'PEI MUSSELS, WHITE WINE, ANDOUILLE SAUSAGE, CILANTRO, FRENCH FRIES' },
-            { name: 'WILD STRIPED BASS ', ingredients: 'FRENCH LENTILS, BRUSSELS SPROUT SALAD, FRESH HERBS' }
         ]
     },
     {
@@ -93,7 +92,7 @@ export const dinnerMenu = [
     {
         title: 'SIDE DISHES',
         items: [
-            { name: "", ingredients: 'BABY CARROTS WITH YOGURT AND BREAD CRUMBS, GOAT CHEESE SCALLOPED POTATOES'},
+            { name: "", ingredients: 'BABY CARROTS WITH YOGURT AND BREAD CRUMBS, CRISPY HERBED POTATOES'},
             { name: "",ingredients:'BISCUITS, BUTTER, AND HONEY,  SAUTEED SPINACH AND GARLIC,  FRENCH FRIES' }
         ]
     },
@@ -144,11 +143,10 @@ export const beerMenu = [
             ] },
             { subtitle: "", items: [
                 { name: "Athletic Hazy IPA NA" },
-                { name: "DUVEL BELGIAN GOLDEN ALE" },
+                { name: "Duvel Belgian Golden Ale" },
                 { name: "Hudson North Standard Cider" },
                 { name: "Narragansett Lager" },
                 { name: "Allagash White" },
-                { name: "Oska Blue Pale Ale" },
                 { name: "Tecate" }
             ] }
         ]
@@ -250,10 +248,9 @@ export const bottleList = [
             {
                 subtitle: "WHITE",
                 items: [
+                    { name: "MARTIN CODAX ALBARIÑO 2023" },
                     { name: "FORMENTINI SAUVIGNON 2022" },
-                    { name: "MILENRAMA WHITE RIOJA 2023" },
-                    { name: "QUINTA DO PASSADOURO BRANCO 2019" },
-                    { name: "CONTESSE VIOGNIER 2023" },
+                    { name: "GABRIELLA LUGANA TREBBIANO 2023" },
                     { name: "WESTMOUNT CHARDONNAY 2022" },
                     
                 ]
@@ -263,7 +260,7 @@ export const bottleList = [
                 items: [
                     { name: "MELINI CHIANTI RISERVA 2021" },
                     { name: "GIENNOIS PINOT NOIR 2021" },
-                    { name: "CUNE RIOJA CRIANZA 2020 " },
+                    { name: "VIGNETI DEL SOLE MONTEPULCIANO 2022 " },
                     { name: "POCO A POCO CABERNET 2021" },
                     
                 ]
