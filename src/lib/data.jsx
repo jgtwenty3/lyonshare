@@ -291,79 +291,117 @@ export const imageList = [
 ];
 
 export const eventsData = [
-    { artist: 'Leah Valentine', 
-      date: '2025-02-04T20:00:00-05:00', // 8 PM EST
-      img: '/images/musicians/Leah2.jpg', 
-      bio: 'Leah Valentine is a Beacon raised singer/songwriter and producer. The songs that she is sharing are an introspective reflection of her explorations and experiences with self love, loss, connection and growth.' 
-    },
-    { artist: 'Jeremy Schonfeld', 
-      date: '2025-02-06T20:00:00-05:00', // 8 PM EST
-      img: 'images/musicians/JeremySchonfeld.png', 
-      bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
-    },
-    { artist: 'Jeremy Willm', 
-      date: '2025-02-07T20:00:00-05:00', // 8 PM EST
-      img: '', 
-      bio: '' 
-    },
-    { artist: 'Neil Alexander', 
-      date: '2025-02-08T20:00:00-05:00', // 8 PM EST
-      img: '/images/musicians/NeilAlexander.webp', 
-      bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
-    },
+    {
+        artist: 'Rev Vince Anderson',
+        date: '2025-06-05T20:00:00-04:00', // 8 PM EDT
+        img: 'images/musicians/revVince.webp',
+        bio: 'Reverend Vince Anderson is an American, New York City based musician. He has performed a weekly show every Monday night at Union Pool in Brooklyn for over 25 years. Reverend Vince calls his high energy gospel-rock music "dirty gospel", and has been described as a Brooklyn institution.'
+      },
+      {
+        artist: "J Wilms’ Paper Machete",
+        date: '2025-06-07T20:00:00-04:00', // 8 PM EDT
+        img: 'images/musicians/jWilms.jpg',
+        bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
+      },
+      {
+        artist: 'Leif Arntzen Trio',
+        date: '2025-06-12T20:00:00-04:00', // 8 PM EDT
+        img: 'images/musicians/leif.jpg',
+        bio: 'The Leif Arntzen Trio is a creative group of musicians dedicated to the art of spontaneous music making without boundaries or other earthly concerns. This band exists only within the sounds it can create from the heart and mind. The recordings are essentially jam sessions with no formal structure, occasionally referencing classic melodies and chord structures. '
+      },
+      {
+        artist: "J Wilms’ Paper Machete",
+        date: '2025-06-14T20:00:00-04:00', // 8 PM EDT
+        img: 'images/musicians/jWilms.jpg',
+        bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
+      },
+      {
+        artist: 'Leah Valentine',
+        date: '2025-06-19T20:00:00-04:00', // 8 PM EDT
+        img: 'images/musicians/Leah2.jpg',
+        bio: ''
+      },
+      {
+        artist: 'Jack Grace',
+        date: '2025-06-21T20:00:00-04:00', // 8 PM EDT
+        img: 'images/musicians/jackGrace.webp',
+        bio: `“It sounds like Cole Porter meets Gene Autry.” — Clyde Haberman, New York Times
+      
+      “He’s like that Cash kid, but good.” — Jerry Lee Lewis on hearing Jack live
+      
+      "As clever as the Beatles...Jack's voice is splendid!" — Americana Highways`
+      },
+      
+      {
+        artist: 'Mike Ferrio',
+        date: '2025-06-26T20:00:00-04:00', // 8 PM EDT
+        img: '',
+        bio: ''
+      },
+      {
+        artist: "J Wilms’ Paper Machete",
+        date: '2025-06-28T20:00:00-04:00', // 8 PM EDT
+        img: 'images/musicians/jWilms.jpg',
+        bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
+      }
+    // { artist: 'Neil Alexander', 
+    //   date: '2025-02-08T20:00:00-05:00', // 8 PM EST
+    //   img: '/images/musicians/NeilAlexander.webp', 
+    //   bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
+    // },
     // { artist: 'Jazz Trio JAM', 
     //   date: '2025-02-11T20:00:00-05:00', // 8 PM EST
     //   img: '', 
     //   bio: '' 
     // },
-    { artist: 'Zohar & Adam - Every Second Tuesday', 
-      date: '2025-02-11T20:00:00-05:00', // 8 PM EST
-      img: '', 
-      bio: "Zohar & Adam are a Beacon based duo of brothers steadily gaining notoriety in the new jazz scene. At just 18 and 20 years old, they have already performed in a number of prestigious venues across the country and have collaborated with musicians such as Christian McBride, J3PO, Hadrien Feraud, Steve Wilson, and many more. “The Everything Jam”, hosted by Z&A, is a monthly jam at LyonShare comprising of completely improvised music welcoming artists of all kinds."
-    },
-    { artist: 'Jeremy Schonfeld', 
-      date: '2025-02-13T20:00:00-05:00', // 8 PM EST
-      img: 'images/musicians/JeremySchonfeld.png', 
-      bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
-    },
-    { artist: "Tara O'Grady", 
-      date: '2025-02-14T20:00:00-05:00', // 8 PM EST
-      img: '/images/musicians/taraOgrady.webp', 
-      bio: "Tara O'Grady is a singer-songwriter, author, and educator known for her jazz, blues, and folk music. She has released five albums, written two memoirs, and performed internationally at festivals like Cork Jazz and SXSW. A featured artist in the BBC documentary Danny Boy, she has been recognized as one of Irish Voice’s Most Influential Women."
-    },
-    { artist: 'Neil Alexander', 
-      date: '2025-02-15T20:00:00-05:00', // 8 PM EST
-      img: '/images/musicians/NeilAlexander.webp', 
-      bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
-    },
-    { artist: 'Paper Machete Global Psychedelia', 
-      date: '2025-02-18T20:00:00-05:00', // 8 PM EST
-      img: '', 
-      bio: '' 
-    },
-    { artist: 'Jeremy Schonfeld', 
-      date: '2025-02-20T20:00:00-05:00', // 8 PM EST
-      img: 'images/musicians/JeremySchonfeld.png',
-      bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
-    },
-    { artist: 'Jeremy Willm', 
-      date: '2025-02-21T20:00:00-05:00', // 8 PM EST
-      img: '/images/musicians/jeremy_wilm.webp', 
-      bio: '' 
-    },
-    { artist: 'Neil Alexander', 
-      date: '2025-02-22T20:00:00-05:00', // 8 PM EST
-      img: '/images/musicians/NeilAlexander.webp',  
-      bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
-    },
-    { artist: 'Jeremy Schonfeld', 
-      date: '2025-02-27T20:00:00-05:00', // 8 PM EST
-      img: 'images/musicians/JeremySchonfeld.png',
-      bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
-    },
-    { artist: 'Jeremy Willm', 
-      date: '2025-02-28T20:00:00-05:00', // 8 PM EST
-      img: '/images/musicians/jeremy_wilm.webp', 
-      bio: '' 
-    },
+    // { artist: 'Zohar & Adam - Every Second Tuesday', 
+    //   date: '2025-02-11T20:00:00-05:00', // 8 PM EST
+    //   img: '', 
+    //   bio: "Zohar & Adam are a Beacon based duo of brothers steadily gaining notoriety in the new jazz scene. At just 18 and 20 years old, they have already performed in a number of prestigious venues across the country and have collaborated with musicians such as Christian McBride, J3PO, Hadrien Feraud, Steve Wilson, and many more. “The Everything Jam”, hosted by Z&A, is a monthly jam at LyonShare comprising of completely improvised music welcoming artists of all kinds."
+    // },
+    // { artist: 'Jeremy Schonfeld', 
+    //   date: '2025-02-13T20:00:00-05:00', // 8 PM EST
+    //   img: 'images/musicians/JeremySchonfeld.png', 
+    //   bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
+    // },
+    // { artist: "Tara O'Grady", 
+    //   date: '2025-02-14T20:00:00-05:00', // 8 PM EST
+    //   img: '/images/musicians/taraOgrady.webp', 
+    //   bio: "Tara O'Grady is a singer-songwriter, author, and educator known for her jazz, blues, and folk music. She has released five albums, written two memoirs, and performed internationally at festivals like Cork Jazz and SXSW. A featured artist in the BBC documentary Danny Boy, she has been recognized as one of Irish Voice’s Most Influential Women."
+    // },
+    // { artist: 'Neil Alexander', 
+    //   date: '2025-02-15T20:00:00-05:00', // 8 PM EST
+    //   img: '/images/musicians/NeilAlexander.webp', 
+    //   bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
+    // },
+    // { artist: 'Paper Machete Global Psychedelia', 
+    //   date: '2025-02-18T20:00:00-05:00', // 8 PM EST
+    //   img: '', 
+    //   bio: '' 
+    // },
+    // { artist: 'Jeremy Schonfeld', 
+    //   date: '2025-02-20T20:00:00-05:00', // 8 PM EST
+    //   img: 'images/musicians/JeremySchonfeld.png',
+    //   bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
+    // },
+    // { artist: 'Jeremy Willm', 
+    //   date: '2025-02-21T20:00:00-05:00', // 8 PM EST
+    //   img: '/images/musicians/jeremy_wilm.webp', 
+    //   bio: '' 
+    // },
+    // { artist: 'Neil Alexander', 
+    //   date: '2025-02-22T20:00:00-05:00', // 8 PM EST
+    //   img: '/images/musicians/NeilAlexander.webp',  
+    //   bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
+    // },
+    // { artist: 'Jeremy Schonfeld', 
+    //   date: '2025-02-27T20:00:00-05:00', // 8 PM EST
+    //   img: 'images/musicians/JeremySchonfeld.png',
+    //   bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
+    // },
+    // { artist: 'Jeremy Willm', 
+    //   date: '2025-02-28T20:00:00-05:00', // 8 PM EST
+    //   img: '/images/musicians/jeremy_wilm.webp', 
+    //   bio: '' 
+    // },
 ];
