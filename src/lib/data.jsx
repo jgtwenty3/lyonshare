@@ -50,12 +50,31 @@ export const brunchMenu = [
       }
   ];
   
-export const lunchMenu = {
-    title:"LUNCH",
+export const lunchMenu = [
+    {title:"STARTERS",
     items:[
-        {name:'COMING SOON'}
-    ]
-}
+        { name: "BURRATA N PEACH", ingredients:"GRILLED YELLOW PEACHES, PROSCIUTTO, BURRATA CHEESE, MINT, TOASTED ALMOND, BASIL OIL"},
+        { name: "AVOCADO TOAST", ingredients:"SOURDOUGH BREAD, CARROT 'CHORIZO', AVOCADO MASH, OLIVE OIL"},
+        { name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARMELIZED ONION CREMA, PICKLED RED ONION"},
+        { name: 'BUTTER N BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
+        { name: 'MATZO BALL SOUP', ingredients: 'CHICKEN, BROTH, VEGETABLES, MATZO BALLS' },
+        { name: 'LYONNAISE SALAD', ingredients: 'FRISÉE, CRISPY POTATOES, POACHED EGG, BACON, URFA BIEBER CREMA' },
+        { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
+        { name: 'MAC & CHEESE', ingredients: 'THE BEACON BLEND, TOASTED THYME BREAD CRUMBS' }
+    ]},
+
+    {title:"MAINS",
+    items:[
+        { name: "CHICKEN SALAD SANDWICH", ingredients:"TOASTED MULTIGRAIN SOURDOUGH ROLL, URFA BIEBER CREMA, WALNUT GREMOLATO, BABY GEM, PICKLES AND LYONSHARE SLAW"},
+        { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED TAVERN BUN, VINEGAR PICKLES, FRENCH FRIES' },
+        { name: 'MOULE FRITES', ingredients: 'PEI MUSSELS, AJI AMARILLO CORN, PICKLED RED ONION, CHERRY TOMATOES, PARSLEY, FRENCH FRIES' },
+        { name: 'FRIED CHICKEN SANDWICH', ingredients: 'CRIPSY CHICKEN THIGH, SHARP AND CREAMY SLAW, VINEGAR PICKLES, KOREAN BBQ SAUCE' },
+        { name: 'STEAK FRITES', ingredients: '8 OZ GRILLED FLAT IRON STEAK, GARLIC CONFIT, BROWN SAUCE, FRENCH FRIES' },
+        { name: 'GNOCCHI', ingredients: "CARROT 'CHORIZO', PARMESAN, BASIL OIL" },
+        
+    ]}
+
+]
 
 export const dinnerMenu = [
     {
