@@ -343,7 +343,14 @@ export const eventsData = [
         date: '2025-06-28T20:00:00-04:00', // 8 PM EDT
         img: 'images/musicians/jWilms.jpg',
         bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
+      },
+      {
+        artist: "The Song Swap Open Mic",
+        date: '2025-07-01T20:00:00-04:00', // 8 PM EDT
+        img: 'images/musicians/songswap.webp',
+        bio: '5:30PM Sign Up'
       }
+      
     // { artist: 'Neil Alexander', 
     //   date: '2025-02-08T20:00:00-05:00', // 8 PM EST
     //   img: '/images/musicians/NeilAlexander.webp', 

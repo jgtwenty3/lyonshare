@@ -42,7 +42,13 @@ const Hours = () => {
         
       </div>
         <a href="tel:+18452754932" className="font-alpina text-xl">845.275.4932</a>
-       
+        <a href="mailto:bud@lyonsharebeacon.com"
+        className="mt-2 bg-white text-darkNavy text-lg uppercase  font-medium py-2 px-6 border-2 border-darkNavy hover:bg-white hover:text-darkNavy transition"
+        >
+        Contact for Private Events
+        </a>
+
+    
       </div>
       <div className="relative w-full text-center">
         <img src="/images/map.png" className="w-full" alt="Map" style={{ marginTop: '-20px' }} />
