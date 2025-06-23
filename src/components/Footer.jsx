@@ -56,6 +56,17 @@ const Footer = () => {
               KEEP IN TOUCH
             </button>
           </div>
+          {/* Centered Instagram icon for mobile */}
+          <div className="w-full flex justify-center mt-2 md:hidden">
+            <a
+              href="https://www.instagram.com/lyonsharebeacon"
+              className="text-white"
+            >
+              <img src={instagram} alt="Instagram" className="w-6 h-6" />
+            </a>
+          </div>
+
+
         </div>
       </footer>
 
