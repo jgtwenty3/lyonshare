@@ -450,7 +450,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* @keyframes marquee-left-to-right {
+@keyframes marquee-left-to-right {
   0% {
     transform: translateX(100%);
   }
@@ -464,6 +464,6 @@ html {
 }
 
 .marquee-text {
-  @apply inline-block text-darkNavy font-alpina text-sm md:text-6xl font-bold uppercase;
+  @apply inline-block text-darkNavy font-alpina text-3xl md:text-6xl font-bold uppercase;
   animation: marquee-left-to-right 20s linear infinite;
-} */
+}

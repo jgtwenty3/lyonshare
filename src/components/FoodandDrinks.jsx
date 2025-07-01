@@ -15,7 +15,7 @@ const FoodandDrinks = () => {
     <div className='mt-24 md:mt-5'>
       <div className="flex flex-col items-center mt-10 gap-5">
         <div className="flex items-center flex-col text-center px-4">
-          {/* <p className='text-4xl md:text-8xl'> LYONSHARE PUBLIC HOUSE VOTED BEST NEW RESTAURANT IN THE HUDSON VALLEY 2025 BY CHRONOGRAM MAGAZINE</p> */}
+          <p className='text-4xl md:text-8xl'> LYONSHARE PUBLIC HOUSE VOTED BEST NEW RESTAURANT IN THE HUDSON VALLEY 2025 BY CHRONOGRAM MAGAZINE</p>
           <img src="/icons/lighthouse.png" alt="boat" className="w-20 md:w-24" />
           
           <h2 className="text-3xl md:text-5xl text-darkNavy mb-3 mt-3 md:mb-5">
