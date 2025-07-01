@@ -449,3 +449,21 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* @keyframes marquee-left-to-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-container {
+  @apply overflow-hidden whitespace-nowrap w-full bg-white py-2;
+}
+
+.marquee-text {
+  @apply inline-block text-darkNavy font-alpina text-sm md:text-6xl font-bold uppercase;
+  animation: marquee-left-to-right 20s linear infinite;
+} */

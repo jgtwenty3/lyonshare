@@ -53,7 +53,7 @@ export const brunchMenu = [
 export const lunchMenu = [
     {title:"STARTERS",
     items:[
-        { name: "BURRATA N' PEACH", ingredients:"GRILLED YELLOW PEACHES, PROSCIUTTO, BURRATA CHEESE, MINT, TOASTED ALMOND, BASIL OIL"},
+        { name: "BURRATA & PEACH", ingredients:"GRILLED YELLOW PEACHES, PROSCIUTTO, BURRATA CHEESE, MINT, TOASTED ALMOND, BASIL OIL"},
         { name: "AVOCADO TOAST", ingredients:"SOURDOUGH BREAD, CARROT 'CHORIZO', AVOCADO MASH, OLIVE OIL"},
         { name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARMELIZED ONION CREMA, PICKLED RED ONION"},
         { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
@@ -91,11 +91,11 @@ export const dinnerMenu = [
     {
         title: 'MAINS',
         items: [
-            { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES' },
+            { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED TAVERN BUN, VINEGAR PICKLES, FRENCH FRIES' },
             { name: 'SEA BASS', ingredients: 'RICE CRUSTED, CHERRY TOMATOES, CASTELVETRANO OLIVES, FENNEL, DILL, SCHUG' },
             { name: 'GNOCCHI', ingredients: 'PORTOBELLO BOLOGNESE, PARMESAN, WHIPPED LEMON RICOTTA' },
             { name: 'ORGANIC HALF FRIED CHICKEN', ingredients: 'SHARP AND CREAMY SLAW, BISCUITS, BUTTER AND HONEY' },
-            { name: 'MOULE FRITES', ingredients: 'PEI MUSSELS, WHITE WINE, ANDOUILLE SAUSAGE, CILANTRO, FRENCH FRIES' },
+            { name: 'MOULE FRITES', ingredients: 'PEI MUSSELS, AJI AMARILLO CORN, PICKLED RED ONION, CHERRY TOMATOES, PARSLEY, FRENCH FRIES' },
         ]
     },
     {
@@ -309,59 +309,59 @@ export const imageList = [
 ];
 
 export const eventsData = [
-    {
-        artist: 'Rev Vince Anderson',
-        date: '2025-06-05T20:00:00-04:00', // 8 PM EDT
-        img: 'images/musicians/revVince.webp',
-        bio: 'Reverend Vince Anderson is an American, New York City based musician. He has performed a weekly show every Monday night at Union Pool in Brooklyn for over 25 years. Reverend Vince calls his high energy gospel-rock music "dirty gospel", and has been described as a Brooklyn institution.'
-      },
-      {
-        artist: "J Wilms’ Paper Machete",
-        date: '2025-06-07T20:00:00-04:00', // 8 PM EDT
-        img: 'images/musicians/jWilms.jpg',
-        bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
-      },
-      {
-        artist: 'Leif Arntzen Trio',
-        date: '2025-06-12T20:00:00-04:00', // 8 PM EDT
-        img: 'images/musicians/leif.jpg',
-        bio: 'The Leif Arntzen Trio is a creative group of musicians dedicated to the art of spontaneous music making without boundaries or other earthly concerns. This band exists only within the sounds it can create from the heart and mind. The recordings are essentially jam sessions with no formal structure, occasionally referencing classic melodies and chord structures. '
-      },
-      {
-        artist: "J Wilms’ Paper Machete",
-        date: '2025-06-14T20:00:00-04:00', // 8 PM EDT
-        img: 'images/musicians/jWilms.jpg',
-        bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
-      },
-      {
-        artist: 'Leah Valentine',
-        date: '2025-06-19T20:00:00-04:00', // 8 PM EDT
-        img: 'images/musicians/Leah2.jpg',
-        bio: ''
-      },
-      {
-        artist: 'Jack Grace',
-        date: '2025-06-21T20:00:00-04:00', // 8 PM EDT
-        img: 'images/musicians/jackGrace.webp',
-        bio: `“It sounds like Cole Porter meets Gene Autry.” — Clyde Haberman, New York Times
+    // {
+    //     artist: 'Rev Vince Anderson',
+    //     date: '2025-06-05T20:00:00-04:00', // 8 PM EDT
+    //     img: 'images/musicians/revVince.webp',
+    //     bio: 'Reverend Vince Anderson is an American, New York City based musician. He has performed a weekly show every Monday night at Union Pool in Brooklyn for over 25 years. Reverend Vince calls his high energy gospel-rock music "dirty gospel", and has been described as a Brooklyn institution.'
+    //   },
+    //   {
+    //     artist: "J Wilms’ Paper Machete",
+    //     date: '2025-06-07T20:00:00-04:00', // 8 PM EDT
+    //     img: 'images/musicians/jWilms.jpg',
+    //     bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
+    //   },
+    //   {
+    //     artist: 'Leif Arntzen Trio',
+    //     date: '2025-06-12T20:00:00-04:00', // 8 PM EDT
+    //     img: 'images/musicians/leif.jpg',
+    //     bio: 'The Leif Arntzen Trio is a creative group of musicians dedicated to the art of spontaneous music making without boundaries or other earthly concerns. This band exists only within the sounds it can create from the heart and mind. The recordings are essentially jam sessions with no formal structure, occasionally referencing classic melodies and chord structures. '
+    //   },
+    //   {
+    //     artist: "J Wilms’ Paper Machete",
+    //     date: '2025-06-14T20:00:00-04:00', // 8 PM EDT
+    //     img: 'images/musicians/jWilms.jpg',
+    //     bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
+    //   },
+    //   {
+    //     artist: 'Leah Valentine',
+    //     date: '2025-06-19T20:00:00-04:00', // 8 PM EDT
+    //     img: 'images/musicians/Leah2.jpg',
+    //     bio: ''
+    //   },
+    //   {
+    //     artist: 'Jack Grace',
+    //     date: '2025-06-21T20:00:00-04:00', // 8 PM EDT
+    //     img: 'images/musicians/jackGrace.webp',
+    //     bio: `“It sounds like Cole Porter meets Gene Autry.” — Clyde Haberman, New York Times
       
-      “He’s like that Cash kid, but good.” — Jerry Lee Lewis on hearing Jack live
+    //   “He’s like that Cash kid, but good.” — Jerry Lee Lewis on hearing Jack live
       
-      "As clever as the Beatles...Jack's voice is splendid!" — Americana Highways`
-      },
+    //   "As clever as the Beatles...Jack's voice is splendid!" — Americana Highways`
+    //   },
       
-      {
-        artist: 'Mike Ferrio',
-        date: '2025-06-26T20:00:00-04:00', // 8 PM EDT
-        img: '',
-        bio: ''
-      },
-      {
-        artist: "J Wilms’ Paper Machete",
-        date: '2025-06-28T20:00:00-04:00', // 8 PM EDT
-        img: 'images/musicians/jWilms.jpg',
-        bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
-      },
+    //   {
+    //     artist: 'Mike Ferrio',
+    //     date: '2025-06-26T20:00:00-04:00', // 8 PM EDT
+    //     img: '',
+    //     bio: ''
+    //   },
+    //   {
+    //     artist: "J Wilms’ Paper Machete",
+    //     date: '2025-06-28T20:00:00-04:00', // 8 PM EDT
+    //     img: 'images/musicians/jWilms.jpg',
+    //     bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
+    //   },
       {
         artist: "The Song Swap Open Mic",
         date: '2025-07-01T20:00:00-04:00', // 8 PM EDT
