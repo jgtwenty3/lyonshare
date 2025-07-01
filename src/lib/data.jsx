@@ -367,7 +367,25 @@ export const eventsData = [
         date: '2025-07-01T20:00:00-04:00', // 8 PM EDT
         img: 'images/musicians/songswap.webp',
         bio: '5:30PM Sign Up'
-      }
+      },
+      {
+        artist: 'Rev Vince Anderson',
+        date: '2025-07-03T20:00:00-04:00', // 8 PM EDT
+        img: 'images/musicians/revVince.webp',
+        bio: 'Reverend Vince Anderson is an American, New York City based musician. He has performed a weekly show every Monday night at Union Pool in Brooklyn for over 25 years. Reverend Vince calls his high energy gospel-rock music "dirty gospel", and has been described as a Brooklyn institution.'
+    },
+    {
+        artist: "J Wilms’ Paper Machete",
+        date: '2025-07-05T20:00:00-04:00', // 8 PM EDT
+        img: 'images/musicians/jWilms.jpg',
+        bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
+    },
+    {
+        artist: "Rachel Berkman",
+        date: '2025-07-10T20:00:00-04:00', // 8 PM EDT
+        img: '',
+        bio: ''
+    },
       
     // { artist: 'Neil Alexander', 
     //   date: '2025-02-08T20:00:00-05:00', // 8 PM EST

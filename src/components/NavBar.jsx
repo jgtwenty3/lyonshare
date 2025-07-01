@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Button from './Button';
 import clsx from "clsx";
 
-const navItems = ["HOME", "ABOUT", "OUR TEAM", "MENU", "GALLERY", "HOURS & LOCATION", "EVENTS", "SHOP"];
+const navItems = ["HOME", "ABOUT", "OUR TEAM", "MENU", "GALLERY", "HOURS & LOCATION", "LIVE MUSIC", "SHOP"];
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,6 +49,7 @@ const Navbar = () => {
               {navItems.map((item, index) => {
                 let link = `/${item === 'HOME' ? '' : item.toLowerCase().replace(/ /g, '-')}`;
                 if (item === 'HOURS & LOCATION') link = '/hours';
+                if (item === 'LIVE MUSIC') link = '/live-music';
                 return (
                   <Link
                     key={index}
@@ -93,6 +94,8 @@ const Navbar = () => {
               {navItems.map((item, index) => {
                 let link = `/${item === 'HOME' ? '' : item.toLowerCase().replace(/ /g, '-')}`;
                 if (item === 'HOURS & LOCATION') link = '/hours';
+                if (item === 'MUSIC') link = '/livemusic';
+
                 return (
                   <li key={index} className="my-2">
                     <Link

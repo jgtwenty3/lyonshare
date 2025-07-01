@@ -11,7 +11,8 @@ import Hours from './pages/Hours';
 import Gallery from './pages/Gallery';
 import ScrollToTop from './components/ScrollToTop';
 import './index.css';
-import Events from './pages/Events';
+import LiveMusic from "./pages/LiveMusic"
+import Events from './pages/LiveMusic';
 import OurTeam from './pages/OurTeam';
 import Shop from './pages/Shop';
 import NotFound from './pages/NotFound';
@@ -36,7 +37,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/hours" element={<Hours />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/events" element={<Events />} />
+          <Route path="/live-music" element={<LiveMusic />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="*" element={<NotFound />} /> {/* Catch-all route for 404 */}
         </Routes>
