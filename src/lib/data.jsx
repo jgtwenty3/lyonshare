@@ -381,11 +381,112 @@ export const eventsData = [
         bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
     },
     {
-        artist: "Rachel Berkman",
-        date: '2025-07-10T20:00:00-04:00', // 8 PM EDT
-        img: '',
-        bio: ''
-    },
+        artist: "Jess Best",
+        date: '2025-07-17T20:00:00-04:00',
+        img: 'images/musicians/jessBest.webp',
+        bio: 'Jess Best writes songs that feel like a lucid dream — a vividly emotional place where reality bends but doesn’t break. Led by her curiosity for unusual combinations, and rooted in her dedication to the songwriting craft of her heroes, Jess’ music is a melding of pop, rock and soul sounds. She’ll be joined by Connor Schultze (bass), Alex Graff (guitar) and Paul Bloom (piano).',
+      },
+      {
+        artist: "Marya Lawerence",
+        date: '2025-07-18T20:00:00-04:00',
+        img: 'images/musicians/marya.jpg',
+        bio: 'Marya Lawrence is a New York-born jazz vocalist known for her soulful, improvis"ational style. She blends originals and standards with a unique, expressive voice.'
+      },
+      {
+        artist: "J Wilms’ Paper Machete",
+        date: '2025-07-19T20:00:00-04:00',
+        img: 'images/musicians/jWilms.jpg',
+        bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
+      },
+      {
+        artist: "Mike Ferrio",
+        date: '2025-07-24T20:00:00-04:00',
+        img: 'images/musicians/mikeFerrio.jpg',
+        bio: 'Mike Ferrio is a singer-songwriter known for his storytelling and Americana roots.',
+      },
+      {
+        artist: "Demetra",
+        date: '2025-07-25T20:00:00-04:00',
+        img: 'images/musicians/demetra.webp',
+        bio: 'Demetra is a New York City jazz artist who is breathing new life into the genre by reimagining beloved rock and pop classics. Demetra draws inspiration from a diverse array of music, from gritty 90s grunge anthems and iconic synth pop songs to blues favorites, in a way that feels both fresh and familiar, captivating audiences with her soulful voice and infectious energy. Her live performances are magnetic and will leave you spellbound from the first song to the last.',
+      },
+      {
+        artist: "Jack Grace",
+        date: '2025-07-31T20:00:00-04:00',
+        img: 'images/musicians/jackGrace.webp',
+        bio: `“It sounds like Cole Porter meets Gene Autry.” — Clyde Haberman, New York Times
+      
+        “He’s like that Cash kid, but good.” — Jerry Lee Lewis on hearing Jack live
+      
+        "As clever as the Beatles...Jack's voice is splendid!" — Americana Highways`
+     },
+    
+      {
+        artist: "Leif Arntzen",
+        date: '2025-08-01T20:00:00-04:00',
+        img: 'images/musicians/leif.jpg',
+        bio: 'The Leif Arntzen Trio is a creative group of musicians dedicated to the art of spontaneous music making without boundaries or other earthly concerns. This band exists only within the sounds it can create from the heart and mind. The recordings are essentially jam sessions with no formal structure, occasionally referencing classic melodies and chord structures. '
+      },
+      {
+        artist: "Rev Vince Anderson",
+        date: '2025-08-07T20:00:00-04:00',
+        img: 'images/musicians/revVince.webp',
+        bio: 'Reverend Vince Anderson is an American, New York City based musician. He has performed a weekly show every Monday night at Union Pool in Brooklyn for over 25 years. Reverend Vince calls his high energy gospel-rock music "dirty gospel", and has been described as a Brooklyn institution.'
+      },
+      {
+        artist: "J Wilms",
+        date: '2025-08-09T20:00:00-04:00',
+        img: 'images/musicians/jWilms.jpg',
+        bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
+      },
+      {
+        artist: "Mike Ferrio",
+        date: '2025-08-14T20:00:00-04:00',
+        img: 'images/musicians/mikeFerrio.jpg',
+        bio: 'Mike Ferrio is a singer-songwriter known for his storytelling and Americana roots.',
+      },
+      {
+        artist: "Leif Arntzen",
+        date: '2025-08-15T20:00:00-04:00',
+        img: 'images/musicians/leif.jpg',
+        bio: 'The Leif Arntzen Trio is a creative group of musicians dedicated to the art of spontaneous music making without boundaries or other earthly concerns. This band exists only within the sounds it can create from the heart and mind. The recordings are essentially jam sessions with no formal structure, occasionally referencing classic melodies and chord structures. '
+      },
+      {
+        artist: "J Wilms",
+        date: '2025-08-16T20:00:00-04:00',
+        img: 'images/musicians/jWilms.jpg',
+        bio: 'Jeremy Wilms, multi-instrumentalist and composer...',
+      },
+      {
+        artist: "J Wilms",
+        date: '2025-08-23T20:00:00-04:00',
+        img: 'images/musicians/jWilms.jpg',
+        bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
+      },
+      {
+        artist: "Jack Grace",
+        date: '2025-08-28T20:00:00-04:00',
+        img: 'images/musicians/jackGrace.webp',
+        bio: `“It sounds like Cole Porter meets Gene Autry.” — Clyde Haberman, New York Times
+      
+        “He’s like that Cash kid, but good.” — Jerry Lee Lewis on hearing Jack live
+      
+        "As clever as the Beatles...Jack's voice is splendid!" — Americana Highways`
+     },
+      {
+        artist: "Marya Lawerence",
+        date: '2025-08-29T20:00:00-04:00',
+        img: 'images/musicians/marya.jpg',
+        bio: 'Marya Lawrence is a New York-born jazz vocalist known for her soulful, improvis"ational style. She blends originals and standards with a unique, expressive voice.'
+
+      },
+      {
+        artist: "J Wilms",
+        date: '2025-08-30T20:00:00-04:00',
+        img: 'images/musicians/jWilms.jpg',
+        bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
+      }
+    
       
     // { artist: 'Neil Alexander', 
     //   date: '2025-02-08T20:00:00-05:00', // 8 PM EST
