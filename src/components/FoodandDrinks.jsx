@@ -14,16 +14,17 @@ const FoodandDrinks = () => {
   return (
     <div className='mt-24 md:mt-5'>
       <div className="flex flex-col items-center mt-10 gap-5">
+      <div className="marquee-container bg-white mt-10">
+                <div className="marquee-track">
+                  {Array.from({ length: 20 }).map((_, index) => (
+                    <span key={index} className="marquee-text text-3xl md:text-4xl">
+                      LYONSHARE PUBLIC HOUSE VOTED BEST NEW RESTAURANT IN THE HUDSON VALLEY 2025 BY CHRONOGRAM MAGAZINE&nbsp;&nbsp;&nbsp;
+                    </span>
+                  ))}
+                </div>
+        </div>
         <div className="flex items-center flex-col text-center px-4">
-        <div className="marquee-container bg-white mt-10">
-  <div className="marquee-track">
-    {Array.from({ length: 20 }).map((_, index) => (
-      <span key={index} className="marquee-text text-3xl md:text-4xl">
-        LYONSHARE PUBLIC HOUSE VOTED BEST NEW RESTAURANT IN THE HUDSON VALLEY 2025 BY CHRONOGRAM MAGAZINE&nbsp;&nbsp;&nbsp;
-      </span>
-    ))}
-  </div>
-</div>
+        
 
 
 
