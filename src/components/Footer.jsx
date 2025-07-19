@@ -57,14 +57,22 @@ const Footer = () => {
             </button>
           </div>
           {/* Centered Instagram icon for mobile */}
-          <div className="w-full flex justify-center mt-2 md:hidden">
+          {/* Instagram and Spotify icons side by side on mobile */}
+          <div className="w-full flex justify-center space-x-4 mt-2 md:hidden">
             <a
               href="https://www.instagram.com/lyonsharebeacon"
               className="text-white"
             >
               <img src={instagram} alt="Instagram" className="w-6 h-6" />
             </a>
+            <a
+              href="https://open.spotify.com/user/31anlz2pzlcf6zgwduni7irr3t3m?si=51f245100bc84f0b"
+              className="text-white"
+            >
+              <img src={spotify} alt="Spotify" className="w-6 h-6" />
+            </a>
           </div>
+
 
 
         </div>
