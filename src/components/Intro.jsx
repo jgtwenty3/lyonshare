@@ -51,6 +51,18 @@ const Intro = () => {
         <div className='font-alpina text-center text-md md:text-xl'>Draft Beer Specials</div>
         
       </div>
+      <div>
+        
+      </div>
+      <div className="flex justify-center mt-6">
+        <a
+          href="mailto:bud@lyonsharebeacon.com"
+          className="bg-white text-darkNavy text-lg uppercase font-medium py-2 px-6 border-2 border-darkNavy hover:bg-white hover:text-darkNavy transition"
+        >
+          Contact for Private Events
+        </a>      
+      </div>
+
     </div>
   );
 };
