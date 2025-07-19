@@ -485,7 +485,98 @@ export const eventsData = [
         date: '2025-08-30T20:00:00-04:00',
         img: 'images/musicians/jWilms.jpg',
         bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
-      }
+      },
+      {
+        artist: "The Song Swap Open Mic",
+        date: '2025-07-01T20:00:00-04:00',
+        img: 'images/musicians/songswap.webp',
+        bio: '5:30PM Sign Up, hosted by Jack Grace'
+      },
+      {
+        artist: "The Song Swap Open Mic",
+        date: '2025-07-08T20:00:00-04:00',
+        img: 'images/musicians/songswap.webp',
+        bio: '5:30PM Sign Up, hosted by Jack Grace'
+      },
+      {
+        artist: "The Song Swap Open Mic",
+        date: '2025-07-15T20:00:00-04:00',
+        img: 'images/musicians/songswap.webp',
+        bio: '5:30PM Sign Up, hosted by Jack Grace'
+      },
+      {
+        artist: "The Song Swap Open Mic",
+        date: '2025-07-22T20:00:00-04:00',
+        img: 'images/musicians/songswap.webp',
+        bio: '5:30PM Sign Up, hosted by Jack Grace'
+      },
+      {
+        artist: "The Song Swap Open Mic",
+        date: '2025-07-29T20:00:00-04:00',
+        img: 'images/musicians/songswap.webp',
+        bio: '5:30PM Sign Up, hosted by Jack Grace'
+      },
+      {
+        artist: "The Song Swap Open Mic",
+        date: '2025-08-05T20:00:00-04:00',
+        img: 'images/musicians/songswap.webp',
+        bio: '5:30PM Sign Up, hosted by Jack Grace'
+      },
+      {
+        artist: "The Song Swap Open Mic",
+        date: '2025-08-12T20:00:00-04:00',
+        img: 'images/musicians/songswap.webp',
+        bio: '5:30PM Sign Up, hosted by Jack Grace'
+      },
+      {
+        artist: "The Song Swap Open Mic",
+        date: '2025-08-19T20:00:00-04:00',
+        img: 'images/musicians/songswap.webp',
+        bio: '5:30PM Sign Up, hosted by Jack Grace'
+      },
+      {
+        artist: "The Song Swap Open Mic",
+        date: '2025-08-26T20:00:00-04:00',
+        img: 'images/musicians/songswap.webp',
+        bio: '5:30PM Sign Up, hosted by Jack Grace'
+      },
+      {
+        artist: "Silent Bar",
+        date: '2025-07-23T17:00:00-04:00',
+        img: 'images/musicians/silentbar.webp',
+        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+      },
+      {
+        artist: "Silent Bar",
+        date: '2025-07-30T17:00:00-04:00',
+        img: 'images/musicians/silentbar.webp',
+        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+      },
+      {
+        artist: "Silent Bar",
+        date: '2025-08-06T17:00:00-04:00',
+        img: 'images/musicians/silentbar.webp',
+        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+      },
+      {
+        artist: "Silent Bar",
+        date: '2025-08-13T17:00:00-04:00',
+        img: 'images/musicians/silentbar.webp',
+        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+      },
+      {
+        artist: "Silent Bar",
+        date: '2025-08-20T17:00:00-04:00',
+        img: 'images/musicians/silentbar.webp',
+        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+      },
+      {
+        artist: "Silent Bar",
+        date: '2025-08-27T17:00:00-04:00',
+        img: 'images/musicians/silentbar.webp',
+        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+      },
+      
     
       
     // { artist: 'Neil Alexander', 
