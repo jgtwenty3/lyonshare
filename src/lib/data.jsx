@@ -544,37 +544,37 @@ export const eventsData = [
         artist: "Silent Bar",
         date: '2025-07-23T17:00:00-04:00',
         img: 'images/musicians/silentbar.webp',
-        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+        bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
       },
       {
         artist: "Silent Bar",
         date: '2025-07-30T17:00:00-04:00',
         img: 'images/musicians/silentbar.webp',
-        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+        bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
       },
       {
         artist: "Silent Bar",
         date: '2025-08-06T17:00:00-04:00',
         img: 'images/musicians/silentbar.webp',
-        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+        bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
       },
       {
         artist: "Silent Bar",
         date: '2025-08-13T17:00:00-04:00',
         img: 'images/musicians/silentbar.webp',
-        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+        bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
       },
       {
         artist: "Silent Bar",
         date: '2025-08-20T17:00:00-04:00',
         img: 'images/musicians/silentbar.webp',
-        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+        bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
       },
       {
         artist: "Silent Bar",
         date: '2025-08-27T17:00:00-04:00',
         img: 'images/musicians/silentbar.webp',
-        bio: 'A quiet night of drinks and music with Nick Merrifield.'
+        bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
       },
       
     
