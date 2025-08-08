@@ -10,29 +10,29 @@ export const brunchMenu = [
       title: 'BRUNCH',
       items: [
         { name: 'AVOCADO TOAST', ingredients: 'SOURDOUGH BREAD, CARROT "CHORIZO", AVACODO MASH, OLIVE OIL, MALDON SALT' },
-        { name: 'RICOTTA TOAST', ingredients: 'SOURDOUGH BREAD, LEMON RICOTTA, MANDARIN ORANGE MARMALADE, CANDIED MANDARIN ZEST' },
-        { name: 'YOGURT & FRUIT', ingredients: 'GREEK YOGURT, LYONSHARE GRANOLA, ALMONDS, SEASONAL JAM, FRESH BERRIES' },
+        { name: 'RICOTTA TOAST', ingredients: 'SOURDOUGH BREAD, LEMON RICOTTA, SEASONAL JAM, SEASONAL TOPPING' },
+        { name: 'YOGURT & FRUIT', ingredients: 'HOUSEMADE YOGURT, LYONSHARE GRANOLA, SEASONAL JAM, MACERATED FRUIT' },
         { name: 'LOCAL LETTUCES', ingredients: 'CIDER SHALLOT VINAIGRETTE, LOCAL APPLES, TOASTED PUMPKIN SEEDS' },
         { name: 'PENICILIN', ingredients: 'CHICKEN BROTH, VEGETABLES, & MATZO BALLS' },
-        { name: 'SWEET STACK', ingredients: 'SEASON FRUIT, SWEET CREAM BUTTER, NYS MAPLE SYRUP' },
-        { name: 'BEACON BENEDICT', ingredients: 'ENGLISH MUFFIN, GUANCIALE, BRUSSEL SPROUTS, ONION JAM, HOLLANDAISE' },
+        { name: 'SWEET STACK', ingredients: 'MACERATED FRUIT, HONEY BUTTER, NYS MAPLE SYRUP' },
+        { name: 'THE BENEDICT', ingredients: "ENGLISH MUFFIN, CARROT 'CHORIZO', BABY ARUGULA, PRESERVED LEMON VINAIGRETTE, HOLLANDAISE" },
+        { name: 'CRISPY POTATO BOWL', ingredients: "2 SUNNY SIDE EGGS, URFA BIBER CREMA, PICKLED RED ONIONS, SCHUG" },
+
         { name: 'BISCUITS AND GRAVY', ingredients: '2 SUNNY SIDE EGGS, FENNEL SAUSAGE GRAVY ' },
         { name: 'TURKISH EGGS', ingredients: 'SUMAC YOGURT, 2 SUNNY SIDE EGGS, WALNUT GREMOLATA, SPICE BUTTER, AND TOAST' },
-        { name: 'FRENCH OMELETTE', ingredients: 'BABY GREENS, CIDER SHALLOT VINAIGRETTE' },
-        { name: 'THE BURGER', ingredients: 'DRY AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED POTATO BUN, VINEGAR PICKLES, FRENCH FRIES' },
+        { name: 'FRENCH OMELET', ingredients: 'BABY GREENS, CIDER SHALLOT VINAIGRETTE' },
+        { name: 'STEAK & EGGS', ingredients: 'GRILLED FLATIRON STEAK, CRISPY POTATO, ROMESCO, HOLLANDAISE, SUNNY SIDE EGG' },
       ]
     },
     {
       title: 'SIDES',
       items: [
         { name: 'SILVER DOLLAR JOHNNYCAKES' },
+        { name: 'CRISPY POTATO' },
         { name: 'THICK CUT BACON' },
-        { name: 'MAC & CHEESE' },
         { name: 'SIDE SALAD' },
         { name: 'FRENCH FRIES' },
-        { name: 'TOAST' },
-        { name: 'BISCUITS & GRAVY' },
-        
+        { name: 'TOAST' },        
       ]
     },
     {
@@ -53,13 +53,15 @@ export const brunchMenu = [
 export const lunchMenu = [
     {title:"STARTERS",
     items:[
-        { name: "BURRATA & PEACH", ingredients:"GRILLED YELLOW PEACHES, PROSCIUTTO, BURRATA CHEESE, MINT, TOASTED ALMOND, BASIL OIL"},
-        { name: "AVOCADO TOAST", ingredients:"SOURDOUGH BREAD, CARROT 'CHORIZO', AVOCADO MASH, OLIVE OIL"},
+        { name: "AVOCADO TOAST", ingredients:"SOURDOUGH BREAD, CARROT 'CHORIZO', AVOCADO MASH, OLIVE OIL"},      
         { name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARMELIZED ONION CREMA, PICKLED RED ONION"},
+        { name: "TOMATO & BURRATA", ingredients:"HERILOOM TOMATO, BURRATA, BASIL, CABERNET VINERGAR, OLIVE OIL"},
         { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
-        { name: 'MATZO BALL SOUP', ingredients: 'CHICKEN, BROTH, VEGETABLES, MATZO BALLS' },
+        { name: 'PENICILLIN', ingredients: 'ORGANIC CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
         { name: 'LYONNAISE SALAD', ingredients: 'FRISÉE, CRISPY POTATOES, POACHED EGG, BACON, URFA BIEBER CREMA' },
-        { name: 'MAC & CHEESE', ingredients: 'THE BEACON BLEND, TOASTED THYME BREAD CRUMBS' }
+        { name: 'MAC & CHEESE', ingredients: 'THE BEACON BLEND, TOASTED THYME BREAD CRUMBS' },
+        { name: 'FRENCH FRIES', ingredients: 'LYONSHARE STANDARD SAUCE' },
+
     ]},
 
     {title:"MAINS",
@@ -67,9 +69,16 @@ export const lunchMenu = [
         { name: "CHICKEN SALAD SANDWICH", ingredients:"TOASTED MULTIGRAIN SOURDOUGH ROLL, URFA BIEBER CREMA, WALNUT GREMOLATO, BABY GEM, PICKLES AND LYONSHARE SLAW"},
         { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED TAVERN BUN, VINEGAR PICKLES, FRENCH FRIES' },
         { name: 'MOULE FRITES', ingredients: 'PEI MUSSELS, AJI AMARILLO CORN, PICKLED RED ONION, CHERRY TOMATOES, PARSLEY, FRENCH FRIES' },
-        { name: 'FRIED CHICKEN SANDWICH', ingredients: 'CRIPSY CHICKEN THIGH, SHARP AND CREAMY SLAW, VINEGAR PICKLES, KOREAN BBQ SAUCE' },
-        { name: 'STEAK FRITES', ingredients: '8 OZ GRILLED FLAT IRON STEAK, GARLIC CONFIT, BROWN SAUCE, FRENCH FRIES' },
         { name: 'GNOCCHI', ingredients: "CARROT 'CHORIZO', PARMESAN, BASIL OIL" },
+
+        { name: 'STEAK FRITES', ingredients: '8 OZ GRILLED FLAT IRON STEAK, GARLIC CONFIT, BROWN SAUCE, FRENCH FRIES' },
+        
+    ]},
+    {title:"SWEETS",
+    items:[
+      { name: 'CHOCOLATE CHUNK SKILLET COOKIE', ingredients: 'VANILLA GELATO' },
+      { name: 'CHEESECAKE', ingredients: 'PEACH JAM, GRAHAM CRACKER CRUNCH' },
+      { name: 'GELATO', ingredients: '2 SCOOPS OF YOUR CHOICE ' }
         
     ]}
 
@@ -79,12 +88,13 @@ export const dinnerMenu = [
     {
         title: 'SMALL PLATES',
         items: [
-            { name: "ARANCINI", ingredients:"ROASTED GARLIC TOMATO SAUCE, PARMESAN, FONTINA CHEESE, PARSELY TOMATO OIL"},
+            { name: "TOMATO & BURRATA", ingredients:"HERILOOM TOMATO, BURRATA, BASIL, CABERNET VINERGAR, OLIVE OIL"},
+            { name: "MUSHROOM TARTINE", ingredients:"TOASTED SOURDOUGH, HERBS, CREME FRAICHE, PARMESAN CHEESE"},
             { name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARAMELIZED ONION CREMA, PICKLED RED ONION"},
             { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
             { name: 'LOCAL LETTUCES', ingredients: 'CIDER SHALLOT VINAIGRETTE, LOCAL APPLES, TOASTED PUMPKIN SEEDS' },
             { name: 'PENICILLIN', ingredients: 'ORGANIC CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
-            { name: 'VEGETABLE FRITTERS', ingredients: 'CRISPY HEN OF THE WOOD MUSHROOMS, BRUSSELS SPROUTS, CHILI SAUCE' },
+            { name: 'BLISTERED SHISHITOS', ingredients: 'ALMOND ROMESCO, TOGARASHI, BREAD CRUMBS, CHIVES' },
             { name: 'MAC & CHEESE', ingredients: 'THE BEACON BLEND, TOASTED THYME BREAD CRUMBS' }
         ]
     },
@@ -92,9 +102,10 @@ export const dinnerMenu = [
         title: 'MAINS',
         items: [
             { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED TAVERN BUN, VINEGAR PICKLES, FRENCH FRIES' },
-            { name: 'SEA BASS', ingredients: 'RICE CRUSTED, CHERRY TOMATOES, CASTELVETRANO OLIVES, FENNEL, DILL, SCHUG' },
-            { name: 'GNOCCHI', ingredients: 'PORTOBELLO BOLOGNESE, PARMESAN, WHIPPED LEMON RICOTTA' },
-            { name: 'ORGANIC HALF FRIED CHICKEN', ingredients: 'SHARP AND CREAMY SLAW, BISCUITS, BUTTER AND HONEY' },
+            { name: 'PORTABELLO BOLOGNESE', ingredients: 'PACCHERI PASTA, LEMON RICOTTA, PARMESAN CHEESE, OLIVE OIL' },
+            { name: 'SEA BASS', ingredients: 'CHERRY TOMATOES, CASTELVETRANO OLIVES, FENNEL, DILL, SCHUG' },
+           
+            { name: 'HALF FRIED CHICKEN', ingredients: 'SHARP AND CREAMY SLAW, BISCUITS, BUTTER AND HONEY' },
             { name: 'MOULE FRITES', ingredients: 'PEI MUSSELS, AJI AMARILLO CORN, PICKLED RED ONION, CHERRY TOMATOES, PARSLEY, FRENCH FRIES' },
         ]
     },
@@ -117,11 +128,11 @@ export const dinnerMenu = [
     {
         title: 'SWEETS',
         items: [
-            { name: 'WARM CHOCOLATE CHUNK COOKIE', ingredients: 'BAKED TO ORDER' },
-            { name: 'CHEESECAKE', ingredients: 'STRAWBERRY JAM, GRAHAM CRACKER CRUNCH' },
-            { name: 'ROOT BEER FLOAT', ingredients: 'PROPRIETARY ROOT BEER SYRUP & SODA, WHIPPED CREAM IN A FROSTED MUG' },
-            { name: 'BROWNIE SUNDAE', ingredients: 'VANILLA GELATO, CHOCOLATE SAUCE, WHIPPED CREAM ' },
-            { name: 'ICE CREAM', ingredients: '2 SCOOPS OF YOUR CHOICE ' }
+            { name: 'CHOCOLATE CHUNK SKILLET COOKIE', ingredients: 'VANILLA GELATO' },
+            { name: 'CHEESECAKE', ingredients: 'PEACH JAM, GRAHAM CRACKER CRUNCH' },
+            { name: 'PANNA COTTA', ingredients: 'PINEAPPLE, POMEGRANATE, CHOCOLATE, MINT, ITALIAN MERINQUE' },
+            { name: 'ROOT BEER FLOAT', ingredients: 'FIRE-BREWED ROOT BEER, WHIPPED CREAM IN A FROSTED MUG' },
+            { name: 'GELATO', ingredients: '2 SCOOPS OF YOUR CHOICE ' }
         ]
     }
 ];
