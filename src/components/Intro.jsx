@@ -43,9 +43,8 @@ const Intro = () => {
       </div>
       <div className='mb-10'>
         <h4 className='text-3xl md:text-4xl mb-6 text-darkNavy text-center'>HAPPY HOUR</h4>
-        <div className='font-alpina text-center text-md md:text-xl'>Mon-Fri 4pm-6pm</div>
-        <div className='font-alpina text-center text-md md:text-xl'>$2 Oysters</div>
-        <div className='font-alpina text-center text-md md:text-xl'>(No Oysters on Tuesdays)</div>
+        <div className='font-alpina text-center text-md md:text-xl'>Mon-Thurs 5pm-7pm</div>
+        <div className='font-alpina text-center text-md md:text-xl'>Fri 4pm-6pm</div>
         <div className='font-alpina text-center text-md md:text-xl'>$10 Wine</div>
         <div className='font-alpina text-center text-md md:text-xl'>$10 Negronis</div>
         <div className='font-alpina text-center text-md md:text-xl'>Draft Beer Specials</div>
