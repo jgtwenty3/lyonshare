@@ -2,12 +2,12 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 
 const hours = [
-  "Mon 5pm-12am",
+  "Mon 5pm-11pm",
   "Tues-Weds 5pm-12am(bar only)",
-  "Thurs 5pm-12am",
-  "Fri 5pm-12am",
-  "Sat 5pm-12am",
-  "Sun 5pm-12am",
+  "Thurs 5pm-11pm",
+  "Fri 5pm-11pm",
+  "Sat 5pm-11pm",
+  "Sun 5pm-11pm",
   "LUNCH",
   "Thurs-Fri 11:30-2:30PM",
   "BRUNCH",
