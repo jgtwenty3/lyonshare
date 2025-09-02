@@ -2,16 +2,16 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 
 const hours = [
-  "Mon 5pm-11pm",
-  "Tues-Weds 5pm-12am(bar only)",
-  "Thurs 5pm-11pm",
-  "Fri 5pm-11pm",
-  "Sat 5pm-11pm",
-  "Sun 5pm-11pm",
+  "Mon 5PM-9PM",
+  "Tues-Weds 5PM-11PM(bar only)",
+  "Thurs 5PM-9PM",
+  "Fri 5PM-10PM",
+  "Sat 5PM-10PM",
+  "Sun 5PM-9PM",
   "LUNCH",
   "Thurs-Fri 11:30-2:30PM",
   "BRUNCH",
-  "Sat & Sun 11am-3pm"
+  "Sat & Sun 11AM-3PM"
 ];
 
 const Hours = () => {
@@ -26,6 +26,9 @@ const Hours = () => {
       <div className="flex flex-col justify-center items-center text-center w-full lg:mr-4 p-10">
         <h1 className="mt-8 md:mt-20 text-7xl text-darkNavy md:mb-4=5 mb-10 underline">HOURS AND LOCATION</h1>
         <h2 className="text-3xl md:text-3xl mb-4 text-darkNavy text-center ">246 MAIN STREET, BEACON, NY, 12508</h2>
+        <h3 className='font-alpina text-md md:text-xl mb-6 text-center'>
+            KITCHEN
+          </h3>
         <ul className='text-center'>
             {hours.map((hour, index) => (
                 <li key={index} className="mb-8 text-md md:text-xl text-darkNavy font-alpina">
@@ -35,8 +38,8 @@ const Hours = () => {
         </ul>
         <div className='mb-10'>
           <h4 className='text-3xl md:text-4xl mb-6 text-darkNavy text-center'>HAPPY HOUR</h4>
-          <div className='font-alpina text-center text-md md:text-xl'>Mon-Thurs 5pm-7pm</div>
-          <div className='font-alpina text-center text-md md:text-xl'>Fri 4pm-6pm</div>
+          <div className='font-alpina text-center text-md md:text-xl'>Mon-Thurs 5PM-7PM</div>
+          <div className='font-alpina text-center text-md md:text-xl'>Fri 4PM-6PM</div>
           <div className='font-alpina text-center text-md md:text-xl'>$10 Wine</div>
           <div className='font-alpina text-center text-md md:text-xl'>$10 Negronis</div>
           <div className='font-alpina text-center text-md md:text-xl'>Draft Beer Specials</div>
