@@ -745,11 +745,17 @@ export const eventsData = [
       bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
     },
     {
-      artist: "J Wilms",
-      date: "2025-12-20T20:00:00-04:00",
-      img: 'images/musicians/jWilms.jpg',
-      bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
-    },
+          artist: 'Leah Valentine',
+          date: '2025-12-19T20:00:00-04:00', // 8 PM EDT
+          img: 'images/musicians/Leah2.jpg',
+          bio: ''
+        },
+    // {
+    //   artist: "J Wilms",
+    //   date: "2025-12-20T20:00:00-04:00",
+    //   img: 'images/musicians/jWilms.jpg',
+    //   bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
+    // },
     {
       artist: "Rebel Salon",
       date: "2025-11-08T20:00:00-04:00",
