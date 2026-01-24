@@ -5,6 +5,48 @@ export const rawBarMenu = {
     ]
 };
 
+export const newYearsEveMenu = {
+  title: 'NEW YEAR\'S EVE SPECIAL MENU',
+  items: [
+    {
+      title: 'OYSTERS',
+      items: [
+        { name: 'SELECTION OF EAST COAST OYSTERS', ingredients: 'COCKTAIL SAUCE, LYONSHARE MIGNONETTE' }
+      ]
+    },
+    {
+      title: 'STARTERS',
+      items: [
+        { name: 'ROOT & CLAW SOUP', ingredients: 'CELERIAC VELOUTE, BUTTER POACHED LOBSTER CLAW, LEMON CHIVE OIL' },
+        { name: 'LOCAL LETTUCES', ingredients: 'BABY GEM, SNAPDRAGON APPLES, PUMPKIN SEEDS, CIDER SHALLOT VINAIGRETTE' },
+        { name: 'SCALLOPS', ingredients: 'SILKEN CARROT, TOASTED BREAD CRUBMBS, POMEGRANITE, CHARDONNAY AGRODOLCE' },
+        { name: 'STEAK TARTARE', ingredients: 'HAND CUT TENDERLOIN, WHOLE GRAIN MUSTARD, FINE HERBS, FRIED CAPERS, QUAIL EGG' }
+      ]
+    },
+    {
+      title: 'MAINS',
+      items: [
+        { name: 'MOROCCAN BRAISED SHORT RIBS', ingredients: 'CREAMY TRUFFLE WHITE POLENTA, PISTACHIO GREMOLATA, CRISPY SHALLOTS' },
+        { name: 'HALIBUT', ingredients: 'PANKO CRUSTED, CREAMED CAULIFLOWER, TEMPURA MAITAKE, LEMON-CAPER BROWN BUTTER' },
+        { name: 'RISOTTO', ingredients: 'CARNAROLI RICE, PORCINI MUSHROOMS, PARMESEAN ESPUMA, CHIVES' },
+        { name: 'DUCK BREAST', ingredients: 'BRUSSEL SPROUT HASH, BEET PUREE, BLOOD ORANGE HONEY GLAZE' }
+      ]
+    },
+    {
+      title: 'DESSERTS',
+      items: [
+        { name: 'CHOCOLATE TART', ingredients: 'MOCHA CLOUD CREAM, SHAVED DARK CHOCOLATE' },
+        { name: 'FROSTED OLIVE OIL CAKE', ingredients: 'MANDARIN MARMALADE, CANDIED ZEST' },
+     
+      ]
+    }
+  ]
+};
+
+
+
+
+
 export const brunchMenu = [
     {
       title: 'BRUNCH',

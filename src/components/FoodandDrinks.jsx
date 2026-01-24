@@ -1,9 +1,12 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import Button from './Button';
+import NYEMenuModal from './NYEMenuModal';
+import { newYearsEveMenu } from '../lib/data';
 
 
 const FoodandDrinks = () => {
+  
   const { ref, inView } = useInView({
     threshold: 0.5, // Adjust this value to control when the animation starts
     triggerOnce: true, // Only trigger the animation once
@@ -14,7 +17,8 @@ const FoodandDrinks = () => {
   return (
     <div className='mt-24 md:mt-5'>
       <div className="flex flex-col items-center mt-10 gap-5">
-      <div className="marquee-container bg-white mt-10">
+        <span className='text-3xl md:text-5xl text-darkNavy'> COME CELEBRATE NEW YEARS EVE WITH US - SPECIAL PRIX FIXE MENU</span>
+      {/* <div className="marquee-container bg-white mt-10">
                 <div className="marquee-track">
                   {Array.from({ length: 20 }).map((_, index) => (
                     <span key={index} className="marquee-text text-3xl md:text-4xl">
@@ -22,7 +26,7 @@ const FoodandDrinks = () => {
                     </span>
                   ))}
                 </div>
-        </div>
+        </div> */}
         <div className="flex items-center flex-col text-center px-4">
         
 

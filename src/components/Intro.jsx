@@ -3,11 +3,11 @@ import Button from './Button';
 import { useInView } from 'react-intersection-observer';
 
 const hours = [
-  "Mon 5pm-9PM",
+  "Mon 5pm-8PM",
   "Thurs 5PM-9PM",
-  "Fri 5PM-10PM",
-  "Sat 5PM-10PM",
-  "Sun 5PM-9PM",
+  "Fri 5PM-9PM",
+  "Sat 5PM-9PM",
+  "Sun 5PM-8PM",
   "LUNCH",
   "Thurs-Fri 11:30-2:30PM",
   "BRUNCH",
@@ -45,7 +45,7 @@ const Intro = () => {
       </div>
       <div className='mb-10'>
         <h4 className='text-3xl md:text-4xl mb-6 text-darkNavy text-center'>HAPPY HOUR</h4>
-        <div className='font-alpina text-center text-md md:text-xl'>Mon-Thurs 5PM-7PM</div>
+        <div className='font-alpina text-center text-md md:text-xl'>Mon & Thurs 5PM-6PM</div>
         <div className='font-alpina text-center text-md md:text-xl'>Fri 4PM-6PM</div>
         <div className='font-alpina text-center text-md md:text-xl'>$10 Wine</div>
         <div className='font-alpina text-center text-md md:text-xl'>$10 Negronis</div>
