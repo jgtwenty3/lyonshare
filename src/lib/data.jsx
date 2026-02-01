@@ -115,7 +115,7 @@ export const lunchMenu = [
         { name: 'MUSSELS', ingredients: 'ROASTED TOMATOES, GARLIC ANDOUILLE SAUSAGE, PARSLEY, BUTTER, TOASTED CROSTINI' },
         { name: 'GNOCCHI', ingredients: "CARROT 'CHORIZO', PARMESAN, PARSLEY" },
 
-        { name: 'STEAK FRITES', ingredients: '8 OZ GRILLED FLAT IRON STEAK, GARLIC CONFIT, CHIMICHURRI, FRENCH FRIES' },
+        { name: 'STEAK FRITES', ingredients: '8 OZ GRILLED FLAT IRON STEAK, GARLIC CONFIT, CHIMIC, FRENCH FRIES' },
         
     ]},
     {title:"SWEETS",
@@ -353,21 +353,21 @@ export const bottleList = [
 
 
 export const imageList = [
-    '/images/food/burgerFriesDrink1.webp',
-    '/images/food/Steak.webp',
-    '/images/food/martini1.webp',
+    '/images/food/gallery/avoToast.webp',
+    '/images/food//gallery/Steak.webp',
+    '/images/food/gallery/eggs.webp',
 
-    '/images/food/steak_2.webp',
-    '/images/food/Carrots.webp',
-    '/images/food/cheesecake.webp',
+    '/images/food/aboutHero.webp',
+    '/images/food//gallery/Carrots.webp',
+    '/images/food/gallery/outside.webp',
 
-    '/images/food/overhead_1.webp',
-    '/images/food/cocktail.webp',
-    '/images/food/perogies.webp',
+    '/images/food/gallery/overhead_1.webp',
+    '/images/food//gallery/pancakes.webp',
+    '/images/food/gallery/steakNeggs.webp',
     
-    '/images/food/overhead_2.webp',
-    '/images/food/root_beer_float_2.webp',
-    '/images/food/perogiescarrots.webp'
+    '/images/food/gallery/eggsBenny.webp',
+    '/images/food//gallery/root_beer_float_2.webp',
+    '/images/food/gallery/perogiescarrots.webp'
 ];
 
 export const eventsData = [
@@ -715,9 +715,8 @@ export const eventsData = [
     },
     {
       artist: "Leif Arntzen",
-      date: "2025-11-14T20:00:00-04:00",
+      date: "2026-02-06T20:00:00-04:00",
       img: 'images/musicians/leif.jpg',
-      bio: 'The Leif Arntzen Trio is a creative group of musicians dedicated to the art of spontaneous music making without boundaries or other earthly concerns. This band exists only within the sounds it can create from the heart and mind. The recordings are essentially jam sessions with no formal structure, occasionally referencing classic melodies and chord structures. '
     },
     {
       artist: "J Wilms",
@@ -726,10 +725,9 @@ export const eventsData = [
       bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
     },
     {
-      artist: "Rachel Leeya & Bryan Ponton",
-      date: "2025-11-20T20:00:00-04:00",
-      img: "images/musicians/rachel.png",
-      bio: "Rachel Berkman is a pianist and vocalist whose performances combine soulful vocals with inventive jazz harmonies."
+      artist: "Rachel Berkman",
+      date: "2026-03-06T20:00:00-04:00",
+      img: "images/musicians/rachel.webp",
     },
     {
       artist: "Demi",
@@ -738,20 +736,15 @@ export const eventsData = [
       bio: "Demi is a singer and songwriter whose expressive voice and heartfelt lyrics bridge the worlds of R&B, pop, and soul."
     },
     {
-      artist: "J Wilms",
-      date: "2025-11-22T20:00:00-04:00",
-      img: 'images/musicians/jWilms.jpg',
-      bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
+      artist: "Zohar And Adam",
+      date: "2026-02-20T20:00:00-04:00",
+      img: 'images/musicians/zoharAndAdam.webp',
     },
     {
       artist: "Jack Grace",
-      date: "2025-11-28T20:00:00-04:00",
+      date: "2026-02-13T20:00:00-04:00",
       img: 'images/musicians/jackGrace.webp',
-        bio: `“It sounds like Cole Porter meets Gene Autry.” — Clyde Haberman, New York Times
       
-        “He’s like that Cash kid, but good.” — Jerry Lee Lewis on hearing Jack live
-      
-        "As clever as the Beatles...Jack's voice is splendid!" — Americana Highways`
     },
     {
       artist: "J Wilms",
@@ -766,26 +759,20 @@ export const eventsData = [
       bio: "Andy Stack is a multi-instrumentalist known for his inventive blend of Americana, folk, and experimental textures."
     },
     {
-      artist: "J Wilms",
-      date: "2025-12-06T20:00:00-04:00",
-      img: 'images/musicians/jWilms.jpg',
-      bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
+      artist: "Elliot Grace",
+      date: "2026-03-20T20:00:00-04:00",
+      img: '',
     },
     {
       artist: "Jack Grace",
-      date: "2025-12-11T20:00:00-04:00",
+      date: "2026-03-27T20:00:00-04:00",
       img: 'images/musicians/jackGrace.webp',
-          bio: `“It sounds like Cole Porter meets Gene Autry.” — Clyde Haberman, New York Times
-        
-          “He’s like that Cash kid, but good.” — Jerry Lee Lewis on hearing Jack live
-        
-          "As clever as the Beatles...Jack's voice is splendid!" — Americana Highways`
+
     },
     {
       artist: "Leif Arntzen",
-      date: "2025-12-12T20:00:00-04:00",
+      date: "2026-03-13T20:00:00-04:00",
       img: 'images/musicians/leif.jpg',
-      bio: 'The Leif Arntzen Trio is a creative group of musicians dedicated to the art of spontaneous music making without boundaries or other earthly concerns. This band exists only within the sounds it can create from the heart and mind. The recordings are essentially jam sessions with no formal structure, occasionally referencing classic melodies and chord structures. '
     },
     {
       artist: "J Wilms",
@@ -807,79 +794,49 @@ export const eventsData = [
     // },
     {
       artist: "Rebel Salon",
-      date: "2025-11-08T20:00:00-04:00",
+      date: "2026-02-07T20:00:00-04:00",
       img: "images/musicians/rebelSalon.png",
       bio: "Featuring J. Wilms' Paper Machete"
     },
     {
       artist: "Rebel Salon",
-      date: "2025-11-15T20:00:00-04:00",
+      date: "2026-02-14T20:00:00-04:00",
       img: "images/musicians/rebelSalon.png",
       bio: "Featuring J. Wilms' Paper Machete"
     },
     {
       artist: "Rebel Salon",
-      date: "2025-11-22T20:00:00-04:00",
+      date: "2026-02-21T20:00:00-04:00",
       img: "images/musicians/rebelSalon.png",
       bio: "Featuring J. Wilms' Paper Machete"
     },
     {
       artist: "Rebel Salon",
-      date: "2025-11-29T20:00:00-04:00",
+      date: "2026-02-28T20:00:00-04:00",
       img: "images/musicians/rebelSalon.png",
       bio: "Featuring J. Wilms' Paper Machete"
     },
     {
       artist: "Rebel Salon",
-      date: "2025-12-06T20:00:00-04:00",
+      date: "2026-03-07T20:00:00-04:00",
       img: "images/musicians/rebelSalon.png",
       bio: "Featuring J. Wilms' Paper Machete"
     },
     {
       artist: "Rebel Salon",
-      date: "2025-12-13T20:00:00-04:00",
+      date: "2026-03-14T20:00:00-04:00",
       img: "images/musicians/rebelSalon.png",
       bio: "Featuring J. Wilms' Paper Machete"
     },
     {
       artist: "Rebel Salon",
-      date: "2025-12-20T20:00:00-04:00",
+      date: "2026-03-21T20:00:00-04:00",
       img: "images/musicians/rebelSalon.png",
       bio: "Featuring J. Wilms' Paper Machete"
     },
     {
       artist: "Rebel Salon",
-      date: "2025-12-27T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-01-03T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-01-10T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-01-17T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-01-24T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-01-31T20:00:00-04:00",
+      date: "2026-03-28T20:00:00-04:00",
       img: "images/musicians/rebelSalon.png",
       bio: "Featuring J. Wilms' Paper Machete"
     }

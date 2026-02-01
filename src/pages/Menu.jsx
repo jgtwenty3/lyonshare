@@ -40,7 +40,7 @@ const Menu = () => {
     <div>
       <div className="relative w-screen h-[600px] md:h-[800px]">
         <img
-          src="/images/food/drinkNFood2.webp"
+          src="/images/food/menu/drinkNFood2.webp"
           alt="boat"
           className="w-full h-full object-cover border-2 border-darkNavy"
         />
@@ -90,17 +90,7 @@ const Menu = () => {
           </div>
         )}
       </div>
-      <div className="flex flex-col items-center p-10">
-        <img src="/images/logo.svg" alt="knot" className="mb-5 w-20 md:w-24" />
-        <a
-          href="/LyonShareMenuOct31.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-white text-darkNavy py-2 px-4 shadow-lg hover:bg-darkNavy hover:text-white transition duration-300 border-2 border-blackIron"
-        >
-          Download Menu
-        </a>
-      </div>
+      
     </div>
   );
 };
