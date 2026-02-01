@@ -16,6 +16,7 @@ import Events from './pages/LiveMusic';
 import OurTeam from './pages/OurTeam';
 import Shop from './pages/Shop';
 import NotFound from './pages/NotFound';
+import PrivateEvents from './pages/PrivateEvents';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/hours" element={<Hours />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/private-events" element={<PrivateEvents />} />
           <Route path="/live-music" element={<LiveMusic />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="*" element={<NotFound />} /> {/* Catch-all route for 404 */}

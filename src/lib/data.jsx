@@ -350,7 +350,14 @@ export const bottleList = [
 ];
 
 
-
+export const eventImageList = [
+  '/images/events/door.webp',
+  '/images/events/corner.webp',
+  '/images/events/dining.webp',
+  '/images/events/wedding.webp',
+  '/images/events/window.webp',
+  '/images/events/wedding2.webp'
+]
 
 export const imageList = [
     '/images/food/gallery/avoToast.webp',

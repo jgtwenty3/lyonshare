@@ -5,7 +5,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Button from './Button';
 import clsx from "clsx";
 
-const navItems = ["HOME", "ABOUT", "OUR TEAM", "MENU", "GALLERY", "HOURS & LOCATION", "LIVE MUSIC", "SHOP"];
+const navItems = ["HOME", "ABOUT", "OUR TEAM", "MENU", "GALLERY", "PRIVATE EVENTS", "HOURS & LOCATION", "LIVE MUSIC", "SHOP"];
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
