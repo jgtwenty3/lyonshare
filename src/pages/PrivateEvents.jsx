@@ -46,7 +46,7 @@ const PrivateEvents = () => {
               href="mailto:info@lyonsharebeacon.com"
               className="underline hover:text-darkNavy/70 font-alpina"
             >
-              info@lyonsharebeacon.com
+              reservations@lyonsharebeacon.com
             </a>
           </p>
         </div>
