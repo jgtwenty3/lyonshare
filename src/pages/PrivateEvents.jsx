@@ -15,7 +15,7 @@ const PrivateEvents = () => {
 
       {/* PAGE TITLE */}
       <section className="max-w-5xl mx-auto px-6 mt-12 text-center">
-        <h1 className="mt-8 md:mt-20 text-7xl text-darkNavy md:mb-4=5 mb-10 underline">
+        <h1 className="mt-8 md:mt-10 text-7xl text-darkNavy md:mb-4=5 mb-10 underline">
           PRIVATE EVENTS
         </h1>
 
