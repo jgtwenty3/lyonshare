@@ -17,7 +17,7 @@ const FoodandDrinks = () => {
   return (
     <div className='mt-24 md:mt-5'>
       <div className="flex flex-col items-center mt-10 gap-5">
-        <span className='text-3xl md:text-5xl text-darkNavy'> COME CELEBRATE NEW YEARS EVE WITH US - SPECIAL PRIX FIXE MENU</span>
+        <span className='text-3xl md:text-5xl text-darkNavy'> </span>
       {/* <div className="marquee-container bg-white mt-10">
                 <div className="marquee-track">
                   {Array.from({ length: 20 }).map((_, index) => (
