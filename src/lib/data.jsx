@@ -372,7 +372,11 @@ export const imageList = [
     
     '/images/food/gallery/eggsBenny.webp',
     '/images/food//gallery/root_beer_float_2.webp',
-    '/images/food/gallery/perogiescarrots.webp'
+    '/images/food/gallery/perogiescarrots.webp',
+
+    '/images/food/gallery/shortribPlate.webp',
+    '/images/food//gallery/windowChicken.webp',
+    '/images/food/gallery/chickenSalad.webp'
 ];
 
 export const eventsData = [
