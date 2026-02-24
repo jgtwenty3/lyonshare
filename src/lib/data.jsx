@@ -112,9 +112,8 @@ export const lunchMenu = [
     items:[
         { name: "CHICKEN SALAD SANDWICH", ingredients:"CIABATTA ROLL, ALEPPO PEPPER CREMA, TOASTED PECAN GREMOLATA"},
         { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED TAVERN BUN, VINEGAR PICKLES, FRENCH FRIES' },
-        { name: 'MUSSELS', ingredients: 'ROASTED TOMATOES, GARLIC ANDOUILLE SAUSAGE, PARSLEY, BUTTER, TOASTED CROSTINI' },
         { name: 'GNOCCHI', ingredients: "CARROT 'CHORIZO', PARMESAN, PARSLEY" },
-
+        { name: 'CRISPY BASS SANDWICH', ingredients:'TOMATO JAM, WHOLE GRAIN MUSTARD AIOLI, TOASTED BAGUETTE, BABY GREENS'},
         { name: 'STEAK FRITES', ingredients: '8 OZ GRILLED FLAT IRON STEAK, GARLIC CONFIT, CHIMIC, FRENCH FRIES' },
         
     ]},
@@ -139,7 +138,6 @@ export const dinnerMenu = [
             { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
             { name: 'LOCAL LETTUCES', ingredients: 'CHICORY, TREVISIANO, POMEGRANATE, TOASTED ALMONDS, ORANCE VINAIGRETTE' },
             { name: 'PENICILLIN', ingredients: 'ORGANIC CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
-            { name: 'OCTOPUS', ingredients: 'GRILLED, ROMESCO, CURRIED CHICKEPAS, PARSLEY, OLIVE OIL' },
             
         ]
     },
@@ -148,12 +146,12 @@ export const dinnerMenu = [
         items: [
             { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED TAVERN BUN, VINEGAR PICKLES, FRENCH FRIES' },
             { name: 'FUSILI FERRETO', ingredients: 'LAMB RAGU, LEMON RICOTTA, AGED PECORINO, OLIVE OIL' },
+            {names: 'GRILLED STEELHEAD', ingredients:'TOASTED PEARL, COUSCOUS, MUSHROOM CONFIT, PARSLEY CREAM'},
             { name: 'STEAK FRITES', ingredients: '8 OZ FLAT IRON, CHIMICHURRI, FRENCH FRIES' },
             { name: 'CRISPY PORK BELLY', ingredients: 'BRUSSEL SPROUTS, ROMESCO, FENNEL POLLEN, CHARDONAY AGRODOLCE' },
             { name: 'SEA BASS', ingredients: 'CHARRED BROCCOLINI, CAULIFLOWER PUREE, PARSLEY, LEMON CAPER GREMOLATA' },
             { name: 'MOROCCAN BRAISED SHORT RIB', ingredients: 'CELERIAC MISO PUREE, PECAN-CITRUS GREMOLATA' },
             { name: 'HALF GRILLED CHICKEN', ingredients: 'SHARP AND CREAMY SLAW, BISCUITS, BUTTER AND HONEY' },
-            { name: 'MUSSELS', ingredients: 'ROASTED TOMATOES, GARLIC ANDOUILLE SAUSAGE, PARSLEY, BUTTER, TOASTED CROSTINI' },
             { name: 'NY STRIP', ingredients: 'GRILLED WITH ROASTED GARLIC PUREE AND COMPOUND BUTTER' },
 
         ]
@@ -766,7 +764,7 @@ export const eventsData = [
       bio: "Andy Stack is a multi-instrumentalist known for his inventive blend of Americana, folk, and experimental textures."
     },
     {
-      artist: "Elliot Grace",
+      artist: "Elliot Steele",
       date: "2026-03-20T20:00:00-04:00",
       img: '',
     },
@@ -846,7 +844,86 @@ export const eventsData = [
       date: "2026-03-28T20:00:00-04:00",
       img: "images/musicians/rebelSalon.png",
       bio: "Featuring J. Wilms' Paper Machete"
-    }
+    },
+    {
+      artist: "Rebel Salon",
+      date: "2026-04-03T20:00:00-04:00",
+      img: "images/musicians/rebelSalon.png",
+      bio: "Featuring J. Wilms' Paper Machete"
+    },
+    [
+      {
+        artist: "Rebel Salon",
+        date: "2026-04-03T20:00:00-04:00",
+        img: "images/musicians/rebelSalon.png",
+        bio: "Featuring J. Wilms' Paper Machete"
+      },
+      {
+        artist: "Leif Arntzen",
+        date: "2026-04-4T20:00:00-04:00",
+        img: 'images/musicians/leif.jpg',
+      },
+      {
+        artist: "Emily Cavanaugh",
+        date: "2026-04-11T20:00:00-04:00",
+        img: "",
+        bio: ""
+      },
+      {
+        artist: "Rebel Salon",
+        date: "2026-04-10T20:00:00-04:00",
+        img: "images/musicians/rebelSalon.png",
+        bio: "Featuring J. Wilms' Paper Machete"
+      },
+      {
+        artist: "Rebel Salon",
+        date: "2026-04-17T20:00:00-04:00",
+        img: "images/musicians/rebelSalon.png",
+        bio: "Featuring J. Wilms' Paper Machete"
+      },
+      {
+        artist: "Jack Grace",
+        date: "2026-04-18T20:00:00-04:00",
+        img: 'images/musicians/jackGrace.webp',
+  
+      },
+      {
+        artist: "Rebel Salon",
+        date: "2026-04-24T20:00:00-04:00",
+        img: "images/musicians/rebelSalon.png",
+        bio: "Featuring J. Wilms' Paper Machete"
+      },
+      {
+        artist: "Rebel Salon",
+        date: "2026-05-01T20:00:00-04:00",
+        img: "images/musicians/rebelSalon.png",
+        bio: "Featuring J. Wilms' Paper Machete"
+      },
+      {
+        artist: "Rebel Salon",
+        date: "2026-05-08T20:00:00-04:00",
+        img: "images/musicians/rebelSalon.png",
+        bio: "Featuring J. Wilms' Paper Machete"
+      },
+      {
+        artist: "Rebel Salon",
+        date: "2026-05-15T20:00:00-04:00",
+        img: "images/musicians/rebelSalon.png",
+        bio: "Featuring J. Wilms' Paper Machete"
+      },
+      {
+        artist: "Rebel Salon",
+        date: "2026-05-22T20:00:00-04:00",
+        img: "images/musicians/rebelSalon.png",
+        bio: "Featuring J. Wilms' Paper Machete"
+      },
+      {
+        artist: "Rebel Salon",
+        date: "2026-05-29T20:00:00-04:00",
+        img: "images/musicians/rebelSalon.png",
+        bio: "Featuring J. Wilms' Paper Machete"
+      }
+    ]
     
     
 ];

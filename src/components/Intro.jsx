@@ -52,7 +52,8 @@ const Intro = () => {
         <div className='font-alpina text-center text-md md:text-xl'>Draft Beer Specials</div>
         
       </div>
-      <div>
+      <div className='text-3xl md:text-3xl mb-6 text-darkNavy text-center uppercase'> 
+        Unfortunately, due to limited space, we can not provide high chairs. Little ones are always welcome.
         
       </div>
       
