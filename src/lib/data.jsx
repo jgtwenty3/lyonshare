@@ -160,7 +160,6 @@ export const dinnerMenu = [
         title: 'STEAKS',
         items: [
             { name: '',ingredients:'CHARGRILLED WITH ROASTED GARLIC PURÉE, COMPOUND BUTTER AND BROWN SAUCE'  },
-            { name: 'BUTCHER CUT 32 OZ DRY-AGED PORTERHOUSE', ingredients: 'FOR TWO' },
             { name: 'NEW YORK STRIP' },
             
         ]
