@@ -57,7 +57,7 @@ export const brunchMenu = [
         { name: 'LOCAL LETTUCES', ingredients: 'CHICORY, TREVISIANO, POMEGRANATE, TOASTED ALMONDS, ORANCE VINAIGRETTE' },
         { name: 'PENICILIN', ingredients: 'CHICKEN BROTH, VEGETABLES, & MATZO BALLS' },
         { name: 'SWEET STACK', ingredients: 'MACERATED FRUIT, HONEY BUTTER, NYS MAPLE SYRUP' },
-        { name: 'THE BENEDICT', ingredients: "ENGLISH MUFFIN, BRAISED LACINATO KALTE, NDUJA, ONION JAM, BROWN BUTTER" },
+        { name: 'THE BENEDICT', ingredients: "ENGLISH MUFFIN, BRAISED LACINATO KALE, NDUJA, ONION JAM, BROWN BUTTER" },
         { name: 'CRISPY POTATO BOWL', ingredients: "2 SUNNY SIDE EGGS, ALEPPO PEPPER CREMA, PICKLED RED ONIONS, SCHUG" },
 
         { name: 'BISCUITS AND GRAVY', ingredients: '2 SUNNY SIDE EGGS, FENNEL SAUSAGE GRAVY ' },
@@ -178,7 +178,7 @@ export const dinnerMenu = [
         items: [
             { name: 'CHOCOLATE CHUNK SKILLET COOKIE', ingredients: 'VANILLA GELATO' },
             { name: 'CHEESECAKE', ingredients: 'PEACH JAM, GRAHAM CRACKER CRUNCH' },
-            { name: 'PANNA COTTA', ingredients: 'PINEAPPLE, POMEGRANATE, CHOCOLATE, MINT, ITALIAN MERINQUE' },
+            { name: 'LEMON TART', ingredients: 'SAVORY GRANOLA, LEMON CURD, VANILLA GELATTO' },
             { name: 'ROOT BEER FLOAT', ingredients: 'FIRE-BREWED ROOT BEER, WHIPPED CREAM IN A FROSTED MUG' },
             { name: 'GELATO', ingredients: '2 SCOOPS OF YOUR CHOICE ' }
         ]
