@@ -8,17 +8,8 @@ const teamMembers = [
     imageUrl: "/staff/bud.webp",
     link: "/about#story",  // Link to the "OUR STORY" section on the About page
   },
-  {
-    name: "Adam Slamon",
-    title: "Executive Chef",
-    imageUrl: "/staff/adam.webp",
-  },
-  {
-    name: "Nick Merrifield",
-    title: "AGM/Beverage Director",
- 
-    imageUrl: "/staff/nick.webp",
-  },
+
+  
   {
     name: "Jose Bazan",
     title: "Sous Chef",
