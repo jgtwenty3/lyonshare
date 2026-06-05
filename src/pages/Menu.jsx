@@ -51,7 +51,7 @@ const Menu = () => {
         </div> */}
       </div>
       <div className="p-5 md:p-10">
-        <div className="flex flex-wrap justify-center gap-2 mt-4 p-2 mb-20">
+        <div className="flex flex-wrap justify-center gap-2 mt-4 p-2 mb-20 uppercase">
           <Button title="DINNER" onClick={() => handleMenuClick(dinnerMenu)} containerClass={"border-2 border-darkNavy"} />
           <Button title="BRUNCH" onClick={() => handleMenuClick(brunchMenu)} containerClass={"border-2 border-darkNavy"} />
           <Button title="LUNCH" onClick={() => handleMenuClick(lunchMenu)} containerClass={"border-2 border-darkNavy"} />

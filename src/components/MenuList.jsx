@@ -14,8 +14,8 @@ const MenuList = ({ menuSection }) => {
         <ul className="space-y-4">
           {menuSection.items.map((item, itemIndex) => (
             <li ref={sectionRef} key={itemIndex} className="text-lg font-alpina">
-              <span className="block md:inline-block font-bold text-2xl">{item.name}</span>
-              <span className="block md:inline-block text-lg ml-2">{item.ingredients}</span>
+              <span className="block uppercase md:inline-block font-bold text-2xl">{item.name}</span>
+              <span className="block uppercase md:inline-block text-lg ml-2">{item.ingredients}</span>
               {item.ingredients && <br />}
               {item.items && (
                 <ul className="space-y-2 mt-4">

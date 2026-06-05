@@ -1,7 +1,10 @@
 export const rawBarMenu = {
     title: 'RAW BAR',
     items: [
-        { name: 'SELECTION OF EAST COAST OYSTERS', ingredients:"COCKTAIL SAUCE, LYONSHARE MIGNONETTE" }
+        { name: 'east coast oysters', ingredients:"COCKTAIL SAUCE, LYONSHARE MIGNONETTE" },
+        { name: 'shrimp cocktail', ingredients:"lemon aioli, cocktail sauce" },
+        { name: 'market crudo', ingredients:"daily selection of seasonal fish, breakfast radish, preserved lemon" },
+
     ]
 };
 
@@ -61,7 +64,7 @@ export const brunchMenu = [
         { name: 'CRISPY POTATO BOWL', ingredients: "2 SUNNY SIDE EGGS, ALEPPO PEPPER CREMA, PICKLED RED ONIONS, SCHUG" },
 
         { name: 'BISCUITS AND GRAVY', ingredients: '2 SUNNY SIDE EGGS, FENNEL SAUSAGE GRAVY ' },
-        { name: 'SHAKSHUKA', ingredients: 'MEDITERRANEAN TOMATO STEW, BAKED EGGS, SUMAC YOGURT, TOASTED BAGUETTE' },
+        { name: 'TURKISH EGGS', ingredients: 'SUMAC YOGURT, SUNNYSIDE EGGS, SPICED BUTTER, PECAN GREMOLATA, TOAST' },
         { name: 'FRENCH OMELET', ingredients: 'BABY GREENS, CIDER SHALLOT VINAIGRETTE' },
         { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED TAVERN BUN, VINEGAR PICKLES, FRENCH FRIES' },
         { name: "CHICKEN SALAD SANDWICH", ingredients:"TOASTED MULTIGRAIN SOURDOUGH ROLL, URFA BIEBER CREMA, WALNUT GREMOLATO, BABY GEM, PICKLES AND LYONSHARE SLAW"},
@@ -83,11 +86,11 @@ export const brunchMenu = [
         title: 'COCKTAILS',
         items: [
             { name: 'HUDSON MIMOSA', ingredients: 'PROSECCO, ORANGE PEEL, SIDECAR OF OJ OR GRAPEFRUIT' },
-            { name: 'BEACON BLOODY MARY', ingredients: ' CULCH VODKA, HOUSE BLOODY MIX, LUGER SAUCE' },
+            { name: 'BROOKLYN BLOODY', ingredients: ' CULCH VODKA, HOUSE BLOODY MIX, LUGER SAUCE' },
             { name: 'VICTORY SPRITZ ', ingredients: 'RASPBERRY, APERITIVO, ELDERBERRY, GRAPEFRUIT, PROSECCO' },
             { name: 'TACONIC TONIC', ingredients: 'LILLET, GENTIAN, ORANGE, QUININE' },
             { name: 'LYONSHARE MICHELADA', ingredients: 'CAN OF BEER, HOUSE BLOODY MIX, SALT RIM' },
-            { name: 'MADAME BRETT', ingredients: 'GIN, THYME, HONEY, JUNIPER, CAVA ' },
+            { name: 'COAST TO COAST', ingredients: 'PISCO, CUCUMBER, ALOE, MINT, LIME' },
             { name: 'MELIO BETTINA', ingredients: 'BOURBON, ORANGE, ESPRESSO' },
             
         ]
@@ -102,8 +105,8 @@ export const lunchMenu = [
         { name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARMELIZED ONION CREMA, PICKLED RED ONION"},
         { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
         { name: 'PENICILLIN', ingredients: 'ORGANIC CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
-        { name: 'LOCAL LETTUCES', ingredients: 'CHICORY, TREVISIANO, POMEGRANATE, TOASTED ALMONDS, ORANCE VINAIGRETTE' },
-        { name: "ARANCINI", ingredients:"ROASTED GARLIC TOMATO SAUCE, FONTINA, PARMESAN, CRISPY GARLIC, PARSLEY"},
+        { name: 'LOCAL LETTUCES', ingredients: 'LIL GEM LETTUCE, GREEN GODDESS, BREAKFAST RADDISH, FENNEL, CRIPSY SHALLOTS' },
+        { name: "POTATO CROQUETTES", ingredients:"BEEF TALLOW, NDUJA, CHIVE, ALEPPO CREMA"},
         { name: 'FRENCH FRIES', ingredients: 'LYONSHARE STANDARD SAUCE AND KETCHUP' },
 
     ]},
@@ -131,12 +134,12 @@ export const dinnerMenu = [
     {
         title: 'SMALL PLATES',
         items: [
-            { name: "BISCUITS", ingredients:"SOUTHERN-STYLE BUTTERMILK BISCUITS, HONEY BUTTER, MALDON SEA SALT"},
+            { name: "POTATO CROQUETTES", ingredients:"BEEF TALLOW, NDUJA, CHIVE, ALEPPO CREMA"},
             { name: "CARROTS", ingredients:"SUMAC YOGURT, MICRO CRESS, SAVORY GRANOLA, OLIVE OIL"},
-            { name: "ARANCINI", ingredients:"ROASTED GARLIC TOMATO SAUCE, FONTINA, PARMESAN, CRISPY GARLIC, PARSLEY"},
+            { name: "FAVA BEAN DIP", ingredients:"PECAN GREMOLATA, OLIVE OIL, FOCACCIA"},
             { name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARAMELIZED ONION CREMA, PICKLED RED ONION"},
             { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
-            { name: 'LOCAL LETTUCES', ingredients: 'CHICORY, TREVISIANO, POMEGRANATE, TOASTED ALMONDS, ORANCE VINAIGRETTE' },
+            { name: 'LOCAL LETTUCES', ingredients: 'LIL GEM LETTUCE, GREEN GODDESS, BREAKFAST RADDISH, FENNEL, CRIPSY SHALLOTS' },
             { name: 'PENICILLIN', ingredients: 'ORGANIC CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
             
         ]
@@ -145,14 +148,15 @@ export const dinnerMenu = [
         title: 'MAINS',
         items: [
             { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED TAVERN BUN, VINEGAR PICKLES, FRENCH FRIES' },
-            { name: 'FUSILI FERRETO', ingredients: 'LAMB RAGU, LEMON RICOTTA, AGED PECORINO, OLIVE OIL' },
-            {names: 'GRILLED STEELHEAD', ingredients:'TOASTED PEARL, COUSCOUS, MUSHROOM CONFIT, PARSLEY CREAM'},
+            { name: 'FRIED CHICKEN', ingredients: 'HOUSE YOGURT BRINED, HONEY BUTTER, BISCUIT, ASSORTED PICKLES & PRESERVES' },
+            {names: 'MOULE FRITES', ingredients:'CAPER GREMOLATA, ANDOUILLE SAUSAGE, FRENCH FRIES, FOCACCIA'},
             { name: 'STEAK FRITES', ingredients: '8 OZ FLAT IRON, CHIMICHURRI, FRENCH FRIES' },
-            { name: 'CRISPY PORK BELLY', ingredients: 'BRUSSEL SPROUTS, ROMESCO, FENNEL POLLEN, CHARDONAY AGRODOLCE' },
+            { name: 'PORK SCHNITZEL', ingredients: 'MUSTARD AOILI, FENNEL, ARUGULA, LEMON VINAIGRETTE' },
             { name: 'SEA BASS', ingredients: 'CHARRED BROCCOLINI, CAULIFLOWER PUREE, PARSLEY, LEMON CAPER GREMOLATA' },
-            { name: 'MOROCCAN BRAISED SHORT RIB', ingredients: 'CELERIAC MISO PUREE, PECAN-CITRUS GREMOLATA' },
-            { name: 'HALF GRILLED CHICKEN', ingredients: 'SHARP AND CREAMY SLAW, BISCUITS, BUTTER AND HONEY' },
+            { name: '22 oz IBERICO PORK SHOULDER', ingredients: 'piquillo romesco, castelfranco, shishito peppers, apple ramp pesto' },
+            { name: 'carrot risotto', ingredients: 'pickled mushroom, crispy shallot, spring vegetables,pecorino' },
             { name: 'NY STRIP', ingredients: 'GRILLED WITH ROASTED GARLIC PUREE AND COMPOUND BUTTER' },
+            { name: 'porterhouse for 2', ingredients: '28 day dry aged prime beef, vine ripened tomato, house salad,  choice of spinach or herbed potatoes' },
 
         ]
     },
@@ -167,10 +171,12 @@ export const dinnerMenu = [
     {
         title: 'SIDE DISHES',
         items: [
-            { name: "", ingredients: 'BRUSSEL SPROUTS TAHNI AND BREAD CRUMPS'},
+            { name: "", ingredients: 'asparagus with cured egg yolk'},
             { name: "",ingredients:'SAUTEED SPINACH AND GARLIC' },
             { name: "",ingredients:'CRISPY HERBED POTATOES' },
-            { name: "",ingredients:'FRENCH FRIES' }
+            { name: "",ingredients:'biscuits & honey butter' },
+            { name: "",ingredients:'lettuce & herbs with champagne vinaigrette' }
+
         ]
     },
     {
