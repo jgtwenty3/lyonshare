@@ -197,9 +197,9 @@ export const cocktailMenu = [
         items: [
             { name: "ANCIENT MARINER", ingredients: "VODKA, PINEAPPLE, SPICED PEAR, ALMOND, GINGER" },
             { name: "ROCCO THE DUCK", ingredients: "MEZCAL, APEROL, CITRUS, CHERRY COLA, SMOKE" },
-            { name: "MADAME BRETT", ingredients: "GIN, THYME, HONEY, JUNIPER, CAVA" },
-            { name: "CAPTAIN LYON", ingredients: "VODKA, JUNIPER, INDIGO, BERGAMOT, OLIVE" },
-            { name: "MELIO BETTINA", ingredients: "BOURBON, ORANGE, ESPRESSO" },
+            { name: 'COAST TO COAST', ingredients: 'PISCO, CUCUMBER, ALOE, MINT, LIME' },
+            { name: "CAPITAL CITY CLUB", ingredients: "VODKA, JUNIPER, INDIGO, BERGAMOT, OLIVE" },
+            { name: "MELIO BETTINA", ingredients: "GIN, BOTANICALS, COMBIER, CASTELVETRANO, DIRTY" },
             { name: "ST. GREGORIO", ingredients: "TEQUILLA, SUGAR CANE, GRAPEFRUIT, MARASCHINO, ABSINTHE" },
             { name: "LYONSHARE MANHATTAN", ingredients: "RYE, HOUSE VERMOUTH BLEND, CHERRY" },
             { name: "ALGONQUIN", ingredients: "GIN, METHOD SWEET VERMOUTH, LUXARDO BITTER, ORANGE" },
@@ -385,554 +385,72 @@ export const imageList = [
 ];
 
 export const eventsData = [
-    // {
-    //     artist: 'Rev Vince Anderson',
-    //     date: '2025-06-05T20:00:00-04:00', // 8 PM EDT
-    //     img: 'images/musicians/revVince.webp',
-    //     bio: 'Reverend Vince Anderson is an American, New York City based musician. He has performed a weekly show every Monday night at Union Pool in Brooklyn for over 25 years. Reverend Vince calls his high energy gospel-rock music "dirty gospel", and has been described as a Brooklyn institution.'
-    //   },
-    //   {
-    //     artist: "J Wilms’ Paper Machete",
-    //     date: '2025-06-07T20:00:00-04:00', // 8 PM EDT
-    //     img: 'images/musicians/jWilms.jpg',
-    //     bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
-    //   },
-    //   {
-    //     artist: 'Leif Arntzen Trio',
-    //     date: '2025-06-12T20:00:00-04:00', // 8 PM EDT
-    //     img: 'images/musicians/leif.jpg',
-    //     bio: 'The Leif Arntzen Trio is a creative group of musicians dedicated to the art of spontaneous music making without boundaries or other earthly concerns. This band exists only within the sounds it can create from the heart and mind. The recordings are essentially jam sessions with no formal structure, occasionally referencing classic melodies and chord structures. '
-    //   },
-    //   {
-    //     artist: "J Wilms’ Paper Machete",
-    //     date: '2025-06-14T20:00:00-04:00', // 8 PM EDT
-    //     img: 'images/musicians/jWilms.jpg',
-    //     bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
-    //   },
-    //   {
-    //     artist: 'Leah Valentine',
-    //     date: '2025-06-19T20:00:00-04:00', // 8 PM EDT
-    //     img: 'images/musicians/Leah2.jpg',
-    //     bio: ''
-    //   },
-    //   {
-    //     artist: 'Jack Grace',
-    //     date: '2025-06-21T20:00:00-04:00', // 8 PM EDT
-    //     img: 'images/musicians/jackGrace.webp',
-    //     bio: `“It sounds like Cole Porter meets Gene Autry.” — Clyde Haberman, New York Times
-      
-    //   “He’s like that Cash kid, but good.” — Jerry Lee Lewis on hearing Jack live
-      
-    //   "As clever as the Beatles...Jack's voice is splendid!" — Americana Highways`
-    //   },
-      
-    //   {
-    //     artist: 'Mike Ferrio',
-    //     date: '2025-06-26T20:00:00-04:00', // 8 PM EDT
-    //     img: '',
-    //     bio: ''
-    //   },
-    //   {
-    //     artist: "J Wilms’ Paper Machete",
-    //     date: '2025-06-28T20:00:00-04:00', // 8 PM EDT
-    //     img: 'images/musicians/jWilms.jpg',
-    //     bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
-    //   },
-      // {
-    //     artist: "The Song Swap Open Mic",
-    //     date: '2025-07-01T20:00:00-04:00', // 8 PM EDT
-    //     img: 'images/musicians/songswap.webp',
-    //     bio: '5:30PM Sign Up'
-    //   },
-    //   {
-    //     artist: 'Rev Vince Anderson',
-    //     date: '2025-07-03T20:00:00-04:00', // 8 PM EDT
-    //     img: 'images/musicians/revVince.webp',
-    //     bio: 'Reverend Vince Anderson is an American, New York City based musician. He has performed a weekly show every Monday night at Union Pool in Brooklyn for over 25 years. Reverend Vince calls his high energy gospel-rock music "dirty gospel", and has been described as a Brooklyn institution.'
-    // },
-    // {
-    //     artist: "J Wilms’ Paper Machete",
-    //     date: '2025-07-05T20:00:00-04:00', // 8 PM EDT
-    //     img: 'images/musicians/jWilms.jpg',
-    //     bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. '
-    // },
-    // {
-    //     artist: "Jess Best",
-    //     date: '2025-07-17T20:00:00-04:00',
-    //     img: 'images/musicians/jessBest.webp',
-    //     bio: 'Jess Best writes songs that feel like a lucid dream — a vividly emotional place where reality bends but doesn’t break. Led by her curiosity for unusual combinations, and rooted in her dedication to the songwriting craft of her heroes, Jess’ music is a melding of pop, rock and soul sounds. She’ll be joined by Connor Schultze (bass), Alex Graff (guitar) and Paul Bloom (piano).',
-    //   },
-    //   {
-    //     artist: "Marya Lawerence",
-    //     date: '2025-07-18T20:00:00-04:00',
-    //     img: 'images/musicians/marya.jpg',
-    //     bio: 'Marya Lawrence is a New York-born jazz vocalist known for her soulful, improvis"ational style. She blends originals and standards with a unique, expressive voice.'
-    //   },
-    //   {
-    //     artist: "J Wilms’ Paper Machete",
-    //     date: '2025-07-19T20:00:00-04:00',
-    //     img: 'images/musicians/jWilms.jpg',
-    //     bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
-    //   },
-    //   {
-    //     artist: "Mike Ferrio",
-    //     date: '2025-07-24T20:00:00-04:00',
-    //     img: 'images/musicians/mikeFerrio.jpg',
-    //     bio: 'Mike Ferrio is a singer-songwriter known for his storytelling and Americana roots.',
-    //   },
-    //   {
-    //     artist: "Demetra",
-    //     date: '2025-07-25T20:00:00-04:00',
-    //     img: 'images/musicians/demetra.webp',
-    //     bio: 'Demetra is a New York City jazz artist who is breathing new life into the genre by reimagining beloved rock and pop classics. Demetra draws inspiration from a diverse array of music, from gritty 90s grunge anthems and iconic synth pop songs to blues favorites, in a way that feels both fresh and familiar, captivating audiences with her soulful voice and infectious energy. Her live performances are magnetic and will leave you spellbound from the first song to the last.',
-    //   },
-    //   {
-    //     artist: "Jack Grace",
-    //     date: '2025-07-31T20:00:00-04:00',
-    //     img: 'images/musicians/jackGrace.webp',
-    //     bio: `“It sounds like Cole Porter meets Gene Autry.” — Clyde Haberman, New York Times
-      
-    //     “He’s like that Cash kid, but good.” — Jerry Lee Lewis on hearing Jack live
-      
-    //     "As clever as the Beatles...Jack's voice is splendid!" — Americana Highways`
-    //  },
-    
-    //   {
-    //     artist: "Leif Arntzen",
-    //     date: '2025-08-01T20:00:00-04:00',
-    //     img: 'images/musicians/leif.jpg',
-    //     bio: 'The Leif Arntzen Trio is a creative group of musicians dedicated to the art of spontaneous music making without boundaries or other earthly concerns. This band exists only within the sounds it can create from the heart and mind. The recordings are essentially jam sessions with no formal structure, occasionally referencing classic melodies and chord structures. '
-    //   },
-    //   {
-    //     artist: "Rev Vince Anderson",
-    //     date: '2025-08-07T20:00:00-04:00',
-    //     img: 'images/musicians/revVince.webp',
-    //     bio: 'Reverend Vince Anderson is an American, New York City based musician. He has performed a weekly show every Monday night at Union Pool in Brooklyn for over 25 years. Reverend Vince calls his high energy gospel-rock music "dirty gospel", and has been described as a Brooklyn institution.'
-    //   },
-    //   {
-    //     artist: "J Wilms",
-    //     date: '2025-08-09T20:00:00-04:00',
-    //     img: 'images/musicians/jWilms.jpg',
-    //     bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
-    //   },
-    //   {
-    //     artist: "Mike Ferrio",
-    //     date: '2025-08-14T20:00:00-04:00',
-    //     img: 'images/musicians/mikeFerrio.jpg',
-    //     bio: 'Mike Ferrio is a singer-songwriter known for his storytelling and Americana roots.',
-    //   },
-    //   {
-    //     artist: "Leif Arntzen",
-    //     date: '2025-08-15T20:00:00-04:00',
-    //     img: 'images/musicians/leif.jpg',
-    //     bio: 'The Leif Arntzen Trio is a creative group of musicians dedicated to the art of spontaneous music making without boundaries or other earthly concerns. This band exists only within the sounds it can create from the heart and mind. The recordings are essentially jam sessions with no formal structure, occasionally referencing classic melodies and chord structures. '
-    //   },
-    //   {
-    //     artist: "J Wilms",
-    //     date: '2025-08-16T20:00:00-04:00',
-    //     img: 'images/musicians/jWilms.jpg',
-    //     bio: 'Jeremy Wilms, multi-instrumentalist and composer...',
-    //   },
-    //   {
-    //     artist: "J Wilms",
-    //     date: '2025-08-23T20:00:00-04:00',
-    //     img: 'images/musicians/jWilms.jpg',
-    //     bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
-    //   },
-    //   {
-    //     artist: "Jack Grace",
-    //     date: '2025-08-28T20:00:00-04:00',
-    //     img: 'images/musicians/jackGrace.webp',
-    //     bio: `“It sounds like Cole Porter meets Gene Autry.” — Clyde Haberman, New York Times
-      
-    //     “He’s like that Cash kid, but good.” — Jerry Lee Lewis on hearing Jack live
-      
-    //     "As clever as the Beatles...Jack's voice is splendid!" — Americana Highways`
-    //  },
-    //   {
-    //     artist: "Marya Lawerence",
-    //     date: '2025-08-29T20:00:00-04:00',
-    //     img: 'images/musicians/marya.jpg',
-    //     bio: 'Marya Lawrence is a New York-born jazz vocalist known for her soulful, improvis"ational style. She blends originals and standards with a unique, expressive voice.'
-
-    //   },
-    //   {
-    //     artist: "J Wilms",
-    //     date: '2025-08-30T20:00:00-04:00',
-    //     img: 'images/musicians/jWilms.jpg',
-    //     bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
-    //   },
-    //   {
-    //     artist: "The Song Swap Open Mic",
-    //     date: '2025-07-01T20:00:00-04:00',
-    //     img: 'images/musicians/songswap.webp',
-    //     bio: '5:30PM Sign Up, hosted by Jack Grace'
-    //   },
-    //   {
-    //     artist: "The Song Swap Open Mic",
-    //     date: '2025-07-08T20:00:00-04:00',
-    //     img: 'images/musicians/songswap.webp',
-    //     bio: '5:30PM Sign Up, hosted by Jack Grace'
-    //   },
-    //   {
-    //     artist: "The Song Swap Open Mic",
-    //     date: '2025-07-15T20:00:00-04:00',
-    //     img: 'images/musicians/songswap.webp',
-    //     bio: '5:30PM Sign Up, hosted by Jack Grace'
-    //   },
-    //   {
-    //     artist: "The Song Swap Open Mic",
-    //     date: '2025-07-22T20:00:00-04:00',
-    //     img: 'images/musicians/songswap.webp',
-    //     bio: '5:30PM Sign Up, hosted by Jack Grace'
-    //   },
-    //   {
-    //     artist: "The Song Swap Open Mic",
-    //     date: '2025-07-29T20:00:00-04:00',
-    //     img: 'images/musicians/songswap.webp',
-    //     bio: '5:30PM Sign Up, hosted by Jack Grace'
-    //   },
-    //   {
-    //     artist: "The Song Swap Open Mic",
-    //     date: '2025-08-05T20:00:00-04:00',
-    //     img: 'images/musicians/songswap.webp',
-    //     bio: '5:30PM Sign Up, hosted by Jack Grace'
-    //   },
-    //   {
-    //     artist: "The Song Swap Open Mic",
-    //     date: '2025-08-12T20:00:00-04:00',
-    //     img: 'images/musicians/songswap.webp',
-    //     bio: '5:30PM Sign Up, hosted by Jack Grace'
-    //   },
-    //   {
-    //     artist: "The Song Swap Open Mic",
-    //     date: '2025-08-19T20:00:00-04:00',
-    //     img: 'images/musicians/songswap.webp',
-    //     bio: '5:30PM Sign Up, hosted by Jack Grace'
-    //   },
-    //   {
-    //     artist: "The Song Swap Open Mic",
-    //     date: '2025-08-26T20:00:00-04:00',
-    //     img: 'images/musicians/songswap.webp',
-    //     bio: '5:30PM Sign Up, hosted by Jack Grace'
-    //   },
-    //   {
-    //     artist: "Silent Bar",
-    //     date: '2025-07-23T17:00:00-04:00',
-    //     img: 'images/musicians/silentbar.webp',
-    //     bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
-    //   },
-    //   {
-    //     artist: "Silent Bar",
-    //     date: '2025-07-30T17:00:00-04:00',
-    //     img: 'images/musicians/silentbar.webp',
-    //     bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
-    //   },
-    //   {
-    //     artist: "Silent Bar",
-    //     date: '2025-08-06T17:00:00-04:00',
-    //     img: 'images/musicians/silentbar.webp',
-    //     bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
-    //   },
-    //   {
-    //     artist: "Silent Bar",
-    //     date: '2025-08-13T17:00:00-04:00',
-    //     img: 'images/musicians/silentbar.webp',
-    //     bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
-    //   },
-    //   {
-    //     artist: "Silent Bar",
-    //     date: '2025-08-20T17:00:00-04:00',
-    //     img: 'images/musicians/silentbar.webp',
-    //     bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
-    //   },
-    //   {
-    //     artist: "Silent Bar",
-    //     date: '2025-08-27T17:00:00-04:00',
-    //     img: 'images/musicians/silentbar.webp',
-    //     bio: 'A seductive evening of bespoke cocktails and music curated by our beverage director Nick Merrifield'
-    //   },
-      
-    
-      
-    // { artist: 'Neil Alexander', 
-    //   date: '2025-02-08T20:00:00-05:00', // 8 PM EST
-    //   img: '/images/musicians/NeilAlexander.webp', 
-    //   bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
-    // },
-    // { artist: 'Jazz Trio JAM', 
-    //   date: '2025-02-11T20:00:00-05:00', // 8 PM EST
-    //   img: '', 
-    //   bio: '' 
-    // },
-    // { artist: 'Zohar & Adam - Every Second Tuesday', 
-    //   date: '2025-02-11T20:00:00-05:00', // 8 PM EST
-    //   img: '', 
-    //   bio: "Zohar & Adam are a Beacon based duo of brothers steadily gaining notoriety in the new jazz scene. At just 18 and 20 years old, they have already performed in a number of prestigious venues across the country and have collaborated with musicians such as Christian McBride, J3PO, Hadrien Feraud, Steve Wilson, and many more. “The Everything Jam”, hosted by Z&A, is a monthly jam at LyonShare comprising of completely improvised music welcoming artists of all kinds."
-    // },
-    // { artist: 'Jeremy Schonfeld', 
-    //   date: '2025-02-13T20:00:00-05:00', // 8 PM EST
-    //   img: 'images/musicians/JeremySchonfeld.png', 
-    //   bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
-    // },
-    // { artist: "Tara O'Grady", 
-    //   date: '2025-02-14T20:00:00-05:00', // 8 PM EST
-    //   img: '/images/musicians/taraOgrady.webp', 
-    //   bio: "Tara O'Grady is a singer-songwriter, author, and educator known for her jazz, blues, and folk music. She has released five albums, written two memoirs, and performed internationally at festivals like Cork Jazz and SXSW. A featured artist in the BBC documentary Danny Boy, she has been recognized as one of Irish Voice’s Most Influential Women."
-    // },
-    // { artist: 'Neil Alexander', 
-    //   date: '2025-02-15T20:00:00-05:00', // 8 PM EST
-    //   img: '/images/musicians/NeilAlexander.webp', 
-    //   bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
-    // },
-    // { artist: 'Paper Machete Global Psychedelia', 
-    //   date: '2025-02-18T20:00:00-05:00', // 8 PM EST
-    //   img: '', 
-    //   bio: '' 
-    // },
-    // { artist: 'Jeremy Schonfeld', 
-    //   date: '2025-02-20T20:00:00-05:00', // 8 PM EST
-    //   img: 'images/musicians/JeremySchonfeld.png',
-    //   bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
-    // },
-    // { artist: 'Jeremy Willm', 
-    //   date: '2025-02-21T20:00:00-05:00', // 8 PM EST
-    //   img: '/images/musicians/jeremy_wilm.webp', 
-    //   bio: '' 
-    // },
-    // { artist: 'Neil Alexander', 
-    //   date: '2025-02-22T20:00:00-05:00', // 8 PM EST
-    //   img: '/images/musicians/NeilAlexander.webp',  
-    //   bio: 'Neil Alexander is a renowned pianist, keyboardist, and composer with a four-decade career spanning jazz, rock, and classical music. He has toured internationally, led multiple ensembles, and received numerous awards, including Individual Artist of the Year.' 
-    // },
-    // { artist: 'Jeremy Schonfeld', 
-    //   date: '2025-02-27T20:00:00-05:00', // 8 PM EST
-    //   img: 'images/musicians/JeremySchonfeld.png',
-    //   bio: 'Jeremy Schonfeld is an award-winning singer/songwriter, composer, and co-founder of the Beacon Bonfire Music and Art Festival. His work includes the multimedia concert Iron & Coal, numerous albums, and contributions to musicals, film soundtracks, and charity events.' 
-    // },
-    // { artist: 'Jeremy Willm', 
-    //   date: '2025-02-28T20:00:00-05:00', // 8 PM EST
-    //   img: '/images/musicians/jeremy_wilm.webp', 
-    //   bio: '' 
-    // },
-    {
-      artist: "Owen Dudley",
-      date: "2025-11-07T20:00:00-04:00",
-      img: "",
-      bio: ""
-    },
-    {
-      artist: "J Wilms",
-      date: "2025-11-08T20:00:00-04:00",
-      img: 'images/musicians/jWilms.jpg',
-      bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
-    },
-    {
-      artist: "Leif Arntzen",
-      date: "2026-02-06T20:00:00-04:00",
-      img: 'images/musicians/leif.jpg',
-    },
-    {
-      artist: "J Wilms",
-      date: "2025-11-15T20:00:00-04:00",
-      img: 'images/musicians/jWilms.jpg',
-      bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
-    },
-    {
-      artist: "Rachel Berkman",
-      date: "2026-03-06T20:00:00-04:00",
-      img: "images/musicians/rachel.webp",
-    },
-    {
-      artist: "Demi",
-      date: "2025-11-21T20:00:00-04:00",
-      img: "",
-      bio: "Demi is a singer and songwriter whose expressive voice and heartfelt lyrics bridge the worlds of R&B, pop, and soul."
-    },
-    {
-      artist: "Zohar And Adam",
-      date: "2026-02-20T20:00:00-04:00",
-      img: 'images/musicians/zoharAndAdam.webp',
-    },
-    {
-      artist: "Jack Grace",
-      date: "2026-02-13T20:00:00-04:00",
-      img: 'images/musicians/jackGrace.webp',
-      
-    },
-    {
-      artist: "J Wilms",
-      date: "2025-11-29T20:00:00-04:00",
-      img: 'images/musicians/jWilms.jpg',
-      bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
-    },
-    {
-      artist: "Andy Stack",
-      date: "2025-12-05T20:00:00-04:00",
-      img: "",
-      bio: "Andy Stack is a multi-instrumentalist known for his inventive blend of Americana, folk, and experimental textures."
-    },
-    {
-      artist: "Elliot Steele",
-      date: "2026-03-20T20:00:00-04:00",
-      img: '',
-    },
-    {
-      artist: "Jack Grace",
-      date: "2026-03-27T20:00:00-04:00",
-      img: 'images/musicians/jackGrace.webp',
-
-    },
-    {
-      artist: "Leif Arntzen",
-      date: "2026-03-13T20:00:00-04:00",
-      img: 'images/musicians/leif.jpg',
-    },
-    {
-      artist: "J Wilms",
-      date: "2025-12-13T20:00:00-04:00",
-      img: 'images/musicians/jWilms.jpg',
-      bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
-    },
-    {
-          artist: 'Leah Valentine',
-          date: '2025-12-19T20:00:00-04:00', // 8 PM EDT
-          img: 'images/musicians/Leah2.jpg',
-          bio: ''
-        },
-    // {
-    //   artist: "J Wilms",
-    //   date: "2025-12-20T20:00:00-04:00",
-    //   img: 'images/musicians/jWilms.jpg',
-    //   bio: 'Jeremy Wilms, Multi-instrumentalist composer and songwriter. His original music varies from chamber music to large ensemble improvised music to pared down singer songwriter music. ',
-    // },
-    {
-      artist: "Rebel Salon",
-      date: "2026-02-07T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-02-14T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-02-21T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-02-28T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-03-07T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-03-14T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-03-21T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-03-28T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    {
-      artist: "Rebel Salon",
-      date: "2026-04-03T20:00:00-04:00",
-      img: "images/musicians/rebelSalon.png",
-      bio: "Featuring J. Wilms' Paper Machete"
-    },
-    [
-      {
-        artist: "Rebel Salon",
-        date: "2026-04-03T20:00:00-04:00",
-        img: "images/musicians/rebelSalon.png",
-        bio: "Featuring J. Wilms' Paper Machete"
-      },
-      {
-        artist: "Leif Arntzen",
-        date: "2026-04-4T20:00:00-04:00",
-        img: 'images/musicians/leif.jpg',
-      },
-      {
-        artist: "Emily Cavanaugh",
-        date: "2026-04-11T20:00:00-04:00",
-        img: "",
-        bio: ""
-      },
-      {
-        artist: "Rebel Salon",
-        date: "2026-04-10T20:00:00-04:00",
-        img: "images/musicians/rebelSalon.png",
-        bio: "Featuring J. Wilms' Paper Machete"
-      },
-      {
-        artist: "Rebel Salon",
-        date: "2026-04-17T20:00:00-04:00",
-        img: "images/musicians/rebelSalon.png",
-        bio: "Featuring J. Wilms' Paper Machete"
-      },
-      {
-        artist: "Jack Grace",
-        date: "2026-04-18T20:00:00-04:00",
-        img: 'images/musicians/jackGrace.webp',
-  
-      },
-      {
-        artist: "Rebel Salon",
-        date: "2026-04-24T20:00:00-04:00",
-        img: "images/musicians/rebelSalon.png",
-        bio: "Featuring J. Wilms' Paper Machete"
-      },
-      {
-        artist: "Rebel Salon",
-        date: "2026-05-01T20:00:00-04:00",
-        img: "images/musicians/rebelSalon.png",
-        bio: "Featuring J. Wilms' Paper Machete"
-      },
-      {
-        artist: "Rebel Salon",
-        date: "2026-05-08T20:00:00-04:00",
-        img: "images/musicians/rebelSalon.png",
-        bio: "Featuring J. Wilms' Paper Machete"
-      },
-      {
-        artist: "Rebel Salon",
-        date: "2026-05-15T20:00:00-04:00",
-        img: "images/musicians/rebelSalon.png",
-        bio: "Featuring J. Wilms' Paper Machete"
-      },
-      {
-        artist: "Rebel Salon",
-        date: "2026-05-22T20:00:00-04:00",
-        img: "images/musicians/rebelSalon.png",
-        bio: "Featuring J. Wilms' Paper Machete"
-      },
-      {
-        artist: "Rebel Salon",
-        date: "2026-05-29T20:00:00-04:00",
-        img: "images/musicians/rebelSalon.png",
-        bio: "Featuring J. Wilms' Paper Machete"
-      }
-    ]
-    
-    
+  {
+    artist: "Jeremy Wilms",
+    date: "2026-07-03T20:00:00-04:00",
+  },
+  {
+    artist: "Jeremy Wilms",
+    date: "2026-07-10T20:00:00-04:00",
+  },
+  {
+    artist: "Owen Dudley Trio",
+    date: "2026-07-11T20:00:00-04:00",
+  },
+  {
+    artist: "Jeremy Wilms",
+    date: "2026-07-17T20:00:00-04:00",
+  },
+  {
+    artist: "Andy Stack",
+    date: "2026-07-18T20:00:00-04:00",
+  },
+  {
+    artist: "Jeremy Wilms",
+    date: "2026-07-24T20:00:00-04:00",
+  },
+  {
+    artist: "Jeremy Wilms",
+    date: "2026-07-25T20:00:00-04:00",
+  },
+  {
+    artist: "Jeremy Wilms",
+    date: "2026-07-31T20:00:00-04:00",
+  },
+  {
+    artist: "Jack Grace",
+    date: "2026-08-01T20:00:00-04:00",
+  },
+  {
+    artist: "Jeremy Wilms",
+    date: "2026-08-07T20:00:00-04:00",
+  },
+  {
+    artist: "Mike Pride Trio",
+    date: "2026-08-08T20:00:00-04:00",
+  },
+  {
+    artist: "Jeremy Wilms",
+    date: "2026-08-14T20:00:00-04:00",
+  },
+  {
+    artist: "Owen Dudley Trio",
+    date: "2026-08-15T20:00:00-04:00",
+  },
+  {
+    artist: "Jeremy Wilms",
+    date: "2026-08-21T20:00:00-04:00",
+  },
+  {
+    artist: "",
+    date: "2026-08-22T20:00:00-04:00",
+  },
+  {
+    artist: "Jeremy Wilms",
+    date: "2026-08-28T20:00:00-04:00",
+  },
+  {
+    artist: "Elliot Steele",
+    date: "2026-08-29T20:00:00-04:00",
+  },
 ];
