@@ -57,7 +57,7 @@ export const brunchMenu = [
         { name: 'AVOCADO TOAST', ingredients: 'SOURDOUGH BREAD, CARROT "CHORIZO", AVACODO MASH, OLIVE OIL' },
         { name: 'RICOTTA TOAST', ingredients: 'SOURDOUGH BREAD, LEMON RICOTTA, SEASONAL FRUIT, GRANOLA, MAPLE SYRUP' },
         { name: 'YOGURT & FRUIT', ingredients: 'HOUSEMADE YOGURT, LYONSHARE GRANOLA, SEASONAL JAM, MACERATED FRUIT' },
-        { name: 'LOCAL LETTUCES', ingredients: 'CHICORY, TREVISIANO, POMEGRANATE, TOASTED ALMONDS, ORANCE VINAIGRETTE' },
+        { name: 'KALE CEASAR', ingredients: 'LACINTO KALE, CHIOGGIA BEETS, BREAD CRUMB, CURTED EGG YOLKS, SWEET PICKLED BEETS' },
         { name: 'PENICILIN', ingredients: 'CHICKEN BROTH, VEGETABLES, & MATZO BALLS' },
         { name: 'SWEET STACK', ingredients: 'MACERATED FRUIT, HONEY BUTTER, NYS MAPLE SYRUP' },
         { name: 'THE BENEDICT', ingredients: "ENGLISH MUFFIN, BRAISED LACINATO KALE, NDUJA, ONION JAM, BROWN BUTTER" },
@@ -105,8 +105,8 @@ export const lunchMenu = [
         { name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARMELIZED ONION CREMA, PICKLED RED ONION"},
         { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
         { name: 'PENICILLIN', ingredients: 'ORGANIC CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
-        { name: 'LOCAL LETTUCES', ingredients: 'LIL GEM LETTUCE, GREEN GODDESS, BREAKFAST RADDISH, FENNEL, CRIPSY SHALLOTS' },
-        { name: "POTATO CROQUETTES", ingredients:"BEEF TALLOW, NDUJA, CHIVE, ALEPPO CREMA"},
+        { name: 'KALE CEASAR', ingredients: 'LACINTO KALE, CHIOGGIA BEETS, BREAD CRUMB, CURTED EGG YOLKS, SWEET PICKLED BEETS' },
+        // { name: "POTATO CROQUETTES", ingredients:"BEEF TALLOW, NDUJA, CHIVE, ALEPPO CREMA"},
         { name: 'FRENCH FRIES', ingredients: 'LYONSHARE STANDARD SAUCE AND KETCHUP' },
 
     ]},
@@ -115,7 +115,7 @@ export const lunchMenu = [
     items:[
         { name: "CHICKEN SALAD SANDWICH", ingredients:"CIABATTA ROLL, ALEPPO PEPPER CREMA, TOASTED PECAN GREMOLATA"},
         { name: 'THE BURGER', ingredients: 'DRY-AGED BLEND, CHEDDAR CHEESE, RAW ONION, TOASTED TAVERN BUN, VINEGAR PICKLES, FRENCH FRIES' },
-        { name: 'GNOCCHI', ingredients: "CARROT 'CHORIZO', PARMESAN, PARSLEY" },
+        // { name: 'GNOCCHI', ingredients: "CARROT 'CHORIZO', PARMESAN, PARSLEY" },
         { name: 'CRISPY BASS SANDWICH', ingredients:'TOMATO JAM, WHOLE GRAIN MUSTARD AIOLI, TOASTED BAGUETTE, BABY GREENS'},
         { name: 'STEAK FRITES', ingredients: '8 OZ GRILLED FLAT IRON STEAK, GARLIC CONFIT, CHIMIC, FRENCH FRIES' },
         
@@ -134,12 +134,12 @@ export const dinnerMenu = [
     {
         title: 'SMALL PLATES',
         items: [
-            { name: "POTATO CROQUETTES", ingredients:"BEEF TALLOW, NDUJA, CHIVE, ALEPPO CREMA"},
-            { name: "CARROTS", ingredients:"SUMAC YOGURT, MICRO CRESS, SAVORY GRANOLA, OLIVE OIL"},
-            { name: "FAVA BEAN DIP", ingredients:"PECAN GREMOLATA, OLIVE OIL, FOCACCIA"},
+          { name: 'KALE CEASAR', ingredients: 'LACINTO KALE, CHIOGGIA BEETS, BREAD CRUMB, CURTED EGG YOLKS, SWEET PICKLED BEETS' },
+          { name: "CARROTS", ingredients:"SUMAC YOGURT, MICRO CRESS, SAVORY GRANOLA, OLIVE OIL"},
+            { name: "ANTICUCHOS", ingredients:"3 PRIME BEEF SKEWERS, PANCA PEPPER, RED ONION, TOMATO SALAD"},
             { name: "PIEROGI", ingredients:"POTATO, SAUERKRAUT, FARMERS CHEESE, CARAMELIZED ONION CREMA, PICKLED RED ONION"},
             { name: 'BUTTER & BLUE', ingredients: 'BUTTERHEAD LETTUCES, MARINATED TOMATOES, BLUE CHEESE-BUTTERMILK DRESSING, BACON' },
-            { name: 'LOCAL LETTUCES', ingredients: 'LIL GEM LETTUCE, GREEN GODDESS, BREAKFAST RADDISH, FENNEL, CRIPSY SHALLOTS' },
+            { name: 'BABA GANOUSH', ingredients: 'ROASTED FAIRYTALE EGGPLANT, PEPITA DUKKAH, FOCACCIA, HERBS, EVOO' },
             { name: 'PENICILLIN', ingredients: 'ORGANIC CHICKEN, BROTH, VEGETABLES, & MATZO BALLS' },
             
         ]
@@ -153,18 +153,18 @@ export const dinnerMenu = [
             { name: 'STEAK FRITES', ingredients: '8 OZ FLAT IRON, CHIMICHURRI, FRENCH FRIES' },
             { name: 'PORK SCHNITZEL', ingredients: 'MUSTARD AOILI, FENNEL, ARUGULA, LEMON VINAIGRETTE' },
             { name: 'SEA BASS', ingredients: 'CHARRED BROCCOLINI, CAULIFLOWER PUREE, PARSLEY, LEMON CAPER GREMOLATA' },
-            { name: '22 oz IBERICO PORK SHOULDER', ingredients: 'piquillo romesco, castelfranco, shishito peppers, apple ramp pesto' },
-            { name: 'carrot risotto', ingredients: 'pickled mushroom, crispy shallot, spring vegetables,pecorino' },
-            { name: 'NY STRIP', ingredients: 'GRILLED WITH ROASTED GARLIC PUREE AND COMPOUND BUTTER' },
-            { name: 'porterhouse for 2', ingredients: '28 day dry aged prime beef, vine ripened tomato, house salad,  choice of spinach or herbed potatoes' },
+            { name: '14 oz. PORK RIB EYE', ingredients: 'DRY AGED HERITAGE DUROC PORK, APPLE BUTTER, SUMMER VEGETABLE SUCCOTASH' },
+            { name: 'SUMMER SQUASH RIOSTTO', ingredients: 'DELICATA SQUASH, CASHEW, SUMMER VEGETABLES, CRISPY SHALLOTS' },
+            
 
         ]
     },
     {
         title: 'STEAKS',
         items: [
-            { name: '',ingredients:'CHARGRILLED WITH ROASTED GARLIC PURÉE, COMPOUND BUTTER AND BROWN SAUCE'  },
-            { name: 'NEW YORK STRIP' },
+            // { name: '',ingredients:'CHARGRILLED WITH ROASTED GARLIC PURÉE, COMPOUND BUTTER AND BROWN SAUCE'  },
+            { name: '12 oz. NY STRIP', ingredients: 'GRILLED WITH ROASTED GARLIC PUREE AND COMPOUND BUTTER' },
+            { name: 'porterhouse for 2', ingredients: '28 day dry aged prime beef, vine ripened tomato, house salad,  choice of spinach or herbed potatoes' },
             
         ]
     },
@@ -184,7 +184,7 @@ export const dinnerMenu = [
         items: [
             { name: 'CHOCOLATE CHUNK SKILLET COOKIE', ingredients: 'VANILLA GELATO' },
             { name: 'CHEESECAKE', ingredients: 'PEACH JAM, GRAHAM CRACKER CRUNCH' },
-            { name: 'LEMON TART', ingredients: 'SAVORY GRANOLA, LEMON CURD, VANILLA GELATTO' },
+            { name: 'OLIVE OIL CAKE', ingredients: 'CREME DIPLOMAT, HONEY, SEASONAL JAM, CANDIED WALNUTS' },
             { name: 'ROOT BEER FLOAT', ingredients: 'FIRE-BREWED ROOT BEER, WHIPPED CREAM IN A FROSTED MUG' },
             { name: 'GELATO', ingredients: '2 SCOOPS OF YOUR CHOICE ' }
         ]
@@ -203,7 +203,7 @@ export const cocktailMenu = [
             { name: "ST. GREGORIO", ingredients: "TEQUILLA, SUGAR CANE, GRAPEFRUIT, MARASCHINO, ABSINTHE" },
             { name: "LYONSHARE MANHATTAN", ingredients: "RYE, HOUSE VERMOUTH BLEND, CHERRY" },
             { name: "ALGONQUIN", ingredients: "GIN, METHOD SWEET VERMOUTH, LUXARDO BITTER, ORANGE" },
-            { name: "BEN THE HORSE", ingredients: "RUM, LEMON, APPLE CIDER, ANISE" },
+            { name: "O PIRATA", ingredients: "CACHACA, BANANA, CINNAMON, COCONUT, LEMON" },
             { name: "ARTURO BANDINI", ingredients: "VODKA, ESPRESSO, VANILLA, NUTMEG" },
             
           
