@@ -23,6 +23,12 @@ const teamMembers = [
     imageUrl: "/staff/kelly.jpg",
   },
   {
+    name: "Spencer Horton",
+    title: "Beverage Manager",
+
+    imageUrl: "/staff/spencer.jpg",
+  },
+  {
     name: "Gianna Cusato",
     title: "Reservations",
 
