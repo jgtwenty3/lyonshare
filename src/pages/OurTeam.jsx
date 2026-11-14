@@ -12,21 +12,21 @@ const teamMembers = [
   
   {
     name: "Jose Bazan",
+    title: "CDC",
+
+    imageUrl: "/staff/jose.jpg",
+  },
+  {
+    name: "Kelly Diaz",
     title: "Sous Chef",
 
-    imageUrl: "/staff/jose.webp",
+    imageUrl: "/staff/kelly.jpg",
   },
   {
-    name: "Claudia Clemente",
-    title: "Service Manager",
+    name: "Gianna Cusato",
+    title: "Reservations",
 
-    imageUrl: "/staff/claudia.webp",
-  },
-  {
-    name: "Lindsey Guerrero",
-    title: "Reservationist",
-
-    imageUrl: "/staff/lindsey.webp",
+    imageUrl: "/staff/giana.jpg",
   },
 ];
 

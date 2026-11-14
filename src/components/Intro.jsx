@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer';
 
 const hours = [
   "Mon 5pm-9PM",
+  "Wed  5pm-9pm",
   "Thurs 5PM-9PM",
   "Fri 5PM-9:30PM",
   "Sat 5PM-9:30PM",
@@ -45,10 +46,12 @@ const Intro = () => {
       </div>
       <div className='mb-10'>
         <h4 className='text-3xl md:text-4xl mb-6 text-darkNavy text-center'>HAPPY HOUR</h4>
-        <div className='font-alpina text-center text-md md:text-xl'>Mon & Thurs 5PM-6PM</div>
+        <div className='font-alpina text-center text-md md:text-xl'>Mon,Wed,Thurs 5PM-6PM</div>
         <div className='font-alpina text-center text-md md:text-xl'>Fri 4PM-6PM</div>
         <div className='font-alpina text-center text-md md:text-xl'>$10 Wine</div>
         <div className='font-alpina text-center text-md md:text-xl'>$10 Negronis</div>
+        <div className='font-alpina text-center text-md md:text-xl'>$2 Oysters</div>
+
         <div className='font-alpina text-center text-md md:text-xl'>Draft Beer Specials</div>
         
       </div>
